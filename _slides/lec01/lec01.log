@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  27 AUG 2025 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  23 AUG 2026 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1190,62 +1190,115 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] (./lec01.toc) [3
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 145.
+<fig/padlet.png, id=140, 985.6825pt x 985.6825pt>
+File: fig/padlet.png Graphic file (type png)
+<use fig/padlet.png>
+Package pdftex.def Info: fig/padlet.png  used on input line 132.
+(pdftex.def)             Requested size: 184.3758pt x 184.3638pt.
  [4
 
-] [5
-
-] [6
-
-] [7
-
-] [8
-
-] [9
-
-] [10
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 165.
+ <./fig/padlet.png>]
+<fig/numbers1.png, id=170, 1407.2575pt x 1126.2075pt>
+File: fig/numbers1.png Graphic file (type png)
+<use fig/numbers1.png>
+Package pdftex.def Info: fig/numbers1.png  used on input line 138.
+(pdftex.def)             Requested size: 215.10196pt x 172.13734pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 165.
+LaTeX Font Info:    Try loading font information for U+msb on input line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 165.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 138.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 138.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 138.
+ [5
+
+ <./fig/numbers1.png (PNG copy)>]
+<fig/numbers2.png, id=201, 1408.26125pt x 1125.20375pt>
+File: fig/numbers2.png Graphic file (type png)
+<use fig/numbers2.png>
+Package pdftex.def Info: fig/numbers2.png  used on input line 144.
+(pdftex.def)             Requested size: 215.10196pt x 171.86374pt.
+ [6
+
+ <./fig/numbers2.png (PNG copy)>]
+<fig/numbers3.png, id=231, 1541.76pt x 1027.84pt>
+File: fig/numbers3.png Graphic file (type png)
+<use fig/numbers3.png>
+Package pdftex.def Info: fig/numbers3.png  used on input line 150.
+(pdftex.def)             Requested size: 215.10196pt x 143.39474pt.
+ [7
+
+ <./fig/numbers3.png (PNG copy)>]
+<fig/numbers4.png, id=263, 1407.2575pt x 1126.2075pt>
+File: fig/numbers4.png Graphic file (type png)
+<use fig/numbers4.png>
+Package pdftex.def Info: fig/numbers4.png  used on input line 156.
+(pdftex.def)             Requested size: 215.10196pt x 172.13734pt.
+ [8
+
+ <./fig/numbers4.png (PNG copy)>]
+<fig/numbers5.png, id=293, 1407.2575pt x 1126.2075pt>
+File: fig/numbers5.png Graphic file (type png)
+<use fig/numbers5.png>
+Package pdftex.def Info: fig/numbers5.png  used on input line 162.
+(pdftex.def)             Requested size: 215.10196pt x 172.13734pt.
+ [9
+
+ <./fig/numbers5.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 165.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 165.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 165.
- [11
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 181.
+ [10
+
+] [11
 
 ] [12
 
 ] [13
 
-]
-[14
+] [14
 
 ] [15
 
 ] [16
 
-] [17
+]
+<fig/irrational1.png, id=533, 1408.26125pt x 1125.20375pt>
+File: fig/irrational1.png Graphic file (type png)
+<use fig/irrational1.png>
+Package pdftex.def Info: fig/irrational1.png  used on input line 187.
+(pdftex.def)             Requested size: 215.10196pt x 171.86374pt.
+ [17
 
-] [18
+ <./fig/irrational1.png (PNG copy)>]
+<fig/irrational2.png, id=563, 1541.76pt x 1027.84pt>
+File: fig/irrational2.png Graphic file (type png)
+<use fig/irrational2.png>
+Package pdftex.def Info: fig/irrational2.png  used on input line 193.
+(pdftex.def)             Requested size: 215.10196pt x 143.39474pt.
 
-] [19
+[18
+
+ <./fig/irrational2.png (PNG copy)>] [19
 
 ] [20
 
@@ -1259,16 +1312,22 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [25
 
-] [26
+]
+[26
 
 ] [27
 
 ] [28
 
 ]
-[29
+<fig/types1.png, id=894, 1003.896pt x 632.3625pt>
+File: fig/types1.png Graphic file (type png)
+<use fig/types1.png>
+Package pdftex.def Info: fig/types1.png  used on input line 232.
+(pdftex.def)             Requested size: 245.83282pt x 154.84814pt.
+ [29
 
-] [30
+ <./fig/types1.png (PNG copy)>] [30
 
 ] [31
 
@@ -1278,26 +1337,70 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [34
 
-] [35
+]
+[35
 
-] [36
+]
+<fig/others1.png, id=1101, 1541.76pt x 1027.84pt>
+File: fig/others1.png Graphic file (type png)
+<use fig/others1.png>
+Package pdftex.def Info: fig/others1.png  used on input line 255.
+(pdftex.def)             Requested size: 245.83282pt x 163.87746pt.
+ [36
 
-] [37
+ <./fig/others1.png (PNG copy)>]
+<fig/types2.png, id=1131, 1003.896pt x 823.221pt>
+File: fig/types2.png Graphic file (type png)
+<use fig/types2.png>
+Package pdftex.def Info: fig/types2.png  used on input line 261.
+(pdftex.def)             Requested size: 245.83282pt x 201.58414pt.
 
-] [38
+Overfull \vbox (1.92636pt too high) detected at line 261
+ []
 
-] [39
+[37
 
-] [40
+ <./fig/types2.png (PNG copy)>]
+<fig/others2.png, id=1162, 1541.76pt x 1027.84pt>
+File: fig/others2.png Graphic file (type png)
+<use fig/others2.png>
+Package pdftex.def Info: fig/others2.png  used on input line 267.
+(pdftex.def)             Requested size: 245.83282pt x 163.87746pt.
+ [38
 
-] [41
+ <./fig/others2.png (PNG copy)>]
+<fig/types3.png, id=1192, 1003.896pt x 963.4905pt>
+File: fig/types3.png Graphic file (type png)
+<use fig/types3.png>
+Package pdftex.def Info: fig/types3.png  used on input line 273.
+(pdftex.def)             Requested size: 215.10196pt x 206.44073pt.
 
-] [42
+Overfull \vbox (6.78296pt too high) detected at line 273
+ []
+
+[39
+
+ <./fig/types3.png (PNG copy)>]
+<fig/others3.png, id=1223, 1541.76pt x 1027.84pt>
+File: fig/others3.png Graphic file (type png)
+<use fig/others3.png>
+Package pdftex.def Info: fig/others3.png  used on input line 279.
+(pdftex.def)             Requested size: 245.83282pt x 163.87746pt.
+ [40
+
+ <./fig/others3.png (PNG copy)>]
+<fig/types4.png, id=1253, 1104.0885pt x 1164.204pt>
+File: fig/types4.png Graphic file (type png)
+<use fig/types4.png>
+Package pdftex.def Info: fig/types4.png  used on input line 285.
+(pdftex.def)             Requested size: 184.3758pt x 194.41249pt.
+ [41
+
+ <./fig/types4.png (PNG copy)>] [42
 
 ] [43
 
-]
-[44
+] [44
 
 ] [45
 
@@ -1307,11 +1410,15 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [48
 
-] [49
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 330.
+ [49
 
 ] [50
 
-] [51
+]
+[51
 
 ] [52
 
@@ -1325,8 +1432,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [57
 
-]
-(./lec01.toc) [58
+] [58
 
 ] [59
 
@@ -1342,7 +1448,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [65
 
-] [66
+]
+[66
 
 ] [67
 
@@ -1350,8 +1457,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [69
 
-]
-[70
+] [70
 
 ] [71
 
@@ -1373,7 +1479,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [80
 
-] [81
+]
+[81
 
 ] [82
 
@@ -1381,8 +1488,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [84
 
-]
-[85
+] [85
 
 ] [86
 
@@ -1404,7 +1510,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [95
 
-] [96
+]
+[96
 
 ] [97
 
@@ -1412,14 +1519,126 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [99
 
-]
-[100
+] [100
 
 ] [101
 
 ] [102
 
 ] [103
+
+] [104
+
+] [105
+
+] [106
+
+] [107
+
+] [108
+
+]
+[109
+
+] [110
+
+] [111
+
+] (./lec01.toc) [112
+
+] [113
+
+] [114
+
+] [115
+
+] [116
+
+] [117
+
+] [118
+
+]
+[119
+
+] [120
+
+] [121
+
+] [122
+
+] [123
+
+] [124
+
+] [125
+
+] [126
+
+] [127
+
+] [128
+
+] [129
+
+] [130
+
+]
+[131
+
+] [132
+
+] [133
+
+] [134
+
+] [135
+
+] [136
+
+] [137
+
+] [138
+
+] [139
+
+] [140
+
+] [141
+
+] [142
+
+]
+[143
+
+] [144
+
+] [145
+
+] [146
+
+] [147
+
+] [148
+
+] [149
+
+] [150
+
+] [151
+
+] [152
+
+] [153
+
+] [154
+
+]
+[155
+
+] [156
+
+] [157
 
 ]
 \tf@nav=\write6
@@ -1431,36 +1650,37 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 \tf@snm=\write8
 \openout8 = `lec01.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 710.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 710.
  (./lec01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 710.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 710.
 Package rerunfilecheck Info: File `lec01.out' has not changed.
-(rerunfilecheck)             Checksum: 56062923CC49EC7AABE90CCBFA5C91E6;183.
+(rerunfilecheck)             Checksum: C22BCE7F635528AF66F478AB098F713B;184.
  ) 
 Here is how much of TeX's memory you used:
- 18530 strings out of 494847
- 343106 string characters out of 6179079
+ 18838 strings out of 494847
+ 347493 string characters out of 6179079
  423616 words of memory out of 5000000
- 21194 multiletter control sequences out of 15000+600000
- 36983 words of font info for 55 fonts, out of 8000000 for 9000
+ 21370 multiletter control sequences out of 15000+600000
+ 56576 words of font info for 85 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,65p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
-hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec01.pdf (103 pages, 362056 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on lec01.pdf (157 pages, 36990930 bytes).
 PDF statistics:
- 3176 PDF objects out of 3580 (max. 8388607)
- 3013 compressed objects within 31 object streams
- 210 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4813 PDF objects out of 5155 (max. 8388607)
+ 4564 compressed objects within 46 object streams
+ 318 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

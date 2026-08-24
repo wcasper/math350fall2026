@@ -9,46 +9,100 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Foundations}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{Foundations}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/10}{Foundations}{0}}
-\headcommand {\beamer@framepages {4}{10}}
-\headcommand {\slideentry {1}{1}{3}{11/17}{Foundations}{0}}
-\headcommand {\beamer@framepages {11}{17}}
-\headcommand {\slideentry {1}{1}{4}{18/19}{Foundations}{0}}
-\headcommand {\beamer@framepages {18}{19}}
-\headcommand {\slideentry {1}{1}{5}{20/25}{Foundations}{0}}
-\headcommand {\beamer@framepages {20}{25}}
-\headcommand {\slideentry {1}{1}{6}{26/31}{Foundations}{0}}
-\headcommand {\beamer@framepages {26}{31}}
-\headcommand {\slideentry {1}{1}{7}{32/36}{Foundations}{0}}
-\headcommand {\beamer@framepages {32}{36}}
-\headcommand {\slideentry {1}{1}{8}{37/39}{Foundations}{0}}
-\headcommand {\beamer@framepages {37}{39}}
-\headcommand {\slideentry {1}{1}{9}{40/45}{Foundations}{0}}
-\headcommand {\beamer@framepages {40}{45}}
-\headcommand {\slideentry {1}{1}{10}{46/50}{Foundations}{0}}
-\headcommand {\beamer@framepages {46}{50}}
-\headcommand {\slideentry {1}{1}{11}{51/57}{Foundations}{0}}
-\headcommand {\beamer@framepages {51}{57}}
-\headcommand {\beamer@subsectionpages {3}{57}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{58}{The tenth axiom}}
-\headcommand {\slideentry {1}{2}{1}{58/58}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {58}{58}}
-\headcommand {\slideentry {1}{2}{2}{59/62}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {59}{62}}
-\headcommand {\slideentry {1}{2}{3}{63/71}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {63}{71}}
-\headcommand {\slideentry {1}{2}{4}{72/80}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {72}{80}}
-\headcommand {\slideentry {1}{2}{5}{81/82}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {81}{82}}
-\headcommand {\slideentry {1}{2}{6}{83/90}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {83}{90}}
-\headcommand {\slideentry {1}{2}{7}{91/96}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {91}{96}}
-\headcommand {\slideentry {1}{2}{8}{97/103}{The tenth axiom}{0}}
-\headcommand {\beamer@framepages {97}{103}}
-\headcommand {\beamer@partpages {1}{103}}
-\headcommand {\beamer@subsectionpages {58}{103}}
-\headcommand {\beamer@sectionpages {3}{103}}
-\headcommand {\beamer@documentpages {103}}
-\headcommand {\gdef \inserttotalframenumber {21}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{Foundations}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{3}{5/5}{Foundations}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{1}{4}{6/6}{Foundations}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{1}{5}{7/7}{Foundations}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{1}{6}{8/8}{Foundations}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{1}{7}{9/9}{Foundations}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{1}{8}{10/16}{Foundations}{0}}
+\headcommand {\beamer@framepages {10}{16}}
+\headcommand {\slideentry {1}{1}{9}{17/17}{Foundations}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {1}{1}{10}{18/18}{Foundations}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {1}{1}{11}{19/22}{Foundations}{0}}
+\headcommand {\beamer@framepages {19}{22}}
+\headcommand {\slideentry {1}{1}{12}{23/28}{Foundations}{0}}
+\headcommand {\beamer@framepages {23}{28}}
+\headcommand {\slideentry {1}{1}{13}{29/29}{Foundations}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {1}{1}{14}{30/35}{Foundations}{0}}
+\headcommand {\beamer@framepages {30}{35}}
+\headcommand {\slideentry {1}{1}{15}{36/36}{Foundations}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {1}{1}{16}{37/37}{Foundations}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {1}{1}{17}{38/38}{Foundations}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {1}{1}{18}{39/39}{Foundations}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {1}{1}{19}{40/40}{Foundations}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {1}{1}{20}{41/41}{Foundations}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {1}{1}{21}{42/48}{Foundations}{0}}
+\headcommand {\beamer@framepages {42}{48}}
+\headcommand {\slideentry {1}{1}{22}{49/54}{Foundations}{0}}
+\headcommand {\beamer@framepages {49}{54}}
+\headcommand {\slideentry {1}{1}{23}{55/56}{Foundations}{0}}
+\headcommand {\beamer@framepages {55}{56}}
+\headcommand {\slideentry {1}{1}{24}{57/58}{Foundations}{0}}
+\headcommand {\beamer@framepages {57}{58}}
+\headcommand {\slideentry {1}{1}{25}{59/59}{Foundations}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {1}{1}{26}{60/62}{Foundations}{0}}
+\headcommand {\beamer@framepages {60}{62}}
+\headcommand {\slideentry {1}{1}{27}{63/65}{Foundations}{0}}
+\headcommand {\beamer@framepages {63}{65}}
+\headcommand {\slideentry {1}{1}{28}{66/67}{Foundations}{0}}
+\headcommand {\beamer@framepages {66}{67}}
+\headcommand {\slideentry {1}{1}{29}{68/68}{Foundations}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {1}{1}{30}{69/72}{Foundations}{0}}
+\headcommand {\beamer@framepages {69}{72}}
+\headcommand {\slideentry {1}{1}{31}{73/76}{Foundations}{0}}
+\headcommand {\beamer@framepages {73}{76}}
+\headcommand {\slideentry {1}{1}{32}{77/81}{Foundations}{0}}
+\headcommand {\beamer@framepages {77}{81}}
+\headcommand {\slideentry {1}{1}{33}{82/84}{Foundations}{0}}
+\headcommand {\beamer@framepages {82}{84}}
+\headcommand {\slideentry {1}{1}{34}{85/90}{Foundations}{0}}
+\headcommand {\beamer@framepages {85}{90}}
+\headcommand {\slideentry {1}{1}{35}{91/92}{Foundations}{0}}
+\headcommand {\beamer@framepages {91}{92}}
+\headcommand {\slideentry {1}{1}{36}{93/100}{Foundations}{0}}
+\headcommand {\beamer@framepages {93}{100}}
+\headcommand {\slideentry {1}{1}{37}{101/104}{Foundations}{0}}
+\headcommand {\beamer@framepages {101}{104}}
+\headcommand {\slideentry {1}{1}{38}{105/111}{Foundations}{0}}
+\headcommand {\beamer@framepages {105}{111}}
+\headcommand {\beamer@subsectionpages {3}{111}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{112}{The tenth axiom}}
+\headcommand {\slideentry {1}{2}{1}{112/112}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {112}{112}}
+\headcommand {\slideentry {1}{2}{2}{113/116}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {113}{116}}
+\headcommand {\slideentry {1}{2}{3}{117/125}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {117}{125}}
+\headcommand {\slideentry {1}{2}{4}{126/134}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {126}{134}}
+\headcommand {\slideentry {1}{2}{5}{135/136}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {135}{136}}
+\headcommand {\slideentry {1}{2}{6}{137/144}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {137}{144}}
+\headcommand {\slideentry {1}{2}{7}{145/150}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {145}{150}}
+\headcommand {\slideentry {1}{2}{8}{151/157}{The tenth axiom}{0}}
+\headcommand {\beamer@framepages {151}{157}}
+\headcommand {\beamer@partpages {1}{157}}
+\headcommand {\beamer@subsectionpages {112}{157}}
+\headcommand {\beamer@sectionpages {3}{157}}
+\headcommand {\beamer@documentpages {157}}
+\headcommand {\gdef \inserttotalframenumber {48}}

@@ -123,6 +123,167 @@
 \section{Real Analysis Lecture 1}
 \subsection{Foundations}
 
+\begin{frame}{What are numbers?}
+\begin{center}
+\href{https://padlet.com/williamrileycasper/what-are-numbers-xy7rf8qmcrcz41d5}{
+\includegraphics[width=0.6\linewidth]{fig/padlet.png}
+}
+\end{center}
+\end{frame}
+
+\begin{frame}{Natural numbers $1,2,3,\dots$}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/numbers1.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{The idea of $0$}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/numbers2.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Negative numbers}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/numbers3.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Fractions (ratios of integers)}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/numbers4.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Other numbers?}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/numbers5.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Rationals and Irrationals}
+\begin{itemize}
+\pause
+\item ratios of whole numbers are called \textbf{rationals}
+\pause
+$$\frac{1}{3},5,\frac{-465}{75},\frac{22}{139},\dots$$
+\pause
+\item Pythagorean school: \textbf{all} numbers are rational
+\pause
+\begin{center}
+{\color{red}nowadays we know better}
+\end{center}
+\pause
+\item numbers which are not rational are called \textbf{irrational}
+\pause
+$$\sqrt{2},\sqrt[3]{5},\pi, e,\dots$$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Hippasus discovers an irrational}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/irrational1.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Hippasus is rewarded}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/irrational2.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Algebraic numbers}
+Hippasus discovered solutions of
+$$x^2-2=0$$
+are not rational.
+\pause
+\begin{defn}
+A solution of a polynomial equation with rational coefficients is called an \textbf{algebraic number}.
+\end{defn}
+\pause
+$$\sqrt{3},42,\sqrt[4]{5-2\sqrt{3}},\frac{4-\sqrt{7}}{3 + \sqrt[7]{21}},\dots$$
+\pause
+\begin{quest}
+Are all numbers algebraic?
+\end{quest}
+\end{frame}
+
+\begin{frame}{Transcendental numbers}
+Numbers which aren't algebraic are \textbf{transcendental}.
+\begin{itemize}
+\pause
+\item Louiville 1844 proves there's a transcendental
+$$10^{1!} + 10^{2!} + 10^{3!} + \dots = 0.110001000000000000000001\dots$$
+\pause
+\item Hermite 1873 proves $e$ is transcendental
+\pause
+\item Cantor 1874 proves \emph{most} numbers are transcendental
+\pause
+\item Lindemann 1882 proves $\pi$ is transcendental
+\pause
+\item {\color{red} OPEN PROBLEM}: is $\pi + e$ transcendental?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Types of numbers}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{fig/types1}
+\end{center}
+\end{frame}
+
+\begin{frame}{Complex numbers}
+\pause
+We're still missing something...
+\begin{itemize}
+\pause
+\item Missing solutions for
+$$x^2 + 1 = 0$$
+\pause
+\item Solution is a {\color{red}new} number
+$$i = \sqrt{-1}$$
+\pause
+\item Numbers of the form $ib$ ($b$ real) are \textbf{imaginary}
+\pause
+\item Numbers of the form $a+ib$ ($a,b$ real) are \textbf{complex}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Imaginary numbers}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{fig/others1}
+\end{center}
+\end{frame}
+
+\begin{frame}{Types of numbers}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{fig/types2}
+\end{center}
+\end{frame}
+
+\begin{frame}{Quaternions}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{fig/others2}
+\end{center}
+\end{frame}
+
+\begin{frame}{Types of numbers}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/types3}
+\end{center}
+\end{frame}
+
+\begin{frame}{Octonions}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{fig/others3}
+\end{center}
+\end{frame}
+
+\begin{frame}{Types of numbers}
+\begin{center}
+\includegraphics[width=0.6\linewidth]{fig/types4}
+\end{center}
+\end{frame}
+
 \begin{frame}{Defining the reals}
 \pause
 \begin{quest}
@@ -154,14 +315,18 @@ A \textbf{field} is a set $F$ with a way to do addition $+$ and multiplication $
 \pause
 \item \textbf{distributivity}: $x(y + z) = xy + xz$
 \pause
-\item \textbf{additive inverse}: given $x,y\in F$, there exists a unique $z\in F$ with $x=y+z$
-$$\text{Notation:}\quad z := x-y$$
+\item \textbf{identity}: 
+\begin{itemize}
+\item (additive): there exists $0\in F$ with $x+0=x$ for all $x\in F$
+\item (multiplicative): there exists $1\in F$ with $1\neq 0$ and $x1=x$ for all $x\in F$
+\end{itemize}
 \pause
-\item \textbf{multiplicative inverse}: given $x,y\in F$ with $y\neq 0$, there exists a unique $z\in F$ with $x = yz$
-$$\text{Notation:}\quad z := x/y$$
+\item \textbf{inverses}: 
+\begin{itemize}
+\item (additive): given $x\in F$, there exists $z\in F$ with $x+z=0$
+\item (multiplicative): given $x\in F$ with $x\neq 0$, there exists $z\in F$ with $xz=1$
+\end{itemize}
 \end{enumerate}
-\pause
-\textbf{Special notation:} $0:= x-x$ and $1:= x/x$, and $-x := 0-x$
 \end{frame}
 
 \begin{frame}{Challenge!}
@@ -176,41 +341,103 @@ $$(x+y)z \stackrel{A1}{=} z(x+y) \stackrel{A3}{=} zx + zy \stackrel{A1}{=} xz + 
 
 \begin{frame}{Challenge!}
 \begin{prob}
-use the axioms to show that the value of $x-x$ doesn't depend on $x$.
+Prove $x0 = 0$ for all $x$.
 \end{prob}
 \pause
-\begin{soln}
-Suppose $z_1=x-x$ and $z_2=y-y$.\\
-\pause
-Then $x = x+z_1$ and $y=y+z_2$.  
-\pause
-Therefore
-$$(x+y)+z_1\stackrel{A2}{=}x+(y+z_1)\stackrel{A1}{=}x+(z_1+y)\stackrel{A2}{=}(x+z_1) + y=x+y,$$
-\pause
-$$(x+y)+z_2\stackrel{A2}{=}x+(y+z_2)=x+y,$$
-\pause
-so that
-$$z_1 = (x+y)-(x+y) = z_2.$$
+\begin{soln}[{{\color{red}Incorrect solution}}]
+$$x0 \stackrel{A5}{=} x(1+(-1)) \stackrel{A3}{=} x1+x(-1) = x + (-x)  \stackrel{A5}{=} 0$$
 \end{soln}
 \end{frame}
 
 \begin{frame}{Challenge!}
 \begin{prob}
-use the axioms to show that the value of $x/x$ doesn't depend on $x$.
+Prove $x0 = 0$ for all $x$.
+\end{prob}
+\begin{soln}[{{\color{red}Incorrect solution}}]
+$$x0 \stackrel{A5}{=} x(1+(-1)) \stackrel{A3}{=} x1+x(-1) \stackrel{{\color{red}???}}{=} x + (-x)  \stackrel{A5}{=} 0$$
+\end{soln}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove $x0 = 0$ for all $x$.
 \end{prob}
 \pause
 \begin{soln}
-Suppose $z_1=x/x$ and $z_2=y/y$.\\
-\pause
-Then $x = z_1x$ and $y=z_2y$.  
+$$x0 \stackrel{A4}{=} x(0+0) \stackrel{A3}{=} x0+x0$$
 \pause
 Therefore
-$$z_1(xy) \stackrel{A2}{=} (z_1x)y = xy,$$
+\begin{align*}
+0 &\stackrel{A5}{=} x0+(-x0) = (x0+x0)+(-x0)\\
+  & \stackrel{A2}{=} x0+(x0+(-x0)) \stackrel{A5}{=} x0+0 \stackrel{A4}{=} x0.
+\end{align*}
+\end{soln}
+\end{frame}
+
+\begin{frame}{Uniqueness of inverses}
+\begin{thm}
+If $x+z=0$ and $x+w=0$, then $z=w$.
+In other words, additive inverses are unique.
+\end{thm}
 \pause
-$$z_2(xy) \stackrel{A2}{=} (z_2x)y \stackrel{A1}{=} (xz_2)y \stackrel{A2}{=} x(z_2y) = xy,$$
+\begin{proof}
+$$x+(z+w) \stackrel{A2}{=} (x+z)+w = 0+w \stackrel{A1}{=} w+0 \stackrel{A4}{=} w.$$
 \pause
+$$x+(z+w) \stackrel{A2}{=} (x+w)+z = 0+z \stackrel{A1}{=} z+0  \stackrel{A4}{=} z.$$
 so that
-$$z_1 = (xy)/(xy) = z_2.$$
+$$z = x+(z+w) = w.$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{thm}
+If $xz=1$ and $xw=1$, then $z=w$.
+In other words, multiplicative inverses are unique.
+\end{thm}
+\pause
+\begin{prob}
+Prove this theorem!
+\end{prob}
+\end{frame}
+
+\begin{frame}{Inverse notation}
+Since inverses are unique...
+\begin{itemize}
+\item for any real number $x$, we write $-x$ to denote the unique element s.t.
+$$x + (-x) = 0$$
+\item for any real number $x\neq0$, we write $x^{-1}$ or $\frac{1}{x}$ to denote the unique element s.t.
+$$xx^{-1} = 0$$
+\item furthermore
+$$y-x := y + (-x)\quad\text{and}\quad \frac{y}{x} := y(x^{-1})$$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove $-(-x) = x$ for all $x$.
+\end{prob}
+\pause
+\begin{soln}
+\pause
+By commutativity
+$$(-x) + x = x + (-x) = 0.$$
+\pause
+Therefore by uniqueness of additive inverses:
+$$x=-(-x)$$
+\end{soln}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove $x(-1) = -x$ for all $x$.
+\end{prob}
+\pause
+\begin{soln}
+\pause
+We compute
+$$0 = x0 \stackrel{A4}{=} x(1 + -1) \stackrel{A3}{=} x1 + x(-1) \stackrel{A4} = x + x(-1).$$
+\pause
+Therefore uniqueness of additive inverses implies $x(-1)=-x$.
 \end{soln}
 \end{frame}
 
@@ -269,6 +496,37 @@ $$x < y,\quad y < x,\quad\text{or}\quad x = y$$
 \end{frame}
 
 \begin{frame}{Challenge!}
+\begin{thm}
+If $F$ is an ordered field, then $0<1$.
+\end{thm}
+\pause
+\begin{prob}
+Prove this theorem!
+\end{prob}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{soln}
+Suppose that $1 < 0$.\\
+\pause
+Then $1+(-1) < 0 + (-1)$ by A7.\\
+\pause
+Therefore $0 < -1$ by A1, A4 and A5.\\
+\pause
+It follows that $0 < (-1)(-1)$ by A8.\\
+\pause
+Above we proved $x(-1) = -x$ and $-(-x) = x$ so
+$$(-1)(-1) = -(-1) = 1.$$
+\pause
+Therefore $0<1$.\\
+\pause
+This contradicts the trichotomy, so $1 < 0$ is false.\\
+\pause
+By A5, $0\neq 1$ so the trichotomy implies $0<1$.
+\end{soln}
+\end{frame}
+
+\begin{frame}{Challenge!}
 \begin{prob}
 explain why $\mathbb{F}_2$ cannot be made into an ordered field
 \end{prob}
@@ -276,13 +534,11 @@ explain why $\mathbb{F}_2$ cannot be made into an ordered field
 \begin{soln}
 There is no way to put an order relation $<$ on it!\\
 \pause
-The trichotomy (Axiom 6) would say either $0 < 1$ or $1 < 0$.\\
+If it is an ordered field, $0 < 1$.
 \pause
-If $0 < 1$, then by Axiom 7
-$$ 1 = 0+1 < 1+1 = 0$$
+Then by Axiom 7
+$$1 = 0+1 < 1+1 = 0$$
 but this means both $0 < 1$ and $1 < 0$, which violates the trichotomy.
-\pause
-Same outcome if $1 < 0$.
 \end{soln}
 \end{frame}
 
