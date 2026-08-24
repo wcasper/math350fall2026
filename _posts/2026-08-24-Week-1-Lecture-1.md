@@ -8,103 +8,127 @@ title:  Lecture 1
 ### Key words
 integers, rational numbers, real numbers, irrational numbers, algebraic numbers, transcendental numbers, field axioms, order axioms
 
-### Practice problems
-
-
-
-
 ### Reading assignment
 Apostol pp. 1.1-1.15
-TH 350 - Lecture 1 Practice Problems
 
 ### Slides
 
 * [Link to slides](http://wcasper.github.io/math350fall2026/slides/lec01/lec01.pdf)
 
-## Problems
+## Practice problems
 
-1. **Classifying numbers.** For each number below, give the most specific classification justified by the lecture: natural, integer, rational, algebraic irrational, transcendental real, or nonreal complex.
+1. **Finding polynomial equations.** For each number below, find a nonzero polynomial with rational coefficients having that number as a root.
 
-   $$
-   -4,\qquad \frac{7}{12},\qquad \sqrt{2},\qquad
-   \sqrt[3]{5},\qquad \pi,\qquad e,\qquad
-   \frac{1+\sqrt{5}}{2},\qquad 3-2i.
-   $$
+   1. $$\sqrt{2}+\sqrt{3}$$
+   2. $$\sqrt{2}-\sqrt{3}$$
+   3. $$\frac{1}{1+\sqrt{2}}$$
+   4. $$\sqrt{1+\sqrt{2}}$$
 
-   For each algebraic irrational in the list, exhibit a nonzero polynomial in $$\mathbb{Q}[t]$$ having it as a root.
+   You do not need to prove that your polynomial has the smallest possible degree.
 
-2. **Algebraic and transcendental numbers.** Decide whether each statement is true, false, or currently unknown. Briefly justify your answer.
+2. **Relations among number classes.** Determine whether each statement is true or false. Prove the true statements and give counterexamples to the false ones.
 
-   1. Every rational number is algebraic.
-   2. Every irrational number is transcendental.
-   3. Every transcendental real number is irrational.
-   4. The numbers $$e$$ and $$\pi$$ are transcendental.
-   5. The number $$e+\pi$$ is known to be transcendental.
+   1. The sum of two irrational numbers is irrational.
+   2. The product of two irrational numbers is irrational.
+   3. The sum of a rational number and an irrational number is irrational.
+   4. The product of a nonzero rational number and an irrational number is irrational.
+   5. The square of an irrational number is irrational.
 
-3. **Basic consequences of the field axioms.** Prove each statement directly from the field axioms.
-
-   1. The additive identity is unique.
-   2. The multiplicative identity is unique.
-   3. The right-distributive law holds:
-
-      $$
-      (x+y)z=xz+yz.
-      $$
-
-4. **Zero and multiplication.** Prove that
+3. **A new operation.** Define an operation $$\star$$ on $$\mathbb{R}$$ by
 
    $$
-   x\cdot 0=0
+   x\star y=x+y+1.
    $$
 
-   for every $$x\in F$$. Your argument must not assume in advance that $$x(-1)=-x$$.
+   1. Show that $$\star$$ is associative and commutative.
+   2. Find the identity element for $$\star$$.
+   3. Find the $$\star$$-inverse of an arbitrary element $$x$$.
+   4. Explain why the identity and inverses for $$\star$$ differ from those for ordinary addition.
 
-   Then identify the unjustified step in the tempting argument
-
-   $$
-   x0=x(1+(-1))=x+x(-1)=x+(-x)=0
-   $$
-
-   and explain why using it would be circular.
-
-5. **Inverses and signs.** Prove each identity, citing uniqueness of inverses when appropriate.
-
-   1. Additive inverses are unique.
-   2. Multiplicative inverses of nonzero elements are unique.
-   3. $$-(-x)=x$$.
-   4. $$x(-1)=-x$$.
-   5. $$(-x)(-y)=xy$$.
-
-6. **Examples and nonexamples of fields.**
-
-   1. Explain precisely why $$\mathbb{Z}$$ is not a field under its usual operations.
-   2. Verify that the two-element set $$\mathbb{F}_2=\{0,1\}$$, with $$1+1=0$$, is a field by writing its addition and multiplication tables and identifying all inverses.
-   3. Prove that a field has no zero divisors: if $$xy=0$$, then $$x=0$$ or $$y=0$$.
-
-7. **Reversing an inequality.** Using only the order axioms and field identities proved above, show that
+4. **A proposed field.** On $$\mathbb{R}$$, keep ordinary addition but define a new multiplication by
 
    $$
-   x<y\quad\Longrightarrow\quad -y<-x.
+   x\odot y=2xy.
    $$
 
-   Deduce that $$0<x$$ if and only if $$-x<0$$.
+   1. Determine the multiplicative identity for $$\odot$$.
+   2. Find the multiplicative inverse of a nonzero element $$x$$ with respect to $$\odot$$.
+   3. Verify that $$\odot$$ distributes over ordinary addition.
+   4. Decide whether these operations make $$\mathbb{R}$$ into a field.
 
-8. **Positivity in an ordered field.** Prove the following statements.
+5. **Cancellation without subtraction.** Suppose
 
-   1. $$0<1$$.
-   2. $$x^2\ge 0$$ for every $$x\in F$$.
-   3. If $$x\neq 0$$, then $$x^2>0$$.
+   $$
+   ax+b=ay+b.
+   $$
 
-9. **Why $$\mathbb{F}_2$$ cannot be ordered.** Prove that no relation $$<$$ can make $$\mathbb{F}_2$$ into an ordered field. Your proof should identify exactly which order axiom would be contradicted.
+   Prove that if $$a\neq 0$$, then $$x=y$$. Write the proof as a sequence of equations and identify the field property used at each stage.
 
-10. **Apostol's Theorem 1.1.** Suppose $$a,b\in F$$ satisfy
+6. **Finite fields cannot be ordered.** Suppose a field $$K$$ contains an element $$1$$ such that
+
+   $$
+   \underbrace{1+1+\cdots+1}_{n\text{ terms}}=0
+   $$
+
+   for some positive integer $$n$$.
+
+   Prove that $$K$$ cannot be made into an ordered field.
+
+   *Hint:* First prove inductively that every finite sum of copies of $$1$$ is positive.
+
+7. **Solving inequalities axiomatically.** Let $$a,b,c\in F$$ with $$a>0$$. Prove that
+
+   $$
+   ax+b<c
+   $$
+
+   holds if and only if
+
+   $$
+   x<\frac{c-b}{a}.
+   $$
+
+   Then explain exactly what changes when $$a<0$$.
+
+8. **Absolute value.** Define
+
+   $$
+   \lvert x\rvert=
+   \begin{cases}
+   x,&x\ge 0,\\
+   -x,&x<0.
+   \end{cases}
+   $$
+
+   Prove each statement using the order axioms.
+
+   1. $$\lvert x\rvert\ge 0$$.
+   2. $$\lvert x\rvert=0$$ if and only if $$x=0$$.
+   3. $$\lvert -x\rvert=\lvert x\rvert$$.
+   4. $$\lvert xy\rvert=\lvert x\rvert\lvert y\rvert$$.
+
+9. **An elementary inequality.** Use the fact that squares are nonnegative to prove that
+
+   $$
+   2xy\le x^2+y^2
+   $$
+
+   for all $$x,y\in F$$.
+
+   Determine exactly when equality holds.
+
+10. **An epsilon application.** Suppose $$a,b\in F$$ and
 
     $$
-    a<b+\varepsilon
-    \qquad\text{for every }\varepsilon>0.
+    \lvert a-b\rvert<\varepsilon
     $$
 
-    Prove that $$a\le b$$. If you argue by contradiction, explicitly choose a positive value of $$\varepsilon$$ in terms of $$a$$ and $$b$$.
+    for every $$\varepsilon>0$$.
+
+    Prove that $$a=b$$.
+
+    Your proof should not merely quote Apostol's Theorem 1.1. Instead, assume $$a\neq b$$ and construct a particular positive value of $$\varepsilon$$ that contradicts the hypothesis.
+
 
 
 
