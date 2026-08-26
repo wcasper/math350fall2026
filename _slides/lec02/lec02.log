@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  27 AUG 2025 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  26 AUG 2026 04:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,48 +1189,48 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] (./lec02.toc) [3
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 137.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 137.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 137.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 137.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 137.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 137.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 137.
- [4
+] [4
 
 ] [5
 
 ] [6
 
-]
-[7
+] [7
 
 ] [8
 
-] [9
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 157.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 157.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 157.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 157.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 157.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 157.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 157.
+ [9
 
 ] [10
 
 ] [11
 
-] [12
+]
+[12
 
 ] [13
 
@@ -1250,76 +1250,28 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 
 ] [21
 
-]
-[22
+] [22
 
 ] [23
 
 ] [24
 
-]
-<fig/numbers.jpg, id=765, 722.7pt x 624.3325pt>
-File: fig/numbers.jpg Graphic file (type jpg)
-<use fig/numbers.jpg>
-Package pdftex.def Info: fig/numbers.jpg  used on input line 197.
-(pdftex.def)             Requested size: 245.83282pt x 212.37503pt.
+] [25
 
-Overfull \vbox (12.71725pt too high) detected at line 197
- []
-
-[25
-
- <./fig/numbers.jpg>]
-<fig/pentagram.jpeg, id=797, 230.8625pt x 219.82124pt>
-File: fig/pentagram.jpeg Graphic file (type jpg)
-<use fig/pentagram.jpeg>
-Package pdftex.def Info: fig/pentagram.jpeg  used on input line 207.
-(pdftex.def)             Requested size: 122.91406pt x 117.03465pt.
- [26
-
- <./fig/pentagram.jpeg>]
-<fig/hippasus-death.png, id=827, 1326.9575pt x 760.8425pt>
-File: fig/hippasus-death.png Graphic file (type png)
-<use fig/hippasus-death.png>
-Package pdftex.def Info: fig/hippasus-death.png  used on input line 221.
-(pdftex.def)             Requested size: 184.3758pt x 105.71616pt.
- [27
-
- <./fig/hippasus-death.png>]
-File: fig/hippasus-death.png Graphic file (type png)
-<use fig/hippasus-death.png>
-Package pdftex.def Info: fig/hippasus-death.png  used on input line 221.
-(pdftex.def)             Requested size: 184.3758pt x 105.71616pt.
- [28
+] [26
 
 ]
-File: fig/hippasus-death.png Graphic file (type png)
-<use fig/hippasus-death.png>
-Package pdftex.def Info: fig/hippasus-death.png  used on input line 221.
-(pdftex.def)             Requested size: 184.3758pt x 105.71616pt.
- [29
+[27
 
-]
-File: fig/hippasus-death.png Graphic file (type png)
-<use fig/hippasus-death.png>
-Package pdftex.def Info: fig/hippasus-death.png  used on input line 221.
-(pdftex.def)             Requested size: 184.3758pt x 105.71616pt.
- [30
+] [28
 
-]
-<fig/jojo-hippasus.jpg, id=945, 1027.84pt x 1027.84pt>
-File: fig/jojo-hippasus.jpg Graphic file (type jpg)
-<use fig/jojo-hippasus.jpg>
-Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
-(pdftex.def)             Requested size: 122.91406pt x 122.91202pt.
- [31
+] [29
 
- <./fig/jojo-hippasus.jpg>]
-File: fig/jojo-hippasus.jpg Graphic file (type jpg)
-<use fig/jojo-hippasus.jpg>
-Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
-(pdftex.def)             Requested size: 122.91406pt x 122.91202pt.
- [32
+] [30
+
+] [31
+
+] [32
 
 ] [33
 
@@ -1327,8 +1279,7 @@ Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
 
 ] [35
 
-]
-[36
+] [36
 
 ] [37
 
@@ -1340,7 +1291,8 @@ Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
 
 ] [41
 
-] [42
+]
+[42
 
 ] [43
 
@@ -1350,10 +1302,9 @@ Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
 
 ] [46
 
-] (./lec02.toc) [47
+] [47
 
-]
-[48
+] [48
 
 ] [49
 
@@ -1365,7 +1316,8 @@ Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
 
 ] [53
 
-] [54
+] (./lec02.toc)
+[54
 
 ] [55
 
@@ -1383,8 +1335,7 @@ Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
 
 ] [62
 
-]
-[63
+] [63
 
 ] [64
 
@@ -1396,16 +1347,10 @@ Package pdftex.def Info: fig/jojo-hippasus.jpg  used on input line 233.
 
 ] [68
 
-] [69
-
 ]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 365.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 365.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 365.
- [70
+[69
+
+] [70
 
 ] [71
 
@@ -1421,8 +1366,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 
 ] [77
 
-]
-[78
+] [78
 
 ] [79
 
@@ -1434,7 +1378,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 
 ] [83
 
-] [84
+]
+[84
 
 ] [85
 
@@ -1452,8 +1397,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 
 ] [92
 
-]
-[93
+] [93
 
 ] [94
 
@@ -1465,7 +1409,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 
 ] [98
 
-] [99
+]
+[99
 
 ] [100
 
@@ -1481,12 +1426,113 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 
 ] [106
 
-]
-[107
+] [107
 
 ] [108
 
 ] [109
+
+] [110
+
+]
+Overfull \vbox (5.5472pt too high) detected at line 478
+ []
+
+[111
+
+]
+Overfull \vbox (5.5472pt too high) detected at line 478
+ []
+
+[112
+
+]
+Overfull \vbox (5.5472pt too high) detected at line 478
+ []
+
+[113
+
+]
+Overfull \vbox (5.5472pt too high) detected at line 478
+ []
+
+[114
+
+]
+Overfull \vbox (5.5472pt too high) detected at line 478
+ []
+
+[115
+
+] [116
+
+] [117
+
+] [118
+
+] [119
+
+] [120
+
+] [121
+
+] [122
+
+] [123
+
+] [124
+
+] [125
+
+] [126
+
+]
+[127
+
+] [128
+
+] [129
+
+] [130
+
+] [131
+
+] [132
+
+] [133
+
+] [134
+
+] [135
+
+] [136
+
+] [137
+
+] [138
+
+]
+[139
+
+] [140
+
+] [141
+
+] [142
+
+] [143
+
+] [144
+
+] [145
+
+] [146
+
+] [147
+
+] [148
+
+] [149
 
 ]
 \tf@nav=\write6
@@ -1498,37 +1544,36 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 \tf@snm=\write8
 \openout8 = `lec02.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 589.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 589.
  (./lec02.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 463.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 463.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 589.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 589.
 Package rerunfilecheck Info: File `lec02.out' has not changed.
-(rerunfilecheck)             Checksum: 778E85C4FAD24A5863C809E6C24F6524;196.
+(rerunfilecheck)             Checksum: 44D13FF3875FC85161DE98AD69B60F54;193.
  ) 
 Here is how much of TeX's memory you used:
- 18615 strings out of 494847
- 344242 string characters out of 6179079
- 429616 words of memory out of 5000000
- 21252 multiletter control sequences out of 15000+600000
- 55422 words of font info for 84 fonts, out of 8000000 for 9000
+ 18653 strings out of 494847
+ 344394 string characters out of 6179079
+ 429615 words of memory out of 5000000
+ 21223 multiletter control sequences out of 15000+600000
+ 41627 words of font info for 62 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 56i,19n,65p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,65p,800b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec02.pdf (109 pages, 2149881 bytes).
+/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
+hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on lec02.pdf (149 pages, 487903 bytes).
 PDF statistics:
- 3366 PDF objects out of 3580 (max. 8388607)
- 3191 compressed objects within 32 object streams
- 222 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4555 PDF objects out of 5155 (max. 8388607)
+ 4332 compressed objects within 44 object streams
+ 302 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

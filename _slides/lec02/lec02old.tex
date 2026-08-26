@@ -125,108 +125,29 @@
 
 \subsection{Types of real numbers}
 
-\begin{frame}{The problem with axioms}
-Problems when axiomatizing:
-\begin{itemize}
-\pause
-\item intuitive axioms
-\pause
-\item enough axioms
-\pause
-\item no redundant axioms
-\pause
-\item no inconsisent axioms
-\end{itemize}
-\end{frame}
-
-\begin{frame}{We need to redetermine basics}
-For us, we've lost some basic important things...
-\begin{itemize}
-\item We have $0$ and $1$ {\color{red}by axioms}
-\pause
-\item what is $2$?
-\pause
-$$\textbf{Definition:}\quad 2 = 1+1$$
-\pause
-\item what is $3$?
-\pause
-$$\textbf{Definition:}\quad 3 = 2+1$$
-\pause
-\item are $1$, $2$, $3$ all different?
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Prove that $1$, $2$, and $3$ are all different.
-\end{prob}
-\pause
-\begin{soln}
-\pause
-Since $0 < 1$, A7 says $0+1 < 1+1$.\\
-\pause
-Therefore $1<2$.\\
-\pause
-Then again by A7, $1+1 < 2+1$.\\
-\pause
-Therefore $2<3$.\\
-\pause
-Also transitivity (A9) says $1 < 2$ and $2 < 3$ implies $1 < 3$.\\
-\pause
-The trichotomy then implies $1\neq 2$ and $2\neq 3$ and $1\neq 3$.
-\end{soln}
-\end{frame}
-
-\begin{frame}{Natural numbers}
-\begin{quest}
-What are the natural numbers $1,2,3,\dots$ based on the Axioms?
-\end{quest}
-\begin{defn}
-\begin{itemize}
-\pause
-\item a set $\mathbb N$
-\pause
-\item $1\in \mathbb N$
-\pause
-\item $2\in \mathbb N$
-\pause
-\item $3\in \mathbb N$
-\pause
-\item general property:
-$$x\in \mathbb N\quad\Longrightarrow\quad x+1\in \mathbb N.$$
-\end{itemize}
-\end{defn}
-\end{frame}
-
 \begin{frame}{Inductive sets}
-\begin{defn}
 A subset $S$ of $\mathbb{R}$ is called a \vocab{inductive set} if
 \begin{itemize}
-\pause
 \item $1\in S$
-\pause
 \item if $x\in S$ then $x+1\in S$ 
 \end{itemize}
-\end{defn}
 \pause
-\begin{quest}
-Is there more than one inductive set?
-\end{quest}
-\pause
+Examples:
 $$\mathbb{R},\quad\mathbb{Q},\quad(0,\infty),\quad\mathbb{Z},\quad\mathbb{N},\dots$$
 \end{frame}
 
-\begin{frame}{Natural numbers}
+\begin{frame}{Integers and rationals}
+How do we reverse-engineer the integers from the reals?
 \begin{itemize}
 \pause
-\item the set of \textbf{natural numbers} (or \textbf{positive integers}) is
-$$\mathbb{N} = \{x: \text{$x$ belongs to every inductive set}\}$$
+\item the set of \textbf{positive integers} is
+$$\mathbb{Z}_+ = \{x: \text{$x$ belongs to every inductive set}\}$$
 \pause
 \item integers are
 $$\mathbb{Z} = \{x: \text{$x$ is zero or $\pm x$ is a positive integer}\}$$
 \pause
 \item rationals are
-$$\mathbb{Q} = \left\lbrace\frac{a}{b}: a,b\in\mathbb{Z},\ b\neq 0\right\rbrace.$$
+$$\mathbb{Q} = \{a/b: a,b\in\mathbb{Z},\ b\neq 0\}.$$
 \end{itemize}
 \end{frame}
 
@@ -268,79 +189,106 @@ In other words $n\in S$ for every positive integer $n$.\\
 Hence $2$ divides $n(n+1)$ for every positive integers $n$.
 \end{frame}
 
-\begin{frame}{Other numbers}
-\begin{quest}
-What about other kinds of numbers, like irrational algebraic numbers or transcendentals?  Why do they exist {\color{red}according to the axioms}?
-\end{quest}
-To answer this, we need to understand the tenth axiom of the real numbers:
-$$\textbf{the completeness axiom}$$
+
+\begin{frame}{Types of numbers}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{fig/numbers}
+\end{center}
+\end{frame}
+
+\begin{frame}{Irrational numbers}
+Numbers which are not of the form $a/b$ with $a,b\in\mathbb{Z}$ are called \vocab{irrational}.\\
+\begin{itemize}
+\item Discovered by Hippasus, a pythagorean (a student of Pythagoras)
+\end{itemize}
+\begin{center}
+\includegraphics[width=0.4\linewidth]{fig/pentagram}
+\end{center}
+\end{frame}
+
+\begin{frame}{Irrational numbers}
+Numbers which are not of the form $a/b$ with $a,b\in\mathbb{Z}$ are called \vocab{irrational}.\\
+\begin{itemize}
+\item Pythagoras drowned Hippasus at sea for his discovery
+\pause
+\item dramatic reenactment, found online:
+\pause
+\end{itemize}
+\pause
+\begin{center}
+\includegraphics[width=0.6\linewidth]{fig/hippasus-death}
+\end{center}
+\end{frame}
+
+\begin{frame}{Irrational numbers}
+Numbers which are not of the form $a/b$ with $a,b\in\mathbb{Z}$ are called \vocab{irrational}.\\
+\begin{itemize}
+\item Pythagoras drowned Hippasus at sea for his discovery
+\item anime style:
+\pause
+\end{itemize}
+\begin{center}
+\includegraphics[width=0.4\linewidth]{fig/jojo-hippasus}
+\end{center}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Can you prove that if $n\in\mathbb{Z}_+$ is not a perfect square, then $\sqrt{n}$ is irrationial?
+(Apostol Theorem 1.10)
+\end{prob}
+\pause
+\begin{soln}
+We prove by contradiction. \pause
+Assume $\sqrt{n} = a/b$ for integers $a,b$. \pause
+Without loss of generality, we may assume $\gcd(a,b) = 1$. \pause
+Then $b^2n = a^2$. \pause
+Since $\gcd(a,b) = 1$, $a^2$ must divide $n$, ie. $n=n'a^2$. \pause
+It follows that $b^2n' = 1$, so $b^2$ divides $1$. \pause
+This implies $n'$ divides $1$, so $n'=\pm 1$. \pause
+Since $n>0$, $n'>0$ so $n'=1$. \pause
+Thus $n=a^2$, which is a contradiction.
+\end{soln}
+\end{frame}
+
+\begin{frame}{Algebraic and Transcendental}
+Irrational numbers can be further divided into to categories
+\pause
+\begin{enumerate}
+\item \textbf{algebraic numbers:} numbers which are roots of polynomials with integer coefficients, like
+$$\sqrt{2},\quad\sqrt{3},\quad\text{and}\quad\sqrt[3]{\sqrt{5}  + \sqrt{7}}.$$
+\pause
+\item \textbf{transcendental numbers:} numbers which are not algebraic, like
+$$\pi,\quad e,\quad e^\pi,\quad\text{and maybe}\quad\pi+e?$$
+\pause
+\item transcendentals are mysterious ... but most real numbers are transcendental!
+\end{enumerate}
 \end{frame}
 
 
-\subsection{The tenth axiom}
-
-\begin{frame}{Real numbers}
-The \textbf{real numbers} are the unique field $\mathbb{R}$ satisfying Axiom 1-Axiom 9, plus an extra axiom called the completeness axiom.
-$$\mathbb{R} = \text{the one and only complete, ordered field}$$
-A complete ordered field $F$ satisfies
+\subsection{Suprema and Infima}
+\begin{frame}{Completeness Axiom}
+Last time, we finished with the Completeness Axiom:
+\pause
 \begin{enumerate}[\text{A}1]
 \setcounter{enumi}{9}
 \pause
-\item \textbf{completeness axiom}: every nonempty set of numbers $S\subseteq F$ which is bounded above has a supremum $\sup(S)$
+\item \textbf{completeness axiom}: if $S$ is any nonempty subset of real numbers which is bounded above, then it has a supremum $\sup(S)$
 \end{enumerate}
-\begin{itemize}
-\pause
-\item Understanding what this means is challenging, but will be fundamental to the entire course!
-\pause
-\item Intuitively, it represents the fact that the real line has no holes or gaps.
-\end{itemize}
-\end{frame}
-\begin{frame}{Upper bounds}
-An \textbf{upper bound} for a set $S\subseteq\mathbb{R}$ is a number $b$ such that
-$$x \leq b\quad\text{for all}\ x\in S.$$
-\pause
-In this case, we say $S$ is \textbf{bounded above} by $b$.\\
-\pause
-If $b\in S$ also, then $b$ is called a \textbf{maximal element} of $S$
 \pause
 \textbf{Examples:}
 \begin{itemize}
 \pause
-\item $34$ is an upper bound of $[-1,5]$, but not a maximal element
+\item $3$ is the supremum of $(0,3)$
 \pause
-\item $5$ is a maximal element of $[-1,5]$
+\item $1$ is the supremum of
+$$\left\lbrace
+\frac{n}{n+1}: n\in\mathbb{Z}_+
+\right\rbrace$$
 \pause
-\item $3$ is an upper bound of $[0,3)$, but not a maximal element
-\pause
-\item $\mathbb{Z}_+$ has no upper bound
-\pause
-\item $[3,7)$ has an upper bound but no maximal element
+\item $\pi$ is the supremum of
+$$\{3,3.1,3.14,3.141,3.1415,3.14159,3.141592,\dots\}.$$
 \end{itemize}
-\end{frame}
-
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Show that if $S$ has a maximal element, then it is unique.
-\end{prob}
-\pause
-\textbf{Hint: use the definition!}
-\pause
-\begin{soln}
-Suppose that $b_1$ and $b_2$ are both maximal elements of $S$.\\
-\pause
-Then $x\leq b_1$ and $x\leq b_2$ for all $x\in S$.\\
-\pause
-Moreover, $b_1\in S$ and $b_2\in S$.\\
-\pause
-Since $b_1\in S$ and $b_2$ is an upper bound of $S$, $b_1\leq b_2$.\\
-\pause
-Likewise, since $b_2\in S$ and $b_1$ is an upper bound of $S$, $b_2\leq b_1$.\\
-\pause
-By the trichotomy, we find $b_1=b_2$.
-\end{soln}
-\pause
-Now we can say \emph{the} maximum, $\max(S)$
 \end{frame}
 
 \begin{frame}{Challenge}
@@ -363,118 +311,6 @@ Therefore $k\leq 0$ and $a'\leq a$. \\
 \pause
 It follows that $a$ is an upper bound of $A$, and since $a\in A$ it is a maximum.
 \end{soln}
-\end{frame}
-
-
-\begin{frame}{Supremum}
-A \textbf{supremum} of a set $S$ of real numbers is a real number $b\in\mathbb{R}$ such that
-\begin{itemize}
-\item $b$ is an upper bound of $S$
-\item if $b'<b$, then $b'$ is not an upper bound of $S$
-\end{itemize}
-\pause
-In other words
-$$\text{a supremum is a \bf{least upper bound}}$$
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Show that if $S$ has a supremum, then it is unique.
-\end{prob}
-\pause
-\textbf{Hint: use the definition!}
-\pause
-\begin{soln}
-Suppose that $b_1$ and $b_2$ are both suprema of $S$.\\
-\pause
-Then $b_1$ and $b_2$ are both upper bounds of $S$.\\
-\pause
-Since $b_1$ is a least upper bound, $b_1\leq b_2$.\\
-\pause
-Since $b_2$ is also a least upper bound, $b_2\leq b_1$.\\
-\pause
-By the trichotomy, we find $b_1=b_2$.
-\end{soln}
-\pause
-Now we can say \emph{the} supremum, $\sup(S)$
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Show that if $S$ has a maximum element.  Then $S$ has a supremum and $\max(S)=\sup(S)$
-\end{prob}
-\pause
-\textbf{Hint: use the definition!}
-\pause
-\begin{soln}
-Let $b=\max(S)$.\\
-\pause
-Then $b$ is an upper bound of $S$ and $b\in S$.\\
-\pause
-If $b'$ is another upper bound of $S$, then by definition $b\leq b'$.\\
-\pause
-Thus $b$ is the least upper bound of $S$.
-\end{soln}
-\end{frame}
-
-\begin{frame}{Completeness Axiom}
-Now we have the machinery in place to state the Completeness Axiom.
-\pause
-\begin{enumerate}[\text{A}1]
-\setcounter{enumi}{9}
-\pause
-\item \textbf{completeness axiom}: if $S$ is any nonempty subset of real numbers which is bounded above, then it has a supremum $\sup(S)$
-\end{enumerate}
-\pause
-\textbf{Examples:}
-\begin{itemize}
-\pause
-\item $3$ is the supremum of $(0,3)$
-\pause
-\item $2$ is the supremum of
-$$\left\lbrace
-\frac{2n}{n+1}: n\in\mathbb{Z}_+
-\right\rbrace$$
-\pause
-\item $1$ is the supremum of
-$$\left\lbrace
-\sin(n): n\in\mathbb{Z}_+
-\right\rbrace$$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Decimals}
-The completeness axiom allows us to define \textbf{decimals}.
-\pause
-Let $0\leq n$ be an integer and $d_1,d_2,d_3,\dots$ be a sequence of integers with $0\leq d_k\leq 9$ for all $k\in\mathbb{N}$.  
-\pause
-\begin{defn}
-The \textbf{$k$'th decimal apprixomation} of $n.d_0d_1d_2d_3\dots$ is
-$$s_k = n+\frac{d_1}{10} + \frac{d_2}{10^2} + \frac{d_3}{10^3} + \dots + \frac{d_k}{10^k}.$$
-\end{defn}
-\pause
-\begin{defn}
-The \textbf{decimal} $n.d_0d_1d_2d_3\dots$ is the real number defined as the supremum of decimal approximations
-$$n.d_0d_1d_2d_3\dots = \sup\{ s_k: k\in\mathbb N\dots\}.$$
-\end{defn}
-\end{frame}
-
-\begin{frame}{Examples of decimals}
-\begin{itemize}
-\item Liouville's constant
-$$0.1100010000000000000000010\dots$$
-\pause
-\item $\pi$
-$$3.1415926535\dots$$
-\pause
-\item $1$
-$$0.99999999999\dots$$
-\pause
-\item $1$
-$$1.00000000000\dots$$
-\pause
-\item later we will show \emph{any} positive number has at least one decimal expansion
-\end{itemize}
 \end{frame}
 
 \begin{frame}{Lower bounds and infima}
@@ -510,6 +346,44 @@ Since $b-\epsilon < b$, the definition of a supremum implies $b-\epsilon$ cannot
 Therefore thre must exist $a\in S$ with $a > b-\epsilon$.
 \end{proof}
 \end{frame}
+
+\begin{frame}{Important example: The number $e$}
+For each $n$, let $s_n$ denote the sum
+$$s_n = 1 + \frac{1}{1!} + \frac{1}{2!} + \dots + \frac{1}{n!}.$$
+\pause
+Notice that
+$$s_1 < s_2 < s_3 < s_4 < \dots$$
+\pause
+Consider the set
+$$S = \{ s_n: n\in\mathbb{Z}_+\}.$$
+\pause
+For every $n$, 
+$$s_n \leq 1 + 1 + \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^n} = 3 - \frac{1}{2^{n}} < 3$$
+so $S$ is bounded above by $3$.
+\pause
+Therefore $S$ has a supremum, $\sup(S)$.
+\end{frame}
+
+\begin{frame}{Important example: The number $e$}
+Even if $\epsilon$ is very small ($\epsilon = 0.000000001)$, $\sup(S)-\epsilon$ is not an upper bound of $S$.\\
+\pause
+So there exists $N$ with $s_N > \sup(S)-\epsilon$.
+\pause
+$$s_1 < s_2 < s_3 < s_4 < \dots < \sup(S)-\epsilon < s_N < \dots < \sup(S).$$
+\pause
+This says $\sup(S)$ is \emph{really} close to $s_N$.
+\pause
+Taking $\epsilon$ smaller and smaller
+\pause
+$$\sup(S) = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!}  + \dots$$
+\pause
+If we remember Taylor series
+\pause
+$$e^x = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!}  + \dots$$
+\pause
+We've just shown that $e^1=e$ exists.
+\end{frame}
+
 
 \begin{frame}{Properties of Suprema}
 Also, suprema play nicely with addition.
