@@ -232,7 +232,7 @@ $$\mathbb{Q} = \left\lbrace\frac{a}{b}: a,b\in\mathbb{Z},\ b\neq 0\right\rbrace.
 
 \begin{frame}{Induction}
 \textbf{Principle of Induction:}
-$$\text{If $S$ is an inductive set, then $\mathbb{Z}_+\subseteq S$}$$
+$$\text{If $S$ is an inductive set, then $\mathbb{N}\subseteq S$}$$
 \pause
 \begin{quest}
 Waaaaait...How is this this induction?!
@@ -243,7 +243,7 @@ Waaaaait...How is this this induction?!
 \textbf{Proof:}\\
 \pause
 Let
-$$S = \{n\in\mathbb{Z}_+: 2 | n(n+1)\}$$.
+$$S = \{n\in\mathbb{N}: 2 | n(n+1)\}$$.
 \pause
 We see that $1\in S$ because $2$ divides $1(1+1)$.\\
 \pause
@@ -261,7 +261,7 @@ Thus $2$ divides $(x+1)(x+2)$, showing that $x+1\in S$.\\
 \pause
 Since $x+1$ was arbitrary, this shows that $S$ is an inductive set.\\
 \pause
-By the Principle of Induction, this means $\mathbb{Z}_+\subseteq S$.\\
+By the Principle of Induction, this means $\mathbb{N}\subseteq S$.\\
 \pause
 In other words $n\in S$ for every positive integer $n$.\\
 \pause
@@ -312,7 +312,7 @@ If $b\in S$ also, then $b$ is called a \textbf{maximal element} of $S$
 \pause
 \item $3$ is an upper bound of $[0,3)$, but not a maximal element
 \pause
-\item $\mathbb{Z}_+$ has no upper bound
+\item $\mathbb{N}$ has no upper bound
 \pause
 \item $[3,7)$ has an upper bound but no maximal element
 \end{itemize}
@@ -433,12 +433,12 @@ Now we have the machinery in place to state the Completeness Axiom.
 \pause
 \item $2$ is the supremum of
 $$\left\lbrace
-\frac{2n}{n+1}: n\in\mathbb{Z}_+
+\frac{2n}{n+1}: n\in\mathbb{N}
 \right\rbrace$$
 \pause
 \item $1$ is the supremum of
 $$\left\lbrace
-\sin(n): n\in\mathbb{Z}_+
+\sin(n): n\in\mathbb{N}
 \right\rbrace$$
 \end{itemize}
 \end{frame}
@@ -551,18 +551,18 @@ Therefore $a+b\leq c$.
 
 \begin{frame}{Challenge}
 \begin{prob}
-Use the completeness axiom to prove that the $\mathbb Z_+$ is not bounded above.
+Use the completeness axiom to prove that the $\mathbb N$ is not bounded above.
 (Apostol Theorem 1.17)
 \end{prob}
 \pause
-\textbf{Hint:} assume it is and consider $\sup(\mathbb Z_+)-1$
+\textbf{Hint:} assume it is and consider $\sup(\mathbb N)-1$
 \pause
 \begin{soln}
 Assume it is.\\\pause
-The completeness axiom implies that $b=\sup(\mathbb Z_+)$ exists\\\pause
+The completeness axiom implies that $b=\sup(\mathbb N)$ exists\\\pause
 The number $b$ is an upper bound and if $b' < b$, then $b'$ is not.\\\pause
 Then $b-1 < b$ by Axiom 7, so $b-1$ cannot be an upper bound.\\\pause
-This means there exists $n\in\mathbb{Z}_+$ with $b-1 < n$.\\\pause
+This means there exists $n\in\mathbb N$ with $b-1 < n$.\\\pause
 It follows from Axiom 7 that $b < n+1$.\\\pause
 However, $n+1\in\mathbb{Z}$, so this contradicts $b$ being an upper bound.
 \end{soln}
@@ -570,15 +570,15 @@ However, $n+1\in\mathbb{Z}$, so this contradicts $b$ being an upper bound.
 
 \begin{frame}{Archimedian property}
 \begin{thm}[Apostol Theorem 1.18]
-For every $x\in\mathbb{R}$, there exists $n\in\mathbb{Z}_+$ with $n>x$.
+For every $x\in\mathbb{R}$, there exists $n\in\mathbb N$ with $n>x$.
 \end{thm}
 \pause
 \begin{proof}
-If not, then $x$ is an upper bound of $\mathbb{Z}_+$.
+If not, then $x$ is an upper bound of $\mathbb N$.
 \end{proof}
 \pause
 \begin{thm}[Archimedian Property of Reals]
-For every $x,y\in\mathbb{R}$ with $x>0$, there exists $n\in\mathbb{Z}_+$ with $y<nx$.
+For every $x,y\in\mathbb{R}$ with $x>0$, there exists $n\in\mathbb N$ with $y<nx$.
 \end{thm}
 \pause
 \begin{proof}
