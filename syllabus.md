@@ -16,11 +16,11 @@ permalink: /syllabus
 **Course website:** we will use Canvas website (Spring 2025 MATH 350-2 18781), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math350fall2025">Github Pages site (link)</a> which you may find more convenient for pulling material.
 
 ## Course meeting information
-* Section: 01 and 02
-* Course ID: 18819 and 17981
-* Time: MW 10:00AM-11:50AM (Section 1) and 1:00PM-2:50PM (Section 2)
+* Section: 02
+* Course ID: 19010
+* Time: MW 1:00PM-2:50PM (Section 2)
 * Meeting Dates: 08/25/2025-12/13/2025
-* Location: MH 476
+* Location: MH 442
 
 ## Course catalog description
 Development of the theoretical foundations of calculus with an emphasis on mathematical rigor and formal proof. Algebraic and topological properties of the real numbers; limits of sequences and functions; continuity, differentiation and integration of functions of one variable; infinite series.
