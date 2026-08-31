@@ -11,7 +11,7 @@ permalink: /syllabus
 
 **Email:** wcasper@fullerton.edu
 
-**Office hours:** In our classroom Noon-1PM and by appointment
+**Office hours:** TBA and by appointment
 
 **Course website:** we will use Canvas website (Spring 2025 MATH 350-2 18781), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math350fall2025">Github Pages site (link)</a> which you may find more convenient for pulling material.
 
@@ -109,14 +109,13 @@ If you have an accommodation from Disability Support Services (such as time-and-
 There will be three midterm exams, each lasting 1 hour 50 minutes.
 Each midterm will be worth 15\% of your final grade.
 Midterms will be held during class time on the following dates:
-* Wednesday, September 24, 2025
-* Wednesday, October 22, 2025
-* Wednesday, November 19, 2025
+* Wednesday, September 23, 2025
+* Wednesday, October 21, 2025
+* Wednesday, November 18, 2025
 
 **Final Exam**
 The final exam will be cumulative and will account for 30\% of your grade.
 It will be held
-* Monday, December 15 from 11AM-1PM (Section-01)
-* Monday, December 15 from 1PM-3PM (Section-02)
+* Monday, December 14 from 1PM-3PM (Section-02)
 
 
