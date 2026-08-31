@@ -6,51 +6,61 @@
 \headcommand {\beamer@subsectionpages {1}{2}}
 \headcommand {\sectionentry {1}{Real Analysis Lecture 3}{3}{Real Analysis Lecture 3}{0}}
 \headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Set basics}}
-\headcommand {\slideentry {1}{1}{1}{3/3}{Set basics}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Completeness Axiom (continued)}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Completeness Axiom (continued)}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/12}{Set basics}{0}}
-\headcommand {\beamer@framepages {4}{12}}
-\headcommand {\slideentry {1}{1}{3}{13/18}{Set basics}{0}}
-\headcommand {\beamer@framepages {13}{18}}
-\headcommand {\slideentry {1}{1}{4}{19/26}{Set basics}{0}}
-\headcommand {\beamer@framepages {19}{26}}
-\headcommand {\slideentry {1}{1}{5}{27/33}{Set basics}{0}}
-\headcommand {\beamer@framepages {27}{33}}
-\headcommand {\slideentry {1}{1}{6}{34/37}{Set basics}{0}}
-\headcommand {\beamer@framepages {34}{37}}
-\headcommand {\beamer@subsectionpages {3}{37}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{38}{Set algebra}}
-\headcommand {\slideentry {1}{2}{1}{38/38}{Set algebra}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {1}{2}{2}{39/43}{Set algebra}{0}}
-\headcommand {\beamer@framepages {39}{43}}
-\headcommand {\slideentry {1}{2}{3}{44/48}{Set algebra}{0}}
-\headcommand {\beamer@framepages {44}{48}}
-\headcommand {\slideentry {1}{2}{4}{49/53}{Set algebra}{0}}
-\headcommand {\beamer@framepages {49}{53}}
-\headcommand {\slideentry {1}{2}{5}{54/58}{Set algebra}{0}}
-\headcommand {\beamer@framepages {54}{58}}
-\headcommand {\slideentry {1}{2}{6}{59/59}{Set algebra}{0}}
-\headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {1}{2}{7}{60/60}{Set algebra}{0}}
-\headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {1}{2}{8}{61/62}{Set algebra}{0}}
-\headcommand {\beamer@framepages {61}{62}}
-\headcommand {\slideentry {1}{2}{9}{63/68}{Set algebra}{0}}
+\headcommand {\slideentry {1}{1}{2}{4/9}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {4}{9}}
+\headcommand {\slideentry {1}{1}{3}{10/13}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {10}{13}}
+\headcommand {\slideentry {1}{1}{4}{14/18}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {14}{18}}
+\headcommand {\slideentry {1}{1}{5}{19/23}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {19}{23}}
+\headcommand {\slideentry {1}{1}{6}{24/24}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {1}{1}{7}{25/26}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {25}{26}}
+\headcommand {\slideentry {1}{1}{8}{27/27}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {1}{1}{9}{28/39}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {28}{39}}
+\headcommand {\slideentry {1}{1}{10}{40/48}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {40}{48}}
+\headcommand {\slideentry {1}{1}{11}{49/52}{Completeness Axiom (continued)}{0}}
+\headcommand {\beamer@framepages {49}{52}}
+\headcommand {\beamer@subsectionpages {3}{52}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{53}{Set basics}}
+\headcommand {\slideentry {1}{2}{1}{53/53}{Set basics}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {1}{2}{2}{54/62}{Set basics}{0}}
+\headcommand {\beamer@framepages {54}{62}}
+\headcommand {\slideentry {1}{2}{3}{63/68}{Set basics}{0}}
 \headcommand {\beamer@framepages {63}{68}}
-\headcommand {\slideentry {1}{2}{10}{69/77}{Set algebra}{0}}
-\headcommand {\beamer@framepages {69}{77}}
-\headcommand {\slideentry {1}{2}{11}{78/78}{Set algebra}{0}}
-\headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {1}{2}{12}{79/79}{Set algebra}{0}}
-\headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {1}{2}{13}{80/84}{Set algebra}{0}}
+\headcommand {\beamer@subsectionpages {53}{68}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{69}{Set algebra}}
+\headcommand {\slideentry {1}{3}{1}{69/69}{Set algebra}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {1}{3}{2}{70/74}{Set algebra}{0}}
+\headcommand {\beamer@framepages {70}{74}}
+\headcommand {\slideentry {1}{3}{3}{75/79}{Set algebra}{0}}
+\headcommand {\beamer@framepages {75}{79}}
+\headcommand {\slideentry {1}{3}{4}{80/84}{Set algebra}{0}}
 \headcommand {\beamer@framepages {80}{84}}
-\headcommand {\slideentry {1}{2}{14}{85/88}{Set algebra}{0}}
-\headcommand {\beamer@framepages {85}{88}}
-\headcommand {\beamer@partpages {1}{88}}
-\headcommand {\beamer@subsectionpages {38}{88}}
-\headcommand {\beamer@sectionpages {3}{88}}
-\headcommand {\beamer@documentpages {88}}
-\headcommand {\gdef \inserttotalframenumber {22}}
+\headcommand {\slideentry {1}{3}{5}{85/89}{Set algebra}{0}}
+\headcommand {\beamer@framepages {85}{89}}
+\headcommand {\slideentry {1}{3}{6}{90/90}{Set algebra}{0}}
+\headcommand {\beamer@framepages {90}{90}}
+\headcommand {\slideentry {1}{3}{7}{91/91}{Set algebra}{0}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\slideentry {1}{3}{8}{92/93}{Set algebra}{0}}
+\headcommand {\beamer@framepages {92}{93}}
+\headcommand {\slideentry {1}{3}{9}{94/99}{Set algebra}{0}}
+\headcommand {\beamer@framepages {94}{99}}
+\headcommand {\slideentry {1}{3}{10}{100/104}{Set algebra}{0}}
+\headcommand {\beamer@framepages {100}{104}}
+\headcommand {\beamer@partpages {1}{104}}
+\headcommand {\beamer@subsectionpages {69}{104}}
+\headcommand {\beamer@sectionpages {3}{104}}
+\headcommand {\beamer@documentpages {104}}
+\headcommand {\gdef \inserttotalframenumber {26}}

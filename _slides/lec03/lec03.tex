@@ -122,6 +122,171 @@
 
 \section{Real Analysis Lecture 3}
 
+\subsection{Completeness Axiom (continued)}
+
+\begin{frame}{Completeness Axiom}
+\pause
+\begin{defn}
+An \textbf{upper bound} of a set $A$ is a number $b$ with $x\leq b$ for all $x\in A$.  If $A$ has an upper bound, it is called \textbf{bounded above}.
+\end{defn}
+\pause
+\begin{defn}
+A \textbf{supremum} of a set $A$ is a number $s$ with two properties:
+\begin{itemize}
+\pause
+\item $s$ is an upper bound of $A$, and
+\pause
+\item if $t < s$ then $t$ is NOT an upper bound of $A$
+\end{itemize}
+\end{defn}
+\pause
+\textbf{Completeness Axiom:} every nonempty set of real numbers which is bounded above has a supremum.
+\end{frame}
+
+\begin{frame}{Decimals}
+The completeness axiom allows us to define \textbf{decimals}.
+\pause
+Let $0\leq n$ be an integer and $d_1,d_2,d_3,\dots$ be a sequence of integers with $0\leq d_k\leq 9$ for all $k\in\mathbb{N}$.  
+\pause
+\begin{defn}
+The \textbf{$k$'th decimal apprixomation} of $n.d_0d_1d_2d_3\dots$ is
+$$s_k = n+\frac{d_1}{10} + \frac{d_2}{10^2} + \frac{d_3}{10^3} + \dots + \frac{d_k}{10^k}.$$
+\end{defn}
+\pause
+\begin{defn}
+The \textbf{decimal} $n.d_0d_1d_2d_3\dots$ is the real number defined as the supremum of decimal approximations
+$$n.d_0d_1d_2d_3\dots = \sup\{ s_k: k\in\mathbb N\dots\}.$$
+\end{defn}
+\end{frame}
+
+\begin{frame}{Examples of decimals}
+\begin{itemize}
+\item Liouville's constant
+$$0.1100010000000000000000010\dots$$
+\pause
+\item $\pi$
+$$3.1415926535\dots$$
+\pause
+\item $1$
+$$0.99999999999\dots$$
+\pause
+\item $1$
+$$1.00000000000\dots$$
+\pause
+\item later we will show \emph{any} positive number has at least one decimal expansion
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Lower bounds and infima}
+A \textbf{lower bound} for a set $S\subseteq\mathbb{R}$ is a number $b$ such that
+$$b \leq x\quad\text{for all}\ x\in S.$$
+\pause
+In this case, we say $S$ is \textbf{bounded below} by $b$.\\
+\pause
+If $b\in S$ also, then $b$ is called a \textbf{minimal element} of $S$.
+\pause
+An \textbf{infimum} of a set $S$ of real numbers is a real number $b\in\mathbb{R}$ such that
+\begin{itemize}
+\item $b$ is a lower bound of $S$
+\item if $b<b'$, then $b'$ is not a lower bound of $S$
+\end{itemize}
+\pause
+In other words
+$$\text{an infimum is a \bf{greatest lower bound}}$$
+\end{frame}
+
+\begin{frame}{Properties of Suprema}
+The first property of suprema is that they must be arbitrarily close to elements of the set.
+\begin{thm}[Approximation Property]
+Let $S\subseteq\mathbb{R}$ be nonempty and bounded above, and let $b = \sup(S)$.
+Then for all $\epsilon > 0$, there exists $a\in S$ with
+$$b-\epsilon < a \leq b.$$
+\end{thm}
+\end{frame}
+\begin{frame}{Properties of Suprema}
+\begin{proof}
+Since $b-\epsilon < b$, the definition of a supremum implies $b-\epsilon$ cannot be an upper bound.\\
+\pause
+Therefore thre must exist $a\in S$ with $a > b-\epsilon$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Properties of Suprema}
+Also, suprema play nicely with addition.
+\begin{thm}[Additive Property]
+Let $A,B\subseteq\mathbb{R}$ be nonempty, bounded above sets.
+$$C = \{x+y: x\in A,\ y\in B\}.$$
+Then $C$ is bounded above and
+$$\sup(C) = \sup(A) + \sup(B).$$
+\end{thm}
+\end{frame}
+\begin{frame}{Properties of Suprema}
+\begin{proof}
+Let $a = \sup(A)$, $b = \sup(B)$, and $c=\sup(C)$. \\
+\pause
+We will prove $c \leq a+b$ and then $a+b\leq c$. \\
+\pause
+First, note $a$ is an upper bound of $A$, so $x\leq a$ for all $x\in A$. \\
+\pause
+Also $b$ is an upper bound of $b$, so $y\leq b$ for all $y\in B$. \\
+\pause
+If $z\in C$, then $z=x+y$ for some $x\in A$ and $y\in B$, and therefore $z = x+y \leq a+b$. \\
+\pause
+Therefore $a+b$ is an upper bound of $C$. \\
+\pause
+This means $c\leq a+b$. \\
+\pause
+Next, note for all $x\in A$ and $y\leq B$ that $x\leq c-y$. \\
+\pause
+Therefore $c-y$  is an upper bound of $A$ and $a\leq c-y$. \\
+\pause
+It follows that $y\leq c-a$ for all $y\in B$. \\
+\pause
+Thus $c-a$ is an upper bound of $B$, and it follows $b\leq c-a$. \\
+\pause
+Therefore $a+b\leq c$.
+\end{proof}
+\end{frame}
+
+
+\begin{frame}{Challenge}
+\begin{prob}
+Use the completeness axiom to prove that the $\mathbb N$ is not bounded above.
+(Apostol Theorem 1.17)
+\end{prob}
+\pause
+\textbf{Hint:} assume it is and consider $\sup(\mathbb N)-1$
+\pause
+\begin{soln}
+Assume it is.\\\pause
+The completeness axiom implies that $b=\sup(\mathbb N)$ exists\\\pause
+The number $b$ is an upper bound and if $b' < b$, then $b'$ is not.\\\pause
+Then $b-1 < b$ by Axiom 7, so $b-1$ cannot be an upper bound.\\\pause
+This means there exists $n\in\mathbb N$ with $b-1 < n$.\\\pause
+It follows from Axiom 7 that $b < n+1$.\\\pause
+However, $n+1\in\mathbb{Z}$, so this contradicts $b$ being an upper bound.
+\end{soln}
+\end{frame}
+
+\begin{frame}{Archimedian property}
+\begin{thm}[Apostol Theorem 1.18]
+For every $x\in\mathbb{R}$, there exists $n\in\mathbb N$ with $n>x$.
+\end{thm}
+\pause
+\begin{proof}
+If not, then $x$ is an upper bound of $\mathbb N$.
+\end{proof}
+\pause
+\begin{thm}[Archimedian Property of Reals]
+For every $x,y\in\mathbb{R}$ with $x>0$, there exists $n\in\mathbb N$ with $y<nx$.
+\end{thm}
+\pause
+\begin{proof}
+Replace $x$ with $y/x$ in the previous theorem.
+\end{proof}
+\end{frame}
+
+
 \subsection{Set basics}
 
 \begin{frame}{Set basics}
@@ -136,7 +301,7 @@ Intuitively, a \textbf{set} $A$ is a "collection of things" which we call the \t
 Examples:
 \begin{itemize}
 \pause
-\item $\mathbb R$, $\mathbb{Z}_+$, $\mathbb{Z}$, $\mathbb{Q}$
+\item $\mathbb R$, $\mathbb N$, $\mathbb{Z}$, $\mathbb{Q}$
 \pause
 \item $(1,5]$, $(0,\infty)$
 \pause
@@ -162,68 +327,6 @@ $$(a,b) = \{a,\{a,b\}\}$$
 \pause
 \item even relations and functions are sets!
 \end{itemize}
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Prove that for ordered pairs $(a,b)$ and $(c,d)$ that
-$$(a,b)=(c,d)\quad\text{if and only if}\quad a=c\ \text{and}\ b=d$$
-\end{prob}
-\pause
-\begin{soln}
-$(a,b)=(c,d)$ if and only if $\{a,\{a,b\}\}=\{c,\{c,d\}\}$\\
-\pause
-Clearly, if $a=c$ and $b=d$, then $\{a,\{a,b\}\}=\{c,\{c,d\}\}$\\
-\pause
-The tough part is the opposite direction!\\
-\pause
-Suppose $\{a,\{a,b\}\}=\{c,\{c,d\}\}$.\\
-\pause
-Two possible cases:
-\pause
-\begin{align*}
-\text{Case I:}\quad a=c\ \ \text{and}\ \  \{a,b\} = \{c,d\}\\
-\pause
-\text{Case II:}\quad a=\{c,d\}\ \ \text{and}\ \ \{a,b\} = c
-\end{align*}
-\end{soln}
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Prove that for ordered pairs $(a,b)$ and $(c,d)$ that
-$$(a,b)=(c,d)\quad\text{if and only if}\quad a=c\ \text{and}\ b=d$$
-\end{prob}
-\begin{soln}
-$$\text{Case I:}\quad a=c\ \ \text{and}\ \  \{a,b\} = \{c,d\}$$
-\pause
-Since $\{a,b\} = \{c,d\}$, we know $b\in \{c,d\}$.\\
-\pause
-Therefore $b=c$ or $b=d$.\\
-If $b=d$, we're done! \pause ... so assume instead that $b=c$\\
-\pause
-Then $a=c$ implies $a=b$.\\
-\pause
-Therefore $\{c,d\} = \{a,b\} = \{a,a\} = \{a\}$.\\
-\pause
-It follows that $d=c=b=a$.
-\end{soln}
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Prove that for ordered pairs $(a,b)$ and $(c,d)$ that
-$$(a,b)=(c,d)\quad\text{if and only if}\quad a=c\ \text{and}\ b=d$$
-\end{prob}
-\begin{soln}
-$$\text{Case II:}\quad a=\{c,d\}\ \ \text{and}\ \ \{a,b\} = c$$
-\pause
-This would imply that $c\in a$ and $a\in c$.\\
-\pause
-This can be shown to contradict the ZF Axioms of Set Theory.\\
-\pause
-Specifically the regularity axiom for the set $\{a,c\}$...
-\end{soln}
 \end{frame}
 
 \subsection{Set algebra}
@@ -287,7 +390,7 @@ $$\bigcap_{i\in I} A_i = \{x: x\in A_i,\ \text{for all $i\in I$}\}$$
 \begin{itemize}
 \item index set $I = (1,2)$
 \item family of sets $\{A_i: i\in I\}$
-\item $A_i = [0,i]$
+\item $A_i = [0,1/i]$
 \end{itemize}
 \begin{prob}
 Determine $\bigcup_{i\in I} A_i$.
@@ -296,7 +399,7 @@ Determine $\bigcup_{i\in I} A_i$.
 
 \begin{frame}{Challenge}
 \begin{itemize}
-\item index set $I = \mathbb{Z}_+$
+\item index set $I = \mathbb N$
 \item family of sets $\{A_i: i\in I\}$
 \item $A_i = [0,i)$
 \end{itemize}
@@ -331,41 +434,6 @@ Domain and codomain:
 \end{align*}
 \end{frame}
 
-\begin{frame}{Relations}
-A relation $\mathcal R$ from $A$ to $A$ is called a \textbf{relation on} $A$.  A relation on $A$ is
-\begin{itemize}
-\pause
-\item \textbf{reflexive} if $a\mathcal Ra$ for all $a\in A$
-\pause
-\item \textbf{symmetric} if $a\mathcal Rb$ implies $b\mathcal Ra$ for all $a,b\in A$
-\pause
-\item \textbf{transitive} if $a\mathcal Rb$ and $b\mathcal Rc$ implies $a\mathcal Rc$ for all $a,b,c\in\mathcal A$
-\end{itemize}
-\pause
-An \textbf{equivalence relation} satisfies all three properties.\\
-\pause
-Examples:
-\pause
-\begin{itemize}
-\pause
-\item $<\ = \{(x,y): y-x\in (0,\infty)\}$ is transitive but not reflexive or symmetric on $\mathbb{R}$
-\pause
-\item $\leq\ = \{(x,y): y-x\in [0,\infty)\}$ is reflexive and transitive but not symmetric on $\mathbb{R}$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Give an example of a relation on $\mathbb{R}$ which is symmetric and transitive but not reflexive.
-\end{prob}
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Give an example of a relation on $\mathbb{R}$ which is reflexive and symmetric but not transitive.
-\end{prob}
-\end{frame}
-
 \begin{frame}{Functions}
 A \textbf{function} from $A$ to $B$ is a relation $\mathcal R$ from $A$ to $B$ with the property
 \pause
@@ -379,21 +447,6 @@ If a relation $\mathcal R$ is a function, we usually use a symbol like $f$.\\
 \end{align*}
 \pause
 The set $$\img(f) = \{f(a): a\in A\}$$ is called the \textbf{range} or \textbf{image} of $f$
-\end{frame}
-
-\begin{frame}{Challenge!}
-\begin{prob}
-Determine all the equivalence relations on $\mathbb{R}$ which are also functions.
-\end{prob}
-\pause
-\begin{soln}
-$f=\mathcal R$ must be reflexive, so $x\mathcal Rx$ for all $x$\\
-\pause
-This means $f(x) = x$ for all $x$.\\
-\pause
-Thus the only function which is an equivalence relation is the identity function
-$$f(x) = x.$$
-\end{soln}
 \end{frame}
 
 \end{document}
