@@ -9,54 +9,60 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Functions}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{Functions}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/8}{Functions}{0}}
-\headcommand {\beamer@framepages {4}{8}}
-\headcommand {\slideentry {1}{1}{3}{9/13}{Functions}{0}}
-\headcommand {\beamer@framepages {9}{13}}
-\headcommand {\slideentry {1}{1}{4}{14/17}{Functions}{0}}
-\headcommand {\beamer@framepages {14}{17}}
-\headcommand {\slideentry {1}{1}{5}{18/21}{Functions}{0}}
-\headcommand {\beamer@framepages {18}{21}}
-\headcommand {\slideentry {1}{1}{6}{22/25}{Functions}{0}}
-\headcommand {\beamer@framepages {22}{25}}
-\headcommand {\slideentry {1}{1}{7}{26/26}{Functions}{0}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {1}{1}{8}{27/27}{Functions}{0}}
-\headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {1}{1}{9}{28/34}{Functions}{0}}
-\headcommand {\beamer@framepages {28}{34}}
-\headcommand {\slideentry {1}{1}{10}{35/36}{Functions}{0}}
-\headcommand {\beamer@framepages {35}{36}}
-\headcommand {\slideentry {1}{1}{11}{37/41}{Functions}{0}}
-\headcommand {\beamer@framepages {37}{41}}
-\headcommand {\slideentry {1}{1}{12}{42/43}{Functions}{0}}
-\headcommand {\beamer@framepages {42}{43}}
-\headcommand {\slideentry {1}{1}{13}{44/45}{Functions}{0}}
-\headcommand {\beamer@framepages {44}{45}}
-\headcommand {\slideentry {1}{1}{14}{46/47}{Functions}{0}}
-\headcommand {\beamer@framepages {46}{47}}
-\headcommand {\slideentry {1}{1}{15}{48/53}{Functions}{0}}
-\headcommand {\beamer@framepages {48}{53}}
-\headcommand {\slideentry {1}{1}{16}{54/58}{Functions}{0}}
-\headcommand {\beamer@framepages {54}{58}}
-\headcommand {\beamer@subsectionpages {3}{58}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{59}{More with cardinality}}
-\headcommand {\slideentry {1}{2}{1}{59/59}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {1}{2}{2}{60/64}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {60}{64}}
-\headcommand {\slideentry {1}{2}{3}{65/67}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {65}{67}}
-\headcommand {\slideentry {1}{2}{4}{68/68}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {1}{2}{5}{69/69}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {69}{69}}
-\headcommand {\slideentry {1}{2}{6}{70/80}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {70}{80}}
-\headcommand {\slideentry {1}{2}{7}{81/83}{More with cardinality}{0}}
-\headcommand {\beamer@framepages {81}{83}}
-\headcommand {\beamer@partpages {1}{83}}
-\headcommand {\beamer@subsectionpages {59}{83}}
-\headcommand {\beamer@sectionpages {3}{83}}
-\headcommand {\beamer@documentpages {83}}
-\headcommand {\gdef \inserttotalframenumber {25}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{Functions}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{3}{5/5}{Functions}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{1}{4}{6/11}{Functions}{0}}
+\headcommand {\beamer@framepages {6}{11}}
+\headcommand {\slideentry {1}{1}{5}{12/16}{Functions}{0}}
+\headcommand {\beamer@framepages {12}{16}}
+\headcommand {\slideentry {1}{1}{6}{17/18}{Functions}{0}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\slideentry {1}{1}{7}{19/22}{Functions}{0}}
+\headcommand {\beamer@framepages {19}{22}}
+\headcommand {\slideentry {1}{1}{8}{23/26}{Functions}{0}}
+\headcommand {\beamer@framepages {23}{26}}
+\headcommand {\slideentry {1}{1}{9}{27/30}{Functions}{0}}
+\headcommand {\beamer@framepages {27}{30}}
+\headcommand {\slideentry {1}{1}{10}{31/31}{Functions}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {1}{1}{11}{32/32}{Functions}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {1}{1}{12}{33/39}{Functions}{0}}
+\headcommand {\beamer@framepages {33}{39}}
+\headcommand {\slideentry {1}{1}{13}{40/41}{Functions}{0}}
+\headcommand {\beamer@framepages {40}{41}}
+\headcommand {\slideentry {1}{1}{14}{42/46}{Functions}{0}}
+\headcommand {\beamer@framepages {42}{46}}
+\headcommand {\slideentry {1}{1}{15}{47/48}{Functions}{0}}
+\headcommand {\beamer@framepages {47}{48}}
+\headcommand {\slideentry {1}{1}{16}{49/50}{Functions}{0}}
+\headcommand {\beamer@framepages {49}{50}}
+\headcommand {\slideentry {1}{1}{17}{51/52}{Functions}{0}}
+\headcommand {\beamer@framepages {51}{52}}
+\headcommand {\slideentry {1}{1}{18}{53/58}{Functions}{0}}
+\headcommand {\beamer@framepages {53}{58}}
+\headcommand {\slideentry {1}{1}{19}{59/63}{Functions}{0}}
+\headcommand {\beamer@framepages {59}{63}}
+\headcommand {\beamer@subsectionpages {3}{63}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{64}{More with cardinality}}
+\headcommand {\slideentry {1}{2}{1}{64/64}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {1}{2}{2}{65/69}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {65}{69}}
+\headcommand {\slideentry {1}{2}{3}{70/72}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {70}{72}}
+\headcommand {\slideentry {1}{2}{4}{73/73}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {1}{2}{5}{74/74}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {1}{2}{6}{75/85}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {75}{85}}
+\headcommand {\slideentry {1}{2}{7}{86/88}{More with cardinality}{0}}
+\headcommand {\beamer@framepages {86}{88}}
+\headcommand {\beamer@partpages {1}{88}}
+\headcommand {\beamer@subsectionpages {64}{88}}
+\headcommand {\beamer@sectionpages {3}{88}}
+\headcommand {\beamer@documentpages {88}}
+\headcommand {\gdef \inserttotalframenumber {28}}
