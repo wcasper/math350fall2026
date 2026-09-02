@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  31 AUG 2026 02:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  2 SEP 2026 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,9 +1334,9 @@ Overfull \vbox (13.19603pt too high) detected at line 178
 
 ] [52
 
-] (./lec03.toc) [53
+] [53
 
-] [54
+] (./lec03.toc) [54
 
 ] [55
 
@@ -1367,9 +1367,9 @@ Overfull \vbox (13.19603pt too high) detected at line 178
 
 ] [68
 
-] (./lec03.toc) [69
+] [69
 
-] [70
+] (./lec03.toc) [70
 
 ] [71
 
@@ -1442,6 +1442,8 @@ Overfull \vbox (13.19603pt too high) detected at line 178
 
 ] [104
 
+] [105
+
 ]
 \tf@nav=\write6
 \openout6 = `lec03.nav'.
@@ -1452,19 +1454,19 @@ Overfull \vbox (13.19603pt too high) detected at line 178
 \tf@snm=\write8
 \openout8 = `lec03.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 452.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 452.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
  (./lec03.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 452.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 452.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
 Package rerunfilecheck Info: File `lec03.out' has not changed.
-(rerunfilecheck)             Checksum: BDFFC8A1759614F94EA0E33F4067AD4F;260.
+(rerunfilecheck)             Checksum: 6AE50A356376619BA9C881872A08DE29;260.
  ) 
 Here is how much of TeX's memory you used:
- 18547 strings out of 494847
- 343087 string characters out of 6179079
- 429623 words of memory out of 5000000
- 21204 multiletter control sequences out of 15000+600000
+ 18551 strings out of 494847
+ 343124 string characters out of 6179079
+ 429624 words of memory out of 5000000
+ 21206 multiletter control sequences out of 15000+600000
  41627 words of font info for 62 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,65p,800b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1478,10 +1480,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec03.pdf (104 pages, 361764 bytes).
+Output written on lec03.pdf (105 pages, 364697 bytes).
 PDF statistics:
- 3322 PDF objects out of 3580 (max. 8388607)
- 3156 compressed objects within 32 object streams
- 213 named destinations out of 1000 (max. 500000)
+ 3352 PDF objects out of 3580 (max. 8388607)
+ 3185 compressed objects within 32 object streams
+ 215 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
