@@ -53,17 +53,17 @@ For $$A\subseteq\mathbb{R}^n$$, the closure of $$A$$ is denoted by $$\overline{A
    1. $$(0,1]\subseteq\mathbb{R}$$;
    2. $$\mathbb{Z}\subseteq\mathbb{R}$$;
    3. $$\mathbb{Q}\subseteq\mathbb{R}$$;
-   4.
+   4. the set
       $$
       \{(x,y)\in\mathbb{R}^2:x^2+y^2<1\};
       $$
 
-   5.
+   5. the set
       $$
       \{(x,y)\in\mathbb{R}^2:x^2+y^2=1\};
       $$
 
-   6.
+   6. the set
       $$
       \{(x,y)\in\mathbb{R}^2:0<x<1,\ 0\le y\le1\}.
       $$
