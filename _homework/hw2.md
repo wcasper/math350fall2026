@@ -33,7 +33,7 @@ For $$A\subseteq\mathbb{R}^n$$, the closure of $$A$$ is denoted by $$\overline{A
 
 
 1. **Well-ordering Principle.**
-   Throughout this problem, let $$A$$ be a set and define $$B = \{-a: a\in A\}$$.
+   Throughout this problem, let $$A\subseteq \mathbb{R}$$ and define $$B = \{-a: a\in A\}$$.
 
    1. Prove that $$A$$ is bounded below iff $$B$$ is bounded above.
    2. Use the Completeness Axiom to prove that if $$A$$ is non-empty and bounded below, then $$\inf(A)$$ exists and is equal to $$\sup(B)$$.
