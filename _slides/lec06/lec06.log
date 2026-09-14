@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  14 SEP 2025 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  13 SEP 2026 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,38 +1189,38 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] (./lec06.toc) [3
 
+] [4
+
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 148.
-LaTeX Font Info:    Try loading font information for U+msa on input line 148.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 154.
+LaTeX Font Info:    Try loading font information for U+msa on input line 154.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 148.
+LaTeX Font Info:    Try loading font information for U+msb on input line 154.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 148.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 154.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 148.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 154.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 148.
- [4
-
-] [5
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 154.
+ [5
 
 ] [6
 
-]
-[7
+] [7
 
-] [8
+]
+[8
 
 ] [9
 
@@ -1248,19 +1248,19 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [21
 
-]
-[22
+] [22
 
-] [23
+]
+[23
 
 ] [24
 
+] [25
+
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 200.
- [25
-
-] [26
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 206.
+ [26
 
 ] [27
 
@@ -1282,98 +1282,98 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 
 ] [36
 
-]
-Overfull \vbox (3.39577pt too high) detected at line 238
- []
-
-[37
+] [37
 
 ]
-Overfull \vbox (3.39577pt too high) detected at line 238
+Overfull \vbox (3.39577pt too high) detected at line 244
  []
 
 [38
 
 ]
-Overfull \vbox (3.39577pt too high) detected at line 238
+Overfull \vbox (3.39577pt too high) detected at line 244
  []
 
 [39
 
 ]
-Overfull \vbox (3.39577pt too high) detected at line 238
+Overfull \vbox (3.39577pt too high) detected at line 244
  []
 
 [40
 
 ]
-Overfull \vbox (3.39577pt too high) detected at line 238
+Overfull \vbox (3.39577pt too high) detected at line 244
  []
 
 [41
 
 ]
-Overfull \vbox (3.39577pt too high) detected at line 238
+Overfull \vbox (3.39577pt too high) detected at line 244
  []
 
 [42
 
-] [43
+]
+Overfull \vbox (3.39577pt too high) detected at line 244
+ []
+
+[43
+
+] [44
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 260.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 266.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 260.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 266.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 260.
- [44
-
-] [45
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 266.
+ [45
 
 ] [46
 
 ] [47
 
-]
-Overfull \vbox (12.24449pt too high) detected at line 280
- []
-
-[48
+] [48
 
 ]
-Overfull \vbox (12.24449pt too high) detected at line 280
+Overfull \vbox (12.24449pt too high) detected at line 286
  []
 
 [49
 
 ]
-Overfull \vbox (12.24449pt too high) detected at line 280
+Overfull \vbox (12.24449pt too high) detected at line 286
  []
 
 [50
 
 ]
-Overfull \vbox (12.24449pt too high) detected at line 280
+Overfull \vbox (12.24449pt too high) detected at line 286
  []
 
 [51
 
 ]
-Overfull \vbox (12.24449pt too high) detected at line 280
+Overfull \vbox (12.24449pt too high) detected at line 286
  []
 
 [52
 
 ]
-Overfull \vbox (12.24449pt too high) detected at line 280
+Overfull \vbox (12.24449pt too high) detected at line 286
  []
 
 [53
 
-] (./lec06.toc) [54
+]
+Overfull \vbox (12.24449pt too high) detected at line 286
+ []
 
-] [55
+[54
+
+] (./lec06.toc) [55
 
 ] [56
 
@@ -1393,10 +1393,10 @@ Overfull \vbox (12.24449pt too high) detected at line 280
 
 ] [64
 
-]
-[65
+] [65
 
-] [66
+]
+[66
 
 ] [67
 
@@ -1420,6 +1420,8 @@ Overfull \vbox (12.24449pt too high) detected at line 280
 
 ] [77
 
+] [78
+
 ]
 \tf@nav=\write6
 \openout6 = `lec06.nav'.
@@ -1430,36 +1432,46 @@ Overfull \vbox (12.24449pt too high) detected at line 280
 \tf@snm=\write8
 \openout8 = `lec06.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
  (./lec06.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
-Package rerunfilecheck Info: File `lec06.out' has not changed.
-(rerunfilecheck)             Checksum: 0B9B4260F5B3064B0BE6C3B5A32625DB;185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
+
+
+Package rerunfilecheck Warning: File `lec06.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lec06.out':
+(rerunfilecheck)             Before: 0B9B4260F5B3064B0BE6C3B5A32625DB;185
+(rerunfilecheck)             After:  3DB78589B2615967735167E758DE2C0C;185.
  ) 
 Here is how much of TeX's memory you used:
- 18485 strings out of 494847
- 342548 string characters out of 6179079
+ 18488 strings out of 494847
+ 342582 string characters out of 6179079
  426624 words of memory out of 5000000
  21198 multiletter control sequences out of 15000+600000
  46295 words of font info for 74 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,65p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
-hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec06.pdf (77 pages, 314495 bytes).
+pdfTeX warning (dest): name{Outline0.1.2.54} has been referenced but does not
+ exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on lec06.pdf (78 pages, 316518 bytes).
 PDF statistics:
- 2400 PDF objects out of 2487 (max. 8388607)
- 2271 compressed objects within 23 object streams
- 158 named destinations out of 1000 (max. 500000)
+ 2430 PDF objects out of 2487 (max. 8388607)
+ 2300 compressed objects within 23 object streams
+ 161 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
