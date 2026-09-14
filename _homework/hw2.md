@@ -17,25 +17,7 @@ You will be graded based on *completion* of all of the assigned problems, along 
 
 **Remember:** Success in any math class is based on *practice*.  The assigned homework problems are the **bare minimum**.  You should strive to do as many problems as possible from the textbook.
 
-**Note:** All sets will be subsets of $$\mathbb R$$ unless otherwise stated.
-
-## Problems
-
----
-layout: post
-title: "Homework 2"
-date: 2026-09-16
----
-
-## Homework 2
-
-This assignment covers material from Lectures 5–7: Euclidean space, norms and distances, open and closed sets, component intervals, adherent and accumulation points, and closure.
-
-### Instructions
-
-Write complete proofs using definitions and results established in Lectures 5–7. When proving that a set is open, explicitly construct an appropriate open ball. When proving that a set is closed, clearly state which characterization of closed sets you are using.
-
-Throughout,
+**Note:** All sets will be subsets of $$\mathbb R$$ unless otherwise stated. Throughout,
 
 $$
 B(\mathbf{a};r)
@@ -45,6 +27,7 @@ B(\mathbf{a};r)
 $$
 
 For $$A\subseteq\mathbb{R}^n$$, the closure of $$A$$ is denoted by $$\overline{A}$$.
+
 
 ## Problems
 
