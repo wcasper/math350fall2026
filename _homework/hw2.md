@@ -261,7 +261,6 @@ For $$A\subseteq\mathbb{R}^n$$, the closure of $$A$$ is denoted by $$\overline{A
        \overline{\mathbb{Q}^n}=\mathbb{R}^n.
        $$
 
-       You may use the fact that every open interval contains a rational number.
 
 
 
