@@ -121,7 +121,136 @@
 %   15 and 30 frames, all told.
 
 \section{Real Analysis Lecture 7}
-\subsection{More on Closed Sets}
+\subsection{More on component intervals}
+
+\begin{frame}{Component intervals}
+Let $U\subseteq \mathbb{R}$ be open.
+\pause
+\begin{defn}
+A \textbf{component interval} of $U$ is an interval $I$ with $I\subseteq U$ and with the property that if $J$ is an interval and $I\subsetneq J$, then $J\nsubseteq U$.
+\end{defn}
+\begin{itemize}
+\pause
+\item $(0,1)$ is a component interval of $\mathbb{R}\diff \{0,1,2,3\}$
+\pause
+\item $(-\infty,0)$ is also a component interval of $\mathbb{R}\diff \{0,1,2,3\}$
+\pause
+\item we will show all open sets of $\mathbb{R}$ are made of component intervals!
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Component intervals}
+\begin{thm}[Apostol 3.10]
+If $U\subseteq\mathbb{R}$ is open and $x\in U$, then there is a unique component interval of $U$ containing $x$.
+\end{thm}
+\pause
+\begin{proof}
+Uniqueness follows from previous Lemma, so we only need existence.\\
+\pause
+Suppose that $x\in U$ and consider
+$$A = \{a: (a,x)\subseteq U\},\quad\text{and}\quad B = \{b: (x,b)\subseteq U\}$$
+\pause
+If $A$ is not bounded below, let $a=-\infty$.  Otherwise, let $a = \inf (A)$.\\
+\pause
+If $B$ is not bounded above, let $b=\infty$.  Otherwise, let $b = \sup (B)$.\\
+\pause
+Claim: $(a,b)$ is a component interval of $U$ containing $x$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Challenge}
+\begin{prob}
+Prove that $(a,b)$ is a component interval of $U$.
+\end{prob}
+\end{frame}
+
+\begin{frame}{Open subsets of $\mathbb{R}$}
+\begin{thm}[Representation Theorem for Open Sets in $\mathbb{R}$]
+If $U\subseteq\mathbb{R}$ is open, then $U$ is the union of a countable family of disjoint open intervals.
+\end{thm}
+\pause
+\begin{proof}
+From the previous theorem, each $x\in U$ is contained in a unique component interval $I_x$ of $U$.\\
+\pause
+Therefore
+$$U = \bigcup_{x\in U} I_x$$
+is a union of open intervals!\\
+\pause
+{\color{red}Uh oh ... this isn't a \textbf{countable} union.}
+\end{proof}
+\end{frame}
+
+\begin{frame}{Open subsets of $\mathbb{R}$}
+\begin{thm}[Representation Theorem for Open Sets in $\mathbb{R}$]
+If $U\subseteq\mathbb{R}$ is open, then $U$ is the union of a countable family of disjoint open intervals.
+\end{thm}
+\begin{proof}
+Instead, we consider rational points $U\cap\mathbb{Q}$.\\
+\pause
+If $x\in U$, then $x\in I_x\subseteq U$.\\
+\pause
+Any interval contains a rational number $r\in I_x$.\\
+\pause
+Since different component intervals must be disjoint, $I_x=I_r$.\\
+\pause
+Thus $x\in \bigcup_{r\in U\cap\mathbb{Q}} I_r\subseteq U$.\\
+\pause
+Since $x$ was arbitrary, 
+$$U= \bigcup_{r\in U\cap\mathbb{Q}} I_r$$
+\end{proof}
+\end{frame}
+
+
+
+\subsection{Closed Sets}
+
+\begin{frame}{Closed sets}
+\begin{defn}
+A set $A\subseteq\mathbb{R}^n$ is called \vocab{closed} if it is the complement of an open set, or equivalently if its complement $\mathbb{R}^n\backslash A$ is open.
+\end{defn}
+\pause
+\textbf{Examples:}
+\begin{itemize}
+\pause
+\item singleton sets!
+\pause
+\item products of closed intervals
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove that a singleton set
+$$A = \{\vec a\}$$
+in $\mathbb{R}^n$ is closed.
+\end{prob}
+\pause
+\begin{soln}
+We must show $U = \mathbb{R}^n\backslash\{\vec a\}$ is open.\\\pause
+Suppose $\vec x\in U$.\ \pause
+We must show $\vec x$ is an interior point of $U$.\\\pause
+Take $r = |\vec x-\vec a|$.\ \pause Then $B(\vec x; r)$ does not contain $\vec a$.\\\pause
+Therefore $B(\vec x; r)\subseteq U$, so that $\vec x$ is an interior point.\\\pause
+Since $\vec x$ was arbitrary, this proves $U$ is open.
+\end{soln}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove that the \textbf{closed square}
+$$[a,b]\times [c,d] = \{(x,y)\in\mathbb{R}^2: a \leq x \leq b,\ c\leq y\leq d\}$$
+is a closed set.
+\end{prob}
+\pause
+\begin{soln}
+$\mathbb{R}^2\backslash ([a,b]\times [c,d])$ is the same as
+$$((-\infty,a)\times \mathbb{R})\cup ((b,\infty)\times \mathbb{R})\cup(\mathbb{R}\times (-\infty,c))\cup (\mathbb{R}\times (d,\infty))$$
+\pause
+Union of open sets is open!
+\end{soln}
+\end{frame}
+
+
 
 \begin{frame}{Adherent and Accumulation Points}
 \begin{defn}
