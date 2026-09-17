@@ -54,17 +54,20 @@ Define
 $$
 A=
 \left\{
-3-\frac1n:n\in\mathbb{N}
+\frac{3n-1}{n}:n\in\mathbb{N}
 \right\}.
 $$
 
-1. Determine $$\sup(A)$$ and prove your answer from the definition of supremum. Your proof must use the Archimedean property. (6 points)
-2. Determine $$\inf(A)$$ and prove your answer. (3 points)
-3. Determine whether $$A$$ has a maximum and whether it has a minimum. Justify your answers. (3 points)
+1. Write down the definition of the supremum of a set $$A$$ (in general).
+2. Determine $$\sup(A)$$ and prove your answer from the definition of supremum. Your proof must use the Archimedean property. 
+3. Determine $$\inf(A)$$ and prove your answer. 
+4. Determine whether $$A$$ has a maximum and whether it has a minimum. Justify your answers. 
 
 ## 6. Functions and cardinality — 12 points
 
-1. Consider
+1. Write down the definition of a function $$h:A\rightarrow B$$ being injective, surjective, and bijective.
+
+2. Consider
 
    $$
    f:\mathbb{R}\to[0,\infty),
@@ -72,9 +75,9 @@ $$
    f(x)=x^2.
    $$
 
-   Determine whether $$f$$ is injective, surjective, or bijective. Prove your answers. (4 points)
+   Determine whether $$f$$ is injective, surjective, or bijective. Prove your answers. 
 
-2. Now consider
+3. Now consider
 
    $$
    g:[0,\infty)\to[0,\infty),
@@ -82,9 +85,9 @@ $$
    g(x)=x^2.
    $$
 
-   Prove that $$g$$ is bijective and find $$g^{-1}$$. (4 points)
+   Prove that $$g$$ is bijective and find $$g^{-1}$$.
 
-3. Use the Cantor-Schroeder-Bernstein theorem to prove that
+4. Use the Cantor-Schroeder-Bernstein theorem to prove that
 
    $$
    \mathbb{N}\times\mathbb{N}
@@ -104,7 +107,7 @@ $$
    G(m,n)=2^m3^n.
    $$
 
-   Clearly identify the direction of each injection. (4 points)
+   Clearly identify the direction of each injection. 
 
 ## 7. Open balls are open — 14 points
 
@@ -135,11 +138,10 @@ $$
 
 Determine each of the following and justify your answers:
 
-1. the interior of $$A$$; (2 points)
-2. the closure of $$A$$; (3 points)
-3. the set of all accumulation points of $$A$$; (3 points)
-4. all isolated points of $$A$$; (2 points)
-5. whether $$A$$ is open and whether it is closed. (2 points)
+1. Define the interior of a set and the closure of a set
+2. Determine the interior of $$A$$
+3. Determine the closure of $$A$$
+4. Decide whether $$A$$ is open and whether it is closed.
 
 ## 9. Intersections of closed sets — 10 points
 
@@ -150,14 +152,6 @@ $$
 $$
 
 is closed.
-
-Your proof should use:
-
-- the definition of a closed set in terms of complements;
-- De Morgan’s law;
-- the theorem that an arbitrary union of open sets is open.
-
-Be sure to identify the complement of the intersection explicitly.
 
 
 
