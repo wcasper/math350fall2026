@@ -146,10 +146,10 @@ Determine each of the following and justify your answers:
 
 ## 9. Intersections of closed sets — 10 points
 
-Let $$\{F_i:i\in I\}$$ be an arbitrary family of closed subsets of $$\mathbb{R}^n$$. Prove that
+Let $$\{C_i:i\in I\}$$ be an arbitrary family of closed subsets of $$\mathbb{R}^n$$. Prove that
 
 $$
-\bigcap_{i\in I}F_i
+\bigcap_{i\in I}C_i
 $$
 
 is closed.
