@@ -13,15 +13,16 @@ State each definition or axiom precisely.
 1. **Completeness axiom.** (3 points)
 2. **Interior point** and **open set** in $$\mathbb{R}^n$$. (3 points)
 3. **Adherent point** and **accumulation point** of a set. Your definitions should make the distinction between them clear. (4 points)
-4. **Closure** of a set. (2 points)
+4. **Algebraic numbers.** (2 points)
 
 ## 2. Named theorems — 12 points
 
 State each theorem precisely. No proof is required.
 
-1. The **Archimedean property of the real numbers**. (4 points)
-2. The **Cantor-Schröder-Bernstein theorem**. (4 points)
-3. The **representation theorem for open subsets of** $$\mathbb{R}$$. (4 points)
+1. The **Archimedean property of the real numbers**. (3 points)
+2. The **Cantor-Schröder-Bernstein theorem**. (3 points)
+3. The **representation theorem for open subsets of** $$\mathbb{R}$$. (3 points)
+4. The **density property of the rationals**. (3 points)
 
 ## 3. Examples and counterexamples — 8 points
 
