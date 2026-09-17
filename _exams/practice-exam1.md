@@ -41,7 +41,7 @@ $$
 0< a< b.
 $$
 
-Carefully use the order axioms of the real numbers to prove that
+Carefully use the field axioms and order axioms of the real numbers to prove that
 
 $$
 \frac1b<\frac1a.
