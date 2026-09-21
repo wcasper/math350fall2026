@@ -4,8 +4,6 @@ title: Practice Exam 1 Solutions
 permalink: /exams/practice-exam1-soln
 ---
 
-# Practice Exam 1: Solutions
-
 Give complete explanations and proofs. You may use any theorem proved in class, but you must clearly state the theorem when you use it. Examples and counterexamples should be accompanied by a brief explanation showing that they have the required properties.
 
 ## 1. Vocabulary and definitions — 12 points
