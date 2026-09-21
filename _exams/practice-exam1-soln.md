@@ -19,22 +19,6 @@ State each definition or axiom precisely.
 
 1. **Completeness axiom.** Every nonempty subset $$A\subseteq\mathbb{R}$$ that is bounded above has a supremum in $$\mathbb{R}$$.
 
-   In other words, if $$A\ne\varnothing$$ and there exists $$M\in\mathbb{R}$$ such that
-
-   $$
-   x\le M
-   $$
-
-   for every $$x\in A$$, then there exists a real number $$s$$ such that
-
-   - $$x\le s$$ for every $$x\in A$$; and
-   - if $$t<s$$, then $$t$$ is not an upper bound of $$A$$.
-
-   The number $$s$$ is called the supremum of $$A$$ and is denoted by
-
-   $$
-   s=\sup(A).
-   $$
 
 2. Let $$A\subseteq\mathbb{R}^n$$ and let $$\mathbf{x}\in A$$. The point $$\mathbf{x}$$ is an **interior point** of $$A$$ if there exists $$r>0$$ such that
 
@@ -75,7 +59,6 @@ State each definition or axiom precisely.
    p(\alpha)=0.
    $$
 
-   Equivalently, $$\alpha$$ is algebraic if it is a root of a nonzero polynomial with integer coefficients.
 
 ## 2. Named theorems — 12 points
 
@@ -88,13 +71,7 @@ State each theorem precisely. No proof is required.
 
 ### Solution
 
-1. **Archimedean property.** For every real number $$x$$, there exists $$n\in\mathbb{N}$$ such that
-
-   $$
-   n>x.
-   $$
-
-   Equivalently, if $$x,y\in\mathbb{R}$$ and $$x>0$$, then there exists $$n\in\mathbb{N}$$ such that
+1. **Archimedean property.** If $$x,y\in\mathbb{R}$$ and $$x>0$$, then there exists $$n\in\mathbb{N}$$ such that
 
    $$
    nx>y.
@@ -118,17 +95,15 @@ State each theorem precisely. No proof is required.
    \lvert A\rvert=\lvert B\rvert.
    $$
 
-3. **Representation theorem for open subsets of** $$\mathbb{R}$$. Every open subset of $$\mathbb{R}$$ can be expressed as a union of a countable family of pairwise disjoint open intervals.
+3. **Representation theorem for open subsets of** $$\mathbb{R}$$. Every open subset of $$\mathbb{R}$$ can be expressed uniquely as a union of a countable family of pairwise disjoint open intervals.
 
-   The intervals may be bounded or unbounded. The empty set corresponds to the empty union.
+   The intervals may be bounded or unbounded and are the component intervals of the open set.
 
-4. **Density property of the rationals.** If $$a,b\in\mathbb{R}$$ and $$a<b$$, then there exists $$q\in\mathbb{Q}$$ such that
+4. **Density property of the rationals.** If $$a,b\in\mathbb{R}$$ and $$a< b$$, then there exists $$q\in\mathbb{Q}$$ such that
 
    $$
-   a<q<b.
+   a< q< b.
    $$
-
-   Thus every nonempty open interval contains a rational number.
 
 ## 3. Examples and counterexamples — 8 points
 
@@ -248,7 +223,7 @@ $$
 We are given that
 
 $$
-a<b.
+a< b.
 $$
 
 Multiplying both sides by the positive number $$a^{-1}b^{-1}$$ preserves the inequality:
@@ -270,7 +245,7 @@ $$
 Therefore,
 
 $$
-b^{-1}<a^{-1}.
+b^{-1}< a^{-1}.
 $$
 
 In fraction notation,
@@ -307,7 +282,7 @@ $$
 
      for every $$x\in A$$; and
 
-   - $$s$$ is the least upper bound, meaning that if $$t<s$$, then $$t$$ is not an upper bound of $$A$$.
+   - $$s$$ is the least upper bound, meaning that if $$t< s$$, then $$t$$ is not an upper bound of $$A$$.
 
 2. First observe that
 
@@ -649,7 +624,7 @@ B(\mathbf{a};r)
 =
 \left\{
 \mathbf{x}\in\mathbb{R}^n:
-\lVert\mathbf{x}-\mathbf{a}\rVert<r
+\lVert\mathbf{x}-\mathbf{a}\rVert< r
 \right\}
 $$
 
@@ -666,7 +641,7 @@ $$
 By the definition of the open ball,
 
 $$
-\lVert\mathbf{x}-\mathbf{a}\rVert<r.
+\lVert\mathbf{x}-\mathbf{a}\rVert< r.
 $$
 
 Define
@@ -840,7 +815,7 @@ Determine each of the following and justify your answers:
    Therefore,
 
    $$
-   0<\frac1n<r,
+   0<\frac1n< r,
    $$
 
    and hence
