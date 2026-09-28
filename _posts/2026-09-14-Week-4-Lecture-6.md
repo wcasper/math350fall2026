@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Lecture 6"
-date: 2026-09-14
 ---
 
 ## Open and closed sets

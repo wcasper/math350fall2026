@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Lecture 7"
-date: 2026-09-16
 ---
 
 ## Accumulation points and closure

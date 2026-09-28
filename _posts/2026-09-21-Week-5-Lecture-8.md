@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Lecture 8"
-date: 2026-09-21
 ---
 
 ## Compactness
