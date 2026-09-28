@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Homework 2
-permalink: /homework/hw2
+title: Homework 3
+permalink: /homework/hw3
 ---
 
 ### Directions
