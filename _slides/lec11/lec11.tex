@@ -256,6 +256,65 @@ This is a contradiction.
 \end{frame}
 
 \begin{frame}{Existence of limits}
+  \begin{block}{Question}
+    When do limits \emph{exist}?
+  \end{block}
+  \begin{itemize}
+    \item necessary condition: bounded range
+    \item sufficient condition: monotone sequences in $\mathbb R$
+    \item sufficient condition: Cauchy in a complete space
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Monotone sequences}
+\begin{defn}
+\pause
+A sequence $\{x_n\}$ of real numbers is called \textbf{increasing} or \textbf{monotone increasing} if $x_n\leq x_{n+1}$ for all $n$.\\
+\pause
+It is called \textbf{strictly increasing} if $x_n < x_{n+1}$ for all $n$.\\
+\pause
+A sequence $\{x_n\}$ of real numbers is called \textbf{decreasing} or \textbf{monotone decreasing} if $x_n\geq x_{n+1}$ for all $n$.\\
+\pause
+It is called \textbf{strictly decreasing} if $x_n > x_{n+1}$ for all $n$.\\
+\pause
+In any of these cases, we call the sequence \textbf{monotone}.
+\end{defn}
+\end{frame}
+
+\begin{frame}{Monotone sequences}
+Bounded monotone sequences always converge (with Euclidean metric)!
+\pause
+\begin{thm}[Monotone convergence theorem]
+\pause
+Consider the metric space formed by $\mathbb{R}$ with Euclidean distance.\\
+\pause
+A monotone increasing sequence $\{x_n\}$ of real numbers which is bounded above converges to $L = \sup\{x_1,x_2,\dots\}$.\\
+\pause
+A monotone decreasing sequence $\{x_n\}$ which is bounded below converges to $L = \inf\{x_1,x_2,\dots\}$.
+\end{thm}
+\end{frame}
+
+\begin{frame}{Monotone sequences}
+\begin{proof}
+\pause
+Suppose that $\{x_n\}$ is a monotone increasing sequence which is bounded above and let $X = \{x_1,x_2,\dots\}$.
+\pause
+Then by the Completeness Axiom $L=\sup X$ exists.\\
+\pause
+Let $\epsilon > 0$.\\
+\pause
+Then $L-\epsilon$ is not a supremum of $X$, so there exists $x_N\in X$ such that $x_N > L-\epsilon$.\\
+\pause
+Since the sequence is increasing, for any $n >N$, we have that $L-\epsilon < x_N \leq x_n < L$.\\
+\pause
+It follows that
+$$d(x_n,L) = |x_n-L| = L-x_n < \epsilon.$$
+\pause
+Since $\epsilon > 0$ was arbitrary, this proves $x_n$ converges to $L$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Existence of limits}
 \begin{thm}
 If a sequence $\{x_n\}$ in a metric space $(M,d)$ converges to a value $L\in M$, then the range
 $$X = \{x_1,x_2,\dots\}\subseteq M$$
