@@ -1,103 +1,31 @@
 % !TEX TS-program = pdflatex
 % !TEX encoding = UTF-8 Unicode
-
-% This file is a template using the "beamer" package to create slides for a talk or presentation
-% - Giving a talk on some subject.
-% - The talk is between 15min and 45min long.
-% - Style is ornate.
-
-% MODIFIED by Jonathan Kew, 2008-07-06
-% The header comments and encoding in this file were modified for inclusion with TeXworks.
-% The content is otherwise unchanged from the original distributed with the beamer package.
+% Compile twice with pdflatex from the folder containing this file.
+% Keep the accompanying assets folder beside this source file.
+% Formatting follows the supplied lec12.tex: Warsaw, Times, T1, 4:3.
 
 \documentclass{beamer}
 \setbeamercovered{invisible}
 
-
-
-% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
-%
-% In principle, this file can be redistributed and/or modified under
-% the terms of the GNU Public License, version 2.
-%
-% However, this file is supposed to be a template to be modified
-% for your own needs. For this reason, if you use this file as a
-% template and not specifically distribute it as part of a another
-% package/program, I grant the extra permission to freely copy and
-% modify this file as you see fit and even to delete this copyright
-% notice. 
-
-
-\mode<presentation>
-{
-  \usetheme{Warsaw}
-  % or ...
-
-  % or whatever (possibly just delete it)
-}
-
-
+\mode<presentation>{\usetheme{Warsaw}}
 \usepackage[english]{babel}
-% or whatever
-
 \usepackage[utf8]{inputenc}
-% or whatever
-
 \usepackage{times}
 \usepackage[T1]{fontenc}
-% Or whatever. Note that the encoding and the font should match. If T1
-% does not look nice, try deleting the line with the fontenc.
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\graphicspath{{assets/}{output/assets/}}
 
-%%% MATH RELATED
-
-\input{macros.tex}
-
-\title{MATH 350-2 Advanced Calculus} 
-\subtitle
-{} % (optional)
-
-\author[W.R. Casper] % (optional, use only with lots of authors)
-{W.R. Casper}
-% - Use the \inst{?} command only if the authors have different
-%   affiliation.
-
-\institute[California State University Fullerton] % (optional, but mostly needed)
-{
+\title{MATH 350-2 Advanced Calculus}
+\author[W.R. Casper]{W.R. Casper}
+\institute[California State University Fullerton]{%
   Department of Mathematics\\
   California State University Fullerton}
-% - Use the \inst command only if there are several affiliations.
-% - Keep it simple, no one is interested in your street address.
+\date{}
+\subject{Sequence limits and epsilon-N proofs}
 
-\subject{Talks}
-% This is only inserted into the PDF information catalog. Can be left
-% out. 
-
-
-
-% If you have a file called "university-logo-filename.xxx", where xxx
-% is a graphic format that can be processed by latex or pdflatex,
-% resp., then you can add a logo as follows:
-
-% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
-% \logo{\pgfuseimage{university-logo}}
-
-
-
-% Delete this, if you do not want the table of contents to pop up at
-% the beginning of each subsection:
-\AtBeginSubsection[]
-{
-  \begin{frame}<beamer>{Outline}
-    \tableofcontents[currentsection,currentsubsection]
-  \end{frame}
-}
-
-
-% If you wish to uncover everything in a step-wise fashion, uncomment
-% the following command: 
-
-%\beamerdefaultoverlayspecification{<+->}
-
+% Each problem and solution occupies exactly one slide.
+% There are no incremental overlays in this practice deck.
 
 \begin{document}
 
@@ -107,184 +35,535 @@
 
 \begin{frame}{Outline}
   \tableofcontents
-  % You might wish to add the option [pausesections]
 \end{frame}
-
-% Since this a solution template for a generic talk, very little can
-% be said about how it should be structured. However, the talk length
-% of between 15min and 45min and the theme suggest that you stick to
-% the following rules:  
-
-% - Exactly two or three sections (other than the summary).
-% - At *most* three subsections per section.
-% - Talk about 30s to 2min per frame. So there should be between about
-%   15 and 30 frames, all told.
 
 \section{Real Analysis Lecture 12}
+\subsection{Limits of sequences practice}
+\subsubsection{Sequences in the real line}
 
-
-\subsection{Limits of sequences}
-
-\begin{frame}{Definition of a limit}
-\pause
-Back in Calc. I:
-\pause
-$$\lim_{n\rightarrow\infty} x_n = L\quad\text{means}$$
-\pause
-that as $n$ gets arbitrarily large, the value of $x_n$ gets arbitrarily close to $L$.\\
-\pause
-\textbf{Formally:}
-\pause
-$$\forall\epsilon > 0,\quad\text{there exists $N\in \mathbb{Z}_+$}\ \ \text{such that}\ \ |x_n-L| < \epsilon\ \forall n\geq N.$$
-\pause
-\textbf{Metric space version:}
-\pause
-$$\forall\epsilon > 0,\quad\text{there exists $N\in \mathbb{Z}_+$}\ \ \text{such that}\ \ d(x_n,L) < \epsilon\ \forall n\geq N.$$
-\pause
-We say $\{x_n\}$ \textbf{converges} to $L$ and $L$ is the \textbf{limit of the sequence}.
+\begin{frame}{The Cult of Epsilon}
+\centering
+\includegraphics[width=\textwidth,height=0.75\textheight,keepaspectratio]{epsilon-greater-than-zero}
 \end{frame}
 
-\begin{frame}{Example}
-\pause
-Consider the metric space $(M,d)$ defined by $M=\mathbb{R}$ with the Euclidean metric $d$.\\
-\pause
-The sequence $\{x_n\}$ defined by $x_n = 1/n$ converges to zero.\\
-\pause
+\begin{frame}{The Cult of Epsilon}
+\centering
+\includegraphics[width=\textwidth,height=0.75\textheight,keepaspectratio]{epsilon-choose-n.png}
+\end{frame}
+
+\begin{frame}{Problem 1}
+Prove directly from the definition that
+\[
+  \frac{1}{n}\longrightarrow 0.
+\]
+\end{frame}
+
+\begin{frame}{Solution 1}
 \begin{proof}
-\pause
-Let $\epsilon > 0$.\\
-\pause
-Choose $N\in\mathbb{Z}_+$ with $N > 1/\epsilon$.\\
-\pause
-Then $n>N$ implies
-\pause
-$$d(x_n,0) = |1/n-0| = 1/n < 1/N < \epsilon.$$
-\pause
-Since $\epsilon > 0$ was arbitrary, this proves $\{x_n\}$ converges to $0$.
-\pause
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{\epsilon}\right\rfloor+1,
+  \qquad\text{so that }N>\frac{1}{\epsilon}.
+\]
+For every $n\geq N$,
+\[
+  \left\lvert\frac{1}{n}-0\right\rvert
+  =\frac{1}{n}\leq\frac{1}{N}<\epsilon.
+\]
+Since $\epsilon>0$ was arbitrary, $1/n\to0$.
 \end{proof}
 \end{frame}
 
-\begin{frame}{Example}
-Consider the metric space $(M,d)$ defined by $M=\mathbb{R}$ with the Euclidean metric $d$.\\
-\pause
-The sequence $\{x_n\}$ defined by $x_n = (n-1)/n$ converges to $1$.\\
-\pause
+\begin{frame}{Problem 2}
+Prove directly from the definition that
+\[
+  \frac{3n+1}{n+2}\longrightarrow 3.
+\]
+\end{frame}
+
+\begin{frame}{Solution 2}
 \begin{proof}
-\pause
-Let $\epsilon > 0$.\\
-\pause
-Choose $N\in\mathbb{Z}_+$ with $N > 1/\epsilon$.\\
-\pause
-Then $n>N$ implies
-$$d(x_n,1) = |(n-1)/n-1| = 1/n < 1/N < \epsilon.$$
-\pause
-Since $\epsilon > 0$ was arbitrary, this proves $\{x_n\}$ converges to $1$.
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{5}{\epsilon}\right\rfloor+1,
+  \qquad\text{so that }N>\frac{5}{\epsilon}.
+\]
+For every $n\geq N$,
+\[
+\begin{aligned}
+  \left\lvert\frac{3n+1}{n+2}-3\right\rvert
+  &=\left\lvert\frac{-5}{n+2}\right\rvert\\
+  &=\frac{5}{n+2}\leq\frac{5}{n}
+    \leq\frac{5}{N}<\epsilon.
+\end{aligned}
+\]
+Thus $(3n+1)/(n+2)\to3$.
 \end{proof}
 \end{frame}
 
-\begin{frame}{Example}
-Consider the metric space $(M,d)$ defined by $M=\mathbb{R}$ with the {\color{red} discrete} metric $d$.\\
-\pause
-The sequence $\{x_n\}$ defined by $x_n = 1/n$ does not converge.\\
-\pause
+\begin{frame}{Problem 3}
+Prove directly from the definition that
+\[
+  \frac{2n^2-1}{n^2+3}\longrightarrow 2.
+\]
+\end{frame}
+
+\begin{frame}{Solution 3}
 \begin{proof}
-\pause
-Suppose that it converges to a number $L$.\\
-\pause
-Then for all $\epsilon > 0$, there must exists an $N\in\mathbb{Z}_+$ such that $d(x_n,L) < \epsilon$ for all $n\geq N$.\\
-\pause
-Take $\epsilon = 1$ and choose $N\in\mathbb{Z}_+$ such that $d(x_n,L) < 1$ for all $n\geq N$.\\
-\pause
-With the discrete metric $d(x_n,L) < 1$ implies $x_n = L$.\\
-\pause
-This means $x_n=1/n = L$ for all $n\geq N$, which is a contradiction!
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\sqrt{\frac{7}{\epsilon}}\right\rfloor+1,
+  \qquad\text{so that }N>\sqrt{\frac{7}{\epsilon}}.
+\]
+For every $n\geq N$,
+\[
+\begin{aligned}
+  \left\lvert\frac{2n^2-1}{n^2+3}-2\right\rvert
+  &=\frac{7}{n^2+3}\\
+  &\leq\frac{7}{n^2}\leq\frac{7}{N^2}<\epsilon.
+\end{aligned}
+\]
+Thus $(2n^2-1)/(n^2+3)\to2$.
 \end{proof}
 \end{frame}
 
-\begin{frame}{Uniqueness of limits}
-\begin{thm}[Uniqueness of limits]
-\pause
-Let $(M,d)$ be a metric space.\\
-\pause
-If a sequence $\{x_n\}$ in $M$ converges to $L$ and converges to $T$, then $L=T$.
-\end{thm}
-\pause
+\begin{frame}{Problem 4}
+Prove directly from the definition that
+\[
+  \frac{(-1)^n}{n}\longrightarrow 0.
+\]
+\end{frame}
+
+\begin{frame}{Solution 4}
 \begin{proof}
-\pause
-Suppose that $\{x_n\}$ converges to $L$ and $T$.\\
-\pause
-Assume further that $L\neq T$ and let $\epsilon = d(L,T)/2$.\\
-\pause
-Then there exists $N_1$ such that $d(x_n,L) < \epsilon$ for $n \geq N_1$.\\
-\pause
-Likewise, there exists $N_2$ such that $d(x_n,T) < \epsilon$ for $n \geq N_2$.\\
-\pause
-Then for $n>\max\{N_1,N_2\}$,  the triangle inequality says
-\pause
-$$d(L,T) \leq d(L,x_n) + d(x_n,T) < 2\epsilon = d(L,T).$$
-\pause
-This is a contradiction.
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{\epsilon}\right\rfloor+1.
+\]
+For every $n\geq N$,
+\[
+  \left\lvert\frac{(-1)^n}{n}-0\right\rvert
+  =\frac{\lvert(-1)^n\rvert}{n}
+  =\frac{1}{n}\leq\frac{1}{N}<\epsilon.
+\]
+Thus $(-1)^n/n\to0$.
 \end{proof}
 \end{frame}
 
-\begin{frame}{Existence of limits}
-\begin{thm}
-If a sequence $\{x_n\}$ in a metric space $(M,d)$ converges to a value $L\in M$, then the range
-$$X = \{x_1,x_2,\dots\}\subseteq M$$
-is a bounded set and $L$ is an adherent point of $X$.
-\end{thm}
-\pause
-When the range of a sequence is bounded, we call the sequence $\{x_n\}$ bounded.
+\begin{frame}{Problem 5}
+Prove directly from the definition that
+\[
+  \left(1+\frac{1}{n}\right)^2\longrightarrow 1.
+\]
+\textbf{Hint:} Expand the square and use $1/n^2\leq1/n$.
 \end{frame}
 
-\begin{frame}{Existence of limits}
+\begin{frame}{Solution 5}
 \begin{proof}
-Suppose that $\lim_{n\rightarrow\infty} x_n = L$.\\
-\pause
-Let $\epsilon = 2024$.\\
-\pause
-Then there exists $N\in\mathbb{Z}_+$ with $d(x_n,L)\leq 2024$ for all $n\geq N$.\\
-\pause
-If we take
-$$R = \max\{d(x_1,L),d(x_2,L),\dots, d(x_{N-1},L),2024\},$$
-\pause
-then $d(x_n,L)\leq R$ for all $N$.\\
-\pause
-Therefore $X\subseteq B_M(L,R)$ and in particular $X$ is bounded.
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{3}{\epsilon}\right\rfloor+1.
+\]
+For every $n\geq N$,
+\[
+\begin{aligned}
+  \left\lvert\left(1+\frac{1}{n}\right)^2-1\right\rvert
+  &=\frac{2}{n}+\frac{1}{n^2}\\
+  &\leq\frac{3}{n}\leq\frac{3}{N}<\epsilon.
+\end{aligned}
+\]
+Thus $(1+1/n)^2\to1$.
 \end{proof}
 \end{frame}
 
-\begin{frame}{Existence of limits}
-Sort of a converse of the previous theorem.
-\pause
-\begin{thm}
-If $S$ is a subset of a metric space $(M,d)$ and $L\in M$ is an adherent point of $S$, then there exists a sequence $\{x_n\}$ of elements of $S$ which converges to $L$.
-\end{thm}
+\begin{frame}{Problem 6}
+Prove directly from the definition that
+\[
+  \sqrt{n^2+1}-n\longrightarrow 0.
+\]
+\textbf{Hint:} Rationalize the expression.
 \end{frame}
 
-\begin{frame}{Existence of limits}
+\begin{frame}{Solution 6}
 \begin{proof}
-Suppose $L$ is an adherent point of $S$.\\
-\pause
-Then for all $n\in\mathbb{Z}_+$, the ball $B_M(x,\frac{1}{n})$ contains at least one element of $S$.\\
-\pause
-For each $n\in\mathbb{Z}_+$, choose $x_n\in S\cap B_M(x,\frac{1}{n})$.\\
-\pause
-We claim $\lim x_n = L$.\\
-\pause
-To see this, let $\epsilon > 0$.\\
-\pause
-Then choose $N\in\mathbb{Z}_+$ with $N>1/\epsilon$.\\
-\pause
-It follows that for all $n\geq N$
-$$d(x_n,L) < 1/n < 1/N < \epsilon.$$
-\pause
-Since $\epsilon > 0$ was arbitrary, this proves convergence.
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{2\epsilon}\right\rfloor+1.
+\]
+For every $n\geq N$,
+\[
+\begin{aligned}
+  \left\lvert\sqrt{n^2+1}-n\right\rvert
+  &=\frac{(n^2+1)-n^2}{\sqrt{n^2+1}+n}\\
+  &\leq\frac{1}{2n}\leq\frac{1}{2N}<\epsilon.
+\end{aligned}
+\]
+Thus $\sqrt{n^2+1}-n\to0$.
 \end{proof}
 \end{frame}
 
+\begin{frame}{Problem 7}
+Prove directly from the definition that
+\[
+  \frac{\sin n}{\sqrt{n}}\longrightarrow 0.
+\]
+You may use $\lvert\sin t\rvert\leq1$ for every real number $t$.
+\end{frame}
+
+\begin{frame}{Solution 7}
+\begin{proof}
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{\epsilon^2}\right\rfloor+1,
+  \qquad\text{so that }\frac{1}{\sqrt{N}}<\epsilon.
+\]
+For every $n\geq N$,
+\[
+  \left\lvert\frac{\sin n}{\sqrt{n}}-0\right\rvert
+  =\frac{\lvert\sin n\rvert}{\sqrt{n}}
+  \leq\frac{1}{\sqrt{n}}\leq\frac{1}{\sqrt{N}}<\epsilon.
+\]
+Thus $\sin n/\sqrt{n}\to0$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Problem 8}
+Prove directly from the definition that
+\[
+  \frac{1}{2^n}\longrightarrow 0.
+\]
+You may use $2^n\geq n+1$ for every $n\geq1$.
+\medskip
+
+\textbf{Optional:} Prove this inequality by induction.
+\end{frame}
+
+\begin{frame}{Solution 8}
+\begin{proof}
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{\epsilon}\right\rfloor+1.
+\]
+Using $2^n\geq n+1$, for every $n\geq N$ we obtain
+\[
+  \left\lvert\frac{1}{2^n}-0\right\rvert
+  \leq\frac{1}{n+1}<\frac{1}{n}\leq\frac{1}{N}<\epsilon.
+\]
+Thus $1/2^n\to0$.
+\end{proof}
+\medskip
+
+For the optional induction, $2^1=2$. If $2^k\geq k+1$, then
+\[
+  2^{k+1}\geq2(k+1)\geq k+2.
+\]
+\end{frame}
+
+\begin{frame}{Problem 9}
+Suppose a real sequence satisfies
+\[
+  \lvert a_n-2\rvert\leq\frac{3}{n}
+  \qquad(n\geq1).
+\]
+Prove directly from the definition that
+\[
+  a_n\longrightarrow2
+  \qquad\text{and}\qquad
+  a_n^2\longrightarrow4.
+\]
+\end{frame}
+
+\begin{frame}{Solution 9}
+\begin{proof}
+Let $\epsilon>0$. For $n\geq1$, the triangle inequality gives
+\[
+  \lvert a_n+2\rvert\leq\lvert a_n-2\rvert+4
+  \leq\frac{3}{n}+4\leq7.
+\]
+Choose $N=\lfloor21/\epsilon\rfloor+1$. For every $n\geq N$,
+\[
+\begin{aligned}
+  \lvert a_n-2\rvert
+    &\leq\frac{3}{n}\leq\frac{3}{N}<\epsilon,\\
+  \lvert a_n^2-4\rvert
+    &=\lvert a_n-2\rvert\lvert a_n+2\rvert
+      \leq\frac{21}{n}\leq\frac{21}{N}<\epsilon.
+\end{aligned}
+\]
+Thus $a_n\to2$ and $a_n^2\to4$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Problem 10}
+Prove directly from the definition that
+\[
+  a_n=(-1)^n
+\]
+does not converge in $\mathbb R$ with the Euclidean metric.
+\medskip
+
+For every proposed limit $L$, find $\epsilon>0$ such that for
+every positive integer $N$, some $n\geq N$ satisfies
+\[
+  \lvert a_n-L\rvert\geq\epsilon.
+\]
+\end{frame}
+
+\begin{frame}{Solution 10}
+\begin{proof}
+Let $L\in\mathbb R$ be any proposed limit. Take $\epsilon=1$.
+Let $N$ be any positive integer.
+\medskip
+
+If $L\leq0$, choose the even index $n=2N$. Then $n\geq N$ and
+\[
+  \lvert a_n-L\rvert=\lvert1-L\rvert=1-L\geq1.
+\]
+If $L>0$, choose the odd index $n=2N+1$. Then $n\geq N$ and
+\[
+  \lvert a_n-L\rvert=\lvert-1-L\rvert=1+L>1.
+\]
+Thus no $N$ works for $\epsilon=1$. Since $L$ was arbitrary,
+the sequence does not converge.
+\end{proof}
+\end{frame}
+
+\subsubsection{Sequences in the plane}
+
+\begin{frame}{Problem 11}
+Using Euclidean distance in $\mathbb R^2$, prove that
+\[
+  \left(\frac{1}{n},\frac{2}{n}\right)\longrightarrow(0,0).
+\]
+Recall that
+\[
+  d\bigl((x,y),(a,b)\bigr)
+  =\sqrt{(x-a)^2+(y-b)^2}.
+\]
+\end{frame}
+
+\begin{frame}{Solution 11}
+\begin{proof}
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{\sqrt{5}}{\epsilon}\right\rfloor+1.
+\]
+For every $n\geq N$,
+\[
+\begin{aligned}
+  d\left(\left(\frac{1}{n},\frac{2}{n}\right),(0,0)\right)
+  &=\sqrt{\frac{1}{n^2}+\frac{4}{n^2}}\\
+  &=\frac{\sqrt{5}}{n}\leq\frac{\sqrt{5}}{N}<\epsilon.
+\end{aligned}
+\]
+Thus $(1/n,2/n)\to(0,0)$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Problem 12}
+Using Euclidean distance in $\mathbb R^2$, prove that
+\[
+  \left(\frac{n}{n+1},\frac{(-1)^n}{\sqrt{n}}\right)
+  \longrightarrow(1,0).
+\]
+\textbf{Hint:} Make each coordinate error less than $\epsilon/2$.
+\end{frame}
+
+\begin{frame}{Solution 12}
+\begin{proof}
+Let $\epsilon>0$. Choose
+$N=\lfloor\max\{2/\epsilon,4/\epsilon^2\}\rfloor+1$.
+For every $n\geq N$,
+\[
+\begin{aligned}
+  \left\lvert\frac{n}{n+1}-1\right\rvert
+  &=\frac{1}{n+1}\leq\frac{1}{N}<\frac{\epsilon}{2},\\
+  \left\lvert\frac{(-1)^n}{\sqrt{n}}\right\rvert
+  &=\frac{1}{\sqrt{n}}\leq\frac{1}{\sqrt{N}}<\frac{\epsilon}{2}.
+\end{aligned}
+\]
+The Euclidean distance to $(1,0)$ therefore satisfies
+\[
+  \sqrt{\frac{1}{(n+1)^2}+\frac{1}{n}}
+  \leq\frac{1}{n+1}+\frac{1}{\sqrt{n}}<\epsilon.
+\]
+Thus the sequence converges to $(1,0)$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Problem 13}
+Using Euclidean distance in $\mathbb R^2$, prove that
+\[
+  \left(\frac{\cos n}{n},\frac{\sin n}{n}\right)
+  \longrightarrow(0,0).
+\]
+You may use $\cos^2t+\sin^2t=1$.
+\end{frame}
+
+\begin{frame}{Solution 13}
+\begin{proof}
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{\epsilon}\right\rfloor+1.
+\]
+For every $n\geq N$,
+\[
+\begin{aligned}
+  d\left(\left(\frac{\cos n}{n},\frac{\sin n}{n}\right),(0,0)\right)
+  &=\sqrt{\frac{\cos^2 n+\sin^2 n}{n^2}}\\
+  &=\frac{1}{n}\leq\frac{1}{N}<\epsilon.
+\end{aligned}
+\]
+Thus $(\cos n/n,\sin n/n)\to(0,0)$.
+\end{proof}
+\end{frame}
+
+\subsubsection{Sequences in metric spaces}
+
+\begin{frame}{Problem 14}
+Equip $\mathbb R$ with the metric
+\[
+  d(x,y)=\sqrt{\lvert x-y\rvert}.
+\]
+Prove directly that $1/n\to0$ in this metric.
+\medskip
+
+Compare your choice of $N(\epsilon)$ with your choice for the
+Euclidean metric in Problem 1.
+\end{frame}
+
+\begin{frame}{Solution 14}
+\begin{proof}
+Let $\epsilon>0$. Choose
+\[
+  N=\left\lfloor\frac{1}{\epsilon^2}\right\rfloor+1.
+\]
+For every $n\geq N$,
+\[
+  d\left(\frac{1}{n},0\right)
+  =\sqrt{\left\lvert\frac{1}{n}-0\right\rvert}
+  =\frac{1}{\sqrt{n}}\leq\frac{1}{\sqrt{N}}<\epsilon.
+\]
+Thus $1/n\to0$ in this metric.
+\end{proof}
+\medskip
+
+The Euclidean proof used $N>1/\epsilon$. This proof uses
+$N>1/\epsilon^2$ because $d(1/n,0)<\epsilon$ requires
+$1/n<\epsilon^2$.
+\end{frame}
+
+\begin{frame}{Problem 15}
+Equip a set $X$ with the discrete metric
+\[
+  d(x,y)=
+  \begin{cases}
+    0,&x=y,\\
+    1,&x\neq y.
+  \end{cases}
+\]
+Prove that a sequence $(x_n)$ converges to $p\in X$ if and only
+if it is \textbf{eventually equal to $p$}.
+\medskip
+
+That is, there exists a positive integer $N_0$ such that
+$x_n=p$ for every $n\geq N_0$.
+\end{frame}
+
+\begin{frame}{Solution 15}
+\begin{proof}
+Suppose $x_n\to p$. Take $\epsilon=1$. By the definition of
+convergence, there is a positive integer $N_0$ such that
+\[
+  n\geq N_0\quad\Longrightarrow\quad d(x_n,p)<1.
+\]
+The discrete metric takes only the values $0$ and $1$, so
+$d(x_n,p)<1$ forces $x_n=p$. Thus the sequence is eventually
+equal to $p$.
+\medskip
+
+Conversely, suppose $x_n=p$ for every $n\geq N_0$.
+Let $\epsilon>0$. Choose $N=N_0$. Then for every $n\geq N$,
+\[
+  d(x_n,p)=0<\epsilon.
+\]
+Thus $x_n\to p$.
+\end{proof}
+\end{frame}
+
+\subsubsection{Two harder limits}
+
+\begin{frame}{The Cult of Epsilon returns}
+\centering
+\includegraphics[width=\textwidth,height=0.75\textheight,keepaspectratio]{epsilon-factorial.png}
+\end{frame}
+
+\begin{frame}{Problem 16}
+Prove directly from the definition that
+\[
+  \frac{3^n}{n!}\longrightarrow0.
+\]
+\textbf{Hint:} If $a_n=3^n/n!$, show that
+\[
+  a_{n+1}\leq\frac{a_n}{2}\qquad(n\geq5).
+\]
+Then compare with the geometric estimate in Problem 8.
+\end{frame}
+
+\begin{frame}{Solution 16}
+\begin{proof}
+Let $\epsilon>0$. Choose $N=6+\lfloor2/\epsilon\rfloor$,
+so that $N\geq6$ and $N-5>2/\epsilon$.
+\medskip
+
+For $n\geq N$, each factor $3/k$ with $k\geq7$ is at most $1/2$.
+Since $3^6/6!=81/80<2$,
+\[
+\begin{aligned}
+  \left\lvert\frac{3^n}{n!}-0\right\rvert
+  &=\frac{3^6}{6!}\prod_{k=7}^{n}\frac{3}{k}
+    \leq\frac{2}{2^{n-6}}\\
+  &\leq\frac{2}{n-5}\leq\frac{2}{N-5}<\epsilon.
+\end{aligned}
+\]
+Here we used $2^m\geq m+1$ for $m\geq0$.
+Thus $3^n/n!\to0$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Problem 17}
+Prove directly from the definition that
+\[
+  \frac{n^2}{2^n}\longrightarrow0.
+\]
+\textbf{Hint:} The binomial theorem gives
+\[
+  2^n=(1+1)^n\geq\binom{n}{3}
+  =\frac{n(n-1)(n-2)}{6}\qquad(n\geq3).
+\]
+For $n\geq4$, compare this lower bound with a constant
+multiple of $n^3$.
+\end{frame}
+
+\begin{frame}{Solution 17}
+\begin{proof}
+Let $\epsilon>0$. Choose
+$N=\max\{4,\lfloor24/\epsilon\rfloor+1\}$.
+\medskip
+
+For $n\geq N$, we have $n-1\geq n/2$ and $n-2\geq n/2$.
+The binomial theorem therefore gives
+\[
+  2^n\geq\binom{n}{3}
+  =\frac{n(n-1)(n-2)}{6}\geq\frac{n^3}{24}.
+\]
+Consequently, for every $n\geq N$,
+\[
+  \left\lvert\frac{n^2}{2^n}-0\right\rvert
+  \leq\frac{24}{n}\leq\frac{24}{N}<\epsilon.
+\]
+Thus $n^2/2^n\to0$.
+\end{proof}
+\end{frame}
 
 \end{document}
-
-
