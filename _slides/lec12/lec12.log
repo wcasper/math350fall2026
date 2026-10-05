@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  5 OCT 2026 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  5 OCT 2026 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1180,7 +1180,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] (./lec12.toc) [2
 
 ]
-<assets/epsilon-greater-than-zero.png, id=97, 1453.43pt x 1090.0725pt>
+<assets/epsilon-greater-than-zero.png, id=104, 1453.43pt x 1090.0725pt>
 File: assets/epsilon-greater-than-zero.png Graphic file (type png)
 <use assets/epsilon-greater-than-zero.png>
 Package pdftex.def Info: assets/epsilon-greater-than-zero.png  used on input li
@@ -1189,7 +1189,7 @@ ne 47.
  [3
 
  <./assets/epsilon-greater-than-zero.png (PNG copy)>]
-<assets/epsilon-choose-n.png, id=128, 1453.43pt x 1090.0725pt>
+<assets/epsilon-choose-n.png, id=135, 1453.43pt x 1090.0725pt>
 File: assets/epsilon-choose-n.png Graphic file (type png)
 <use assets/epsilon-choose-n.png>
 Package pdftex.def Info: assets/epsilon-choose-n.png  used on input line 52.
@@ -1279,7 +1279,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 ] [34
 
 ]
-<assets/epsilon-factorial.png, id=1020, 1453.43pt x 1090.0725pt>
+<assets/epsilon-factorial.png, id=1026, 1453.43pt x 1090.0725pt>
 File: assets/epsilon-factorial.png Graphic file (type png)
 <use assets/epsilon-factorial.png>
 Package pdftex.def Info: assets/epsilon-factorial.png  used on input line 499.
@@ -1309,21 +1309,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 569.
  (./lec12.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 569.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 569.
-
-
-Package rerunfilecheck Warning: File `lec12.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lec12.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  5FD1289E356E1B692E99DB7F494EC5AE;136.
+Package rerunfilecheck Info: File `lec12.out' has not changed.
+(rerunfilecheck)             Checksum: 5FD1289E356E1B692E99DB7F494EC5AE;136.
  ) 
 Here is how much of TeX's memory you used:
- 18270 strings out of 494847
- 340490 string characters out of 6179079
- 420492 words of memory out of 5000000
- 21068 multiletter control sequences out of 15000+600000
+ 18273 strings out of 494847
+ 340520 string characters out of 6179079
+ 420500 words of memory out of 5000000
+ 21071 multiletter control sequences out of 15000+600000
  36113 words of font info for 52 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,72p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1337,10 +1330,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec12.pdf (39 pages, 6951855 bytes).
+Output written on lec12.pdf (39 pages, 6952155 bytes).
 PDF statistics:
- 1220 PDF objects out of 1440 (max. 8388607)
- 1138 compressed objects within 12 object streams
+ 1227 PDF objects out of 1440 (max. 8388607)
+ 1145 compressed objects within 12 object streams
  85 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
