@@ -125,6 +125,174 @@
 \subsection{Complete metric spaces}
 
 \begin{frame}{Complete spaces}
+\begin{defn}
+A metric space $(M,d)$ is called \textbf{complete} if every Cauchy sequence in $M$ converges to a point in $M$.
+\end{defn}
+\end{frame}
+
+\begin{frame}{Complete space examples:}
+Consider a space with a single point
+$$M = \{a\}.$$
+\begin{itemize}
+\pause
+  \item there's only one possible metric $d: M\times M\rightarrow\mathbb R$
+\pause
+  \item every sequence in $M$ is constant
+\pause
+  \item every Cauchy sequence in $M$ is constant
+\pause
+  \item every Cauchy sequence in $M$ is convergent
+\pause
+  \item $M$ is complete
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Complete space examples:}
+Consider a space $M = \mathbb R^n$ with the Euclidean metric
+$$d(\vec a,\vec b) = |\vec a-\vec b|.$$
+\begin{itemize}
+\pause
+  \item we proved in Euclidean space, Cauchy sequences are convergent
+\pause
+  \item therefore $\mathbb R^n$ is complete
+\end{itemize}
+\pause
+  $$\text{\color{red}Euclidean space is complete}$$
+\end{frame}
+
+\begin{frame}{Complete space examples:}
+Let $M$ be any set with the discrete metric
+$$d(a,b) = \left\lbrace\begin{array}{cc} 0, & a=b\\ 1, & a\neq b\end{array}\right..$$
+\begin{itemize}
+\pause
+  \item Cauchy sequences in $M$ are eventually constant
+\pause
+  \item eventually constant sequences are convergent
+\pause
+  \item thus Cauchy sequences are convergent
+\end{itemize}
+\pause
+  $$\text{\color{red}any metric space with the discrete metric is complete}$$
+\end{frame}
+
+\begin{frame}{Complete space examples:}
+Let $M=\mathbb Q$ with the Euclidean metric
+$$d(a,b) = |a-b|,\quad a,b\in \mathbb Q$$
+\begin{itemize}
+\pause
+  \item Cauchy sequence:
+  $$a_1 = 3,\ a_2 = 3.1,\ a_3 = 3.14,\ a_4 = 3.141,\ a_4 = 3.1415,\dots$$
+\pause
+  \item \emph{tries} to converge to $\pi = 3.1315926535\dots$
+\pause
+  \item $M$ is not complete...
+\pause
+  \item Cauchy sequences detects $\pi$ is ``missing"
+\pause
+  \item if we fill in all the missing stuff, we get $\mathbb R$ back!
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Complete space examples:}
+Let $M= (0, 1]$ with the Euclidean metric
+$$d(a,b) = |a-b|,\quad 0< a,b\leq 1$$
+\begin{itemize}
+\pause
+  \item the sequence $a_n = \frac{1}{n}$ is Cauchy
+\pause
+  \item however, it does not converge to anything in $M$
+\pause
+  \item this is because $M$ is ``missing" the limit $0$
+\pause
+  \item therefore the space $M$ is NOT complete
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Complete space examples:}
+Let $M= [0, 1]$ with the Euclidean metric
+$$d(a,b) = |a-b|,\quad 0\leq a,b\leq 1$$
+\begin{itemize}
+\pause
+\pause
+  \item suppose $\{a_n\}$ in $M$ is Cauchy
+\pause
+  \item then $\{a_n\}$ is also a Cauchy sequence in $\mathbb R$
+\pause
+  \item therefore $a_n$ converges to a value $L$ in $\mathbb R$
+\pause
+  \item the limit $L$ will be an adherent point of the sequence
+\pause
+  \item therefore $L$ will be an adherent point of $[0,1]$
+\pause
+  \item since $M = [0,1]$ is closed, $L$ will be in $M$
+\pause
+  \item thus $M$ is complete
+\end{itemize}
+\end{frame}
+
+\subsection{Metric subspaces}
+
+\begin{frame}{Subspaces}
+Let $(M,d)$ be a metric space.
+\begin{defn}
+\pause
+For any subset $S\subseteq M$ \textbf{relative metric} on $S$ is
+\pause
+$$d_S: S\times S\rightarrow\mathbb R,\quad d_S(x,y) = d(x,y).$$
+\pause
+The set $(S,d_S)$ is a metric space, called a \textbf{metric subspace} of $M$.
+\end{defn}
+\end{frame}
+
+\begin{frame}{Subspaces -- examples}
+Let $M=\mathbb R$ with the Euclidean metric.\\
+\begin{itemize}
+\pause
+\item the set $\mathbb Q$ with the discrete metric is not a metric subspace of $M$
+\pause
+\item the set $\mathbb Q$ with the Euclidean metric is a metric subspace of $M$
+\pause
+\item the set $\mathbb R$ with the taxicab metric is not a metric subspace of $M$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Open subsets of subspace}
+\begin{thm}
+Let $(S,d_S)$ be a subspace of the metric space $(M,d)$.\\
+Then $U\subseteq S$ is open in the subspace if and only if there exists an open subset $V\subseteq M$ satisfying $U=V\cap S$.
+\end{thm}
+\end{frame}
+
+
+\begin{frame}{Completion}
+A metric space can always be ``completed".
+\begin{defn}
+\pause
+The \textbf{completion} of a metric space $M$ is the space $\overline M$ of equivalence classes of Cauchy sequences in $M$ with the equivalence relation that $\{x_n\}\equiv \{y_n\}$ if and only if $d(x_n,y_n)\rightarrow 0$.
+\end{defn}
+\pause
+Metric on $\overline M$:
+\pause
+$$\overline d(\{x_n\},\{y_n\}) = \lim_{n\rightarrow\infty} d(x_n,y_n).$$
+\end{frame}
+
+\begin{frame}{Completion}
+\pause
+  \begin{thm}
+    $(\overline M,\overline d)$ is a complete metric space.
+  \end{thm}
+\pause
+  \begin{thm}
+    Identifying each element of $M$ with the constant sequence, $M$ is a subspace of $\overline M$.
+  \end{thm}
+\pause
+  \begin{thm}
+    If $M$ is already complete, then $M=\overline M$.
+  \end{thm}
+\end{frame}
+
+
+\begin{frame}{Complete spaces}
 \begin{thm}
 Let $(M,d)$ be a metric space.
 \pause
@@ -148,7 +316,7 @@ TIME OUT!
 \end{frame}
 
 \begin{frame}{Complete spaces}
-\begin{lem}
+\begin{lem}[Budget Bolzano-Weierstrass]
 Let $(M,d)$ be a metric space and let $S\subseteq M$ be compact.
 \pause
 Then for any infinite subset $X\subseteq S$, the set $S$ has an accumulation point of $X$.
@@ -189,74 +357,6 @@ $$d(x_n,L)\leq d(x_n,x_m) + d(x_m,L) < \epsilon/2 + \epsilon/2 = \epsilon.$$
 Since $\epsilon > 0$ was arbitrary, this proves $\{x_n\}$ converges to $L$.
 \end{proof}
 \end{frame}
-
-\subsection{Limit of a function}
-
-\begin{frame}{Back in calculus}
-The limit as $x\rightarrow a$ of $f(x)$ is $L$ means:\\
-\pause
-as $x$ gets closer and closer to $a$, 
-\pause
-$f(x)$ gets closer and closer to $L$.\\
-\pause
-\textbf{Rigorous:}
-For all $\epsilon > 0$ there exists $\delta > 0$ such that
-$$0 < |x-a| < \delta\ \ \Rightarrow\ \ |f(x)-L| < \epsilon.$$
-\end{frame}
-
-
-\begin{frame}{Limit of a function}
-Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$.
-\pause
-Also, let $f: A\rightarrow T$ be a function.
-\pause
-\begin{defn}
-\pause
-Then for any accumulation point $p$ of $A$ and element $L\in T$, we say that the \textbf{limit as $x$ approaches $p$ of $f(x)$ is $L$}
-\pause
- and write
-$$\lim_{x\rightarrow p} f(x) = L$$
-\pause
-if for all $\epsilon > 0$ there exists $\delta > 0$ such that
-$$0 < d_S(x,p) < \delta\ \Rightarrow\ d_T(f(x),L) < \epsilon.$$
-\end{defn}
-\end{frame}
-
-\begin{frame}{Limit of a function}
-Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$.
-\pause
-Also, let $f: A\rightarrow T$ be a function.
-\pause
-\begin{defn}
-\pause
-Then for any accumulation point $p$ of $A$ and element $L\in T$, we say that the \textbf{limit as $x$ approaches $p$ of $f(x)$ is $L$}
-\pause
- and write
-$$\lim_{x\rightarrow p} f(x) = L$$
-\pause
-if for all $\epsilon > 0$ there exists $\delta > 0$ such that
-$$x\in B_S(p;\delta)\backslash\{p\}\ \Rightarrow\ f(x)\in B_T(L;\epsilon).$$
-\end{defn}
-\end{frame}
-
-\begin{frame}{Limit of a function}
-Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$.
-\pause
-Also, let $f: A\rightarrow T$ be a function.
-\pause
-\begin{defn}
-\pause
-Then for any accumulation point $p$ of $A$ and element $L\in T$, we say that the \textbf{limit as $x$ approaches $p$ of $f(x)$ is $L$}
-\pause
- and write
-$$\lim_{x\rightarrow p} f(x) = L$$
-\pause
-if for all $\epsilon > 0$ there exists $\delta > 0$ such that
-$$f(B_S(p;\delta)\backslash\{p\})\subseteq B_T(L;\epsilon).$$
-\end{defn}
-\end{frame}
-
-
 
 \end{document}
 
