@@ -253,7 +253,7 @@ $$\lim_{x\rightarrow 3}\frac{1}{x^2} = \frac{1}{9}$$
 \pause
 Let $\epsilon > 0$.\\
 \pause
-Choose $\delta = \min\left(1,9\epsilon\right)$.
+Choose $\delta = \min\left(1,\frac{36\epsilon}{7}\right)$.
 \pause
 Then for $0 < |x-3| < \delta$ we have $|x+3|< 4$ and $x^2 > 4$.\\
 \pause
@@ -261,7 +261,7 @@ Therefore
 \begin{align*}
 \left|\frac{1}{x^2}-\frac{1}{9}\right|
   & = \frac{|x^2-9|}{9x^2}\\
-  & = \frac{|x+3|}{9x^2}|x-3| \leq \frac{4}{9\cdot 4}|x-3|  < \epsilon.
+  & = \frac{|x+3|}{9x^2}|x-3| \leq \frac{7}{9\cdot 4}|x-3|  < \epsilon.
 \end{align*}
 \pause
 Since $\epsilon > 0$ was arbitrary, this proves $\lim_{x\rightarrow 3}\frac{1}{x^2} = \frac{1}{9}$.
