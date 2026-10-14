@@ -125,6 +125,154 @@
 
 \subsection{Limit of a function}
 
+\begin{frame}{Back in calculus}
+The limit as $x\rightarrow a$ of $f(x)$ is $L$ means:\\
+\pause
+as $x$ gets closer and closer to $a$, 
+\pause
+$f(x)$ gets closer and closer to $L$.\\
+\pause
+\textbf{Rigorous:}
+For all $\epsilon > 0$ there exists $\delta > 0$ such that
+$$0 < |x-a| < \delta\ \ \Rightarrow\ \ |f(x)-L| < \epsilon.$$
+\end{frame}
+
+\begin{frame}{Graphical intuition}
+  \includegraphics[width=\linewidth]{fig/epsilon-delta-function-limit.png}
+\end{frame}
+
+\begin{frame}{Challenge}
+\begin{prob}
+Prove that
+$$\lim_{x\rightarrow 5}2x-7 = 3$$
+\end{prob}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{proof}
+\pause
+Let $\epsilon > 0$.\\
+\pause
+Choose $\delta = \epsilon/2$.
+\pause
+Then for $0 < |x-5| < \delta$ we have 
+\begin{align*}
+\left|2x-7-3\right|
+  & = |2x-10|=2|x-5|=2\epsilon/2 = \epsilon
+\end{align*}
+\pause
+Since $\epsilon > 0$ was arbitrary, this proves $\lim_{x\rightarrow 5}2x-7 = 3$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/anime-introduction-the-cube-problem.png}
+\end{frame}
+
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/01-first-tolerance-epsilon.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/02-start-with-volume-function.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/03-draw-epsilon-band.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/04-find-curve-intersections.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/05-measure-both-horizontal-distances.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/02-client-changes-epsilon.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/03-another-revision-epsilon.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/04-final-decimal-epsilon.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/05-wrong-universal-formula.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/06-large-epsilon-cube-demon.png}
+\end{frame}
+
+\begin{frame}{Engineering interpretation}
+  \includegraphics[width=\linewidth]{fig/07-formula-repaired.png}
+\end{frame}
+
+\begin{frame}{Formal Example}
+\begin{prob}
+Prove that
+$$\lim_{x\rightarrow 7} x^3 = 343$$
+\end{prob}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{proof}
+\pause
+Let $\epsilon > 0$.\\
+\pause
+Choose $\delta = \min\left(1,\frac{\epsilon}{169}\right)$.
+\pause
+Then for $0 < |x-7| < \delta$ we have $|x^2+7x+49|\leq 8^2+7\cdot8+49=169$.\\
+\pause
+Therefore
+\begin{align*}
+\left|x^3-343\right|
+  & = |(x-7)(x^2+7x+49)| \leq 169|x-7|\leq \epsilon
+\end{align*}
+\pause
+Since $\epsilon > 0$ was arbitrary, this proves $\lim_{x\rightarrow 7}x^3= 343$.
+\end{proof}
+\end{frame}
+
+
+\begin{frame}{Challenge}
+\begin{prob}
+Prove that
+$$\lim_{x\rightarrow 3}\frac{1}{x^2} = \frac{1}{9}$$
+\end{prob}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{proof}
+\pause
+Let $\epsilon > 0$.\\
+\pause
+Choose $\delta = \min\left(1,9\epsilon\right)$.
+\pause
+Then for $0 < |x-3| < \delta$ we have $|x+3|< 4$ and $x^2 > 4$.\\
+\pause
+Therefore
+\begin{align*}
+\left|\frac{1}{x^2}-\frac{1}{9}\right|
+  & = \frac{|x^2-9|}{9x^2}\\
+  & = \frac{|x+3|}{9x^2}|x-3| \leq \frac{4}{9\cdot 4}|x-3|  < \epsilon.
+\end{align*}
+\pause
+Since $\epsilon > 0$ was arbitrary, this proves $\lim_{x\rightarrow 3}\frac{1}{x^2} = \frac{1}{9}$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Example}
+Prove that
+$$\lim_{x\rightarrow 4}\frac{\sqrt{x}-2}{x-4} = \frac{1}{4}$$
+\end{frame}
+
 \begin{frame}{Limit of a function}
 Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$.
 \pause
@@ -140,16 +288,6 @@ $$\lim_{x\rightarrow p} f(x) = L$$
 if for all $\epsilon > 0$ there exists $\delta > 0$ such that
 $$0 < d_S(x,p) < \delta\ \Rightarrow\ d_T(f(x),L) < \epsilon.$$
 \end{defn}
-\end{frame}
-
-\begin{frame}{Example}
-Prove that
-$$\lim_{x\rightarrow 3}\frac{1}{x^2} = \frac{1}{9}$$
-\end{frame}
-
-\begin{frame}{Example}
-Prove that
-$$\lim_{x\rightarrow 4}\frac{\sqrt{x}-2}{x-4} = \frac{1}{4}$$
 \end{frame}
 
 \begin{frame}{Limit of a function}
