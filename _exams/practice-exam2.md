@@ -19,7 +19,7 @@ a) Every Cauchy sequence of real numbers is bounded.
 
 b) The intersection of any family of open sets is open.
 
-c) Every compact subset of $$\mathbb{R}$$ with the Euclidean metric is closed and bounded.
+c) Every compact subset of $$\mathbb{R}^2$$ with *any* metric is closed and bounded.
 
 d) In a metric space with the discrete metric, every Cauchy sequence is eventually constant.
 
@@ -49,7 +49,7 @@ is an open set.
 
 a) Write down the definition of a complete metric space.
 
-b) Prove that the space $$[0,1)$$ with the Euclidean metric is not complete.
+b) Prove that the space $$S=[0,1)$$ with the Euclidean metric is not complete.
 
 c) Let $$M$$ be any set equipped with the discrete metric. Prove that $$M$$ is complete.
 
