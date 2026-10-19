@@ -11,7 +11,7 @@ permalink: /syllabus
 
 **Email:** wcasper@fullerton.edu
 
-**Office hours:** TBA and by appointment
+**Office hourse:** Monday/Wednesday 12-1PM in MH 380 and 3-4PM in MH 442.  Additional office hours may be available by request.
 
 **Course website:** we will use Canvas website (Spring 2025 MATH 350-2 18781), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math350fall2025">Github Pages site (link)</a> which you may find more convenient for pulling material.
 
