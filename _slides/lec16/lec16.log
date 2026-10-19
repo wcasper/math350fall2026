@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  20 OCT 2025 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  19 OCT 2026 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1190,27 +1190,27 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] (./lec16.toc) [3
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 142.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 142.
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 142.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 142.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 142.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 142.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
  [4
 
 ] [5
@@ -1240,10 +1240,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [17
 
-]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 179.
- [18
+] [18
 
 ] [19
 
@@ -1287,7 +1284,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 
 ] [38
 
-] [39
+] (./lec16.toc) [39
 
 ] [40
 
@@ -1307,55 +1304,27 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 
 ] [48
 
-] [49
+]
+[49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
 
 ]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 296.
+ [54
 
-[50
+] [55
 
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
+] [56
 
-[51
-
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
-
-[52
-
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
-
-[53
-
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
-
-[54
-
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
-
-[55
-
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
-
-[56
-
-]
-Overfull \vbox (36.07224pt too high) detected at line 295
- []
-
-[57
+] [57
 
 ] [58
 
@@ -1369,18 +1338,18 @@ Overfull \vbox (36.07224pt too high) detected at line 295
 
 ] [63
 
-] [64
+]
+[64
 
 ] [65
 
-] (./lec16.toc) [66
+] [66
 
 ] [67
 
 ] [68
 
-]
-[69
+] [69
 
 ] [70
 
@@ -1396,6 +1365,136 @@ Overfull \vbox (36.07224pt too high) detected at line 295
 
 ] [76
 
+] [77
+
+] [78
+
+]
+[79
+
+]
+Overfull \vbox (7.6873pt too high) detected at line 390
+ []
+
+[80
+
+]
+Overfull \vbox (7.6873pt too high) detected at line 390
+ []
+
+[81
+
+]
+Overfull \vbox (7.6873pt too high) detected at line 390
+ []
+
+[82
+
+]
+Overfull \vbox (7.6873pt too high) detected at line 390
+ []
+
+[83
+
+]
+Overfull \vbox (7.6873pt too high) detected at line 390
+ []
+
+[84
+
+]
+Overfull \vbox (7.6873pt too high) detected at line 390
+ []
+
+[85
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[86
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[87
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[88
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[89
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[90
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[91
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[92
+
+]
+Overfull \vbox (43.72107pt too high) detected at line 412
+ []
+
+[93
+
+] [94
+
+] [95
+
+] [96
+
+] [97
+
+] [98
+
+] [99
+
+] [100
+
+] [101
+
+] (./lec16.toc) [102
+
+] [103
+
+]
+[104
+
+] [105
+
+] [106
+
+] [107
+
+] [108
+
+] [109
+
+] [110
+
+] [111
+
+] [112
+
 ]
 \tf@nav=\write6
 \openout6 = `lec16.nav'.
@@ -1406,19 +1505,19 @@ Overfull \vbox (36.07224pt too high) detected at line 295
 \tf@snm=\write8
 \openout8 = `lec16.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
  (./lec16.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 477.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
 Package rerunfilecheck Info: File `lec16.out' has not changed.
-(rerunfilecheck)             Checksum: FFCB868465FEAB6AC15A3D3A8AFE837F;181.
+(rerunfilecheck)             Checksum: 520A46398FED2D5A7B111DD2A9F7493B;251.
  ) 
 Here is how much of TeX's memory you used:
- 18462 strings out of 494847
- 342201 string characters out of 6179079
+ 18558 strings out of 494847
+ 343125 string characters out of 6179079
  424624 words of memory out of 5000000
- 21180 multiletter control sequences out of 15000+600000
+ 21201 multiletter control sequences out of 15000+600000
  33717 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,65p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1432,10 +1531,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec16.pdf (76 pages, 299358 bytes).
+Output written on lec16.pdf (112 pages, 408891 bytes).
 PDF statistics:
- 2370 PDF objects out of 2487 (max. 8388607)
- 2242 compressed objects within 23 object streams
- 156 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3570 PDF objects out of 3580 (max. 8388607)
+ 3395 compressed objects within 34 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

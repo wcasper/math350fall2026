@@ -122,6 +122,123 @@
 
 \section{Real Analysis Lecture 16}
 
+\subsection{Limits of functions}
+
+\begin{frame}{Limit of a function}
+\begin{thm}
+\pause
+Let $(S,d_S)$ and $(T,d_T)$ be metric spaces, $A\subseteq S$, and $f: A\rightarrow T$ be a function.
+\pause
+Then
+$$\lim_{x\rightarrow a} f(x) = L$$
+\pause
+if and only if
+$$\lim_{n\rightarrow \infty} f(x_n) = L$$
+for all sequences $\{x_n\}$ of values in $A\backslash \{a\}$ which converge to $a$.
+\end{thm}
+\end{frame}
+
+\begin{frame}{Challenge!}
+Consider the function
+$$f: \mathbb{R}^2\rightarrow \mathbb R$$
+between metric spaces with the Euclidean metric defined by
+$$f(x,y) = \frac{x^2y}{x^4+y^2}.$$
+\pause
+\begin{quest}
+\pause
+What is the limit as $(x,y)\rightarrow (0,0)$?
+\end{quest}
+\end{frame}
+
+\begin{frame}{Challenge!}
+Consider the sequence $\{(x_n,y_n)\}$ defined by
+$$(x_n,y_n) = (1/n,0).$$
+\pause
+Then
+$$\lim_{n\rightarrow \infty} (x_n,y_n) = \lim_{n\rightarrow \infty} (1/n,0) = (0,0)$$
+\pause
+and
+$$\lim_{n\rightarrow \infty} f(x_n,y_n) = \lim_{n\rightarrow \infty} 0 = 0.$$
+\end{frame}
+
+\begin{frame}{Challenge!}
+Consider the sequence $\{(x_n,y_n)\}$ defined by
+$$(x_n,y_n) = (0,1/n).$$
+\pause
+Then
+$$\lim_{n\rightarrow \infty} (x_n,y_n) = \lim_{n\rightarrow \infty} (0,1/n) = (0,0)$$
+\pause
+and
+$$\lim_{n\rightarrow \infty} f(x_n,y_n) = \lim_{n\rightarrow \infty} 0 = 0.$$
+\end{frame}
+
+\begin{frame}{Challenge!}
+Consider the sequence $\{(x_n,y_n)\}$ defined by
+$$(x_n,y_n) = (1/n,1/n).$$
+\pause
+Then
+$$\lim_{n\rightarrow \infty} (x_n,y_n) = \lim_{n\rightarrow \infty} (1/n,1/n) = (0,0)$$
+\pause
+and
+$$\lim_{n\rightarrow \infty} f(x_n,y_n) = \lim_{n\rightarrow \infty} \frac{1/n^3}{1/n^4+1/n^2} = \lim_{n\rightarrow \infty} \frac{1/n}{1/n^2+1} = 0.$$
+\end{frame}
+
+\begin{frame}{Challenge!}
+Consider the sequence $\{(x_n,y_n)\}$ defined by
+$$(x_n,y_n) = (1/n,1/n^2).$$
+\pause
+Then
+$$\lim_{n\rightarrow \infty} (x_n,y_n) = \lim_{n\rightarrow \infty} (1/n,1/n^2) = (0,0)$$
+\pause
+and
+$$\lim_{n\rightarrow \infty} f(x_n,y_n) = \lim_{n\rightarrow \infty} \frac{1/n^4}{1/n^4+1/n^4} = \lim_{n\rightarrow \infty} \frac{1}{2} = \frac{1}{2}.$$
+\pause
+{\color{red}The limit DOES NOT EXIST!}
+\end{frame}
+
+
+\begin{frame}{Limit of a function}
+\begin{proof}
+$(\Rightarrow)$\quad
+Suppose that $\lim_{x\rightarrow a} f(x) =L$ and let $\{x_n\}$ be a sequence of values in $A\backslash\{a\}$ which converges to $a$.\\
+\pause
+Let $\epsilon > 0$.\\
+\pause
+Then there exists $\delta > 0$ such that $0 < d_S(x,a) < \delta$ implies $d_T(f(x),L) < \epsilon$.\\
+\pause
+Also, there exists $N \in\mathbb{Z}_+$ such that $n\geq N$ implies $d_S(x_n,a) < \delta$ for all $n\geq N$.\\
+\pause
+Therefore since $x_n\neq a$ for all $n$, we have that
+$$n\geq N\ \Rightarrow\ 0 < d_S(x_n,a) < \delta\ \Rightarrow\ d_T(f(x_n), L) < \epsilon.$$
+\pause
+Hence for all $n\geq N$, we know $d_T(f(x_n), L) < \epsilon$.\\
+\pause
+Since $\epsilon > 0$ was arbitrary, this proves $\lim_{n\rightarrow \infty} f(x_n) = L$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Limit of a function}
+\begin{proof}
+$(\Leftarrow)$\quad
+Suppose that for every sequence $\{x_n\}$ of values in $A\backslash\{a\}$ which converges to $a$, we have $\lim_{n\rightarrow \infty} f(x_n) = L$.
+\pause
+We must show that $\lim_{x\rightarrow a} f(x) = L$.\\
+\pause
+To see this, we assume otherwise.\\
+\pause
+Then there exists $\epsilon > 0$ such that for all $\delta > 0$ there exists $x$ with $0 < d_S(x,a) < \delta$ and $d_T(f(x),L) \geq \epsilon$.\\
+\pause
+For each $n\in \mathbb{Z}_+$, take $x_n\in A$ with $0 < d_S(x_n,a) < 1/n$ and $d_T(f(x_)n,L) \geq \epsilon$.\\
+\pause
+In this case, $\{x_n\}$ is a sequence of values in $A\backslash\{a\}$ which converges to $a$.\\
+\pause
+However, $\{f(x_n)\}$ never gets closer than $\epsilon$ to $L$, so it cannot converge to $L$.\\
+\pause
+This is a contradiction.
+\end{proof}
+\end{frame}
+
+
 \subsection{Continuity}
 
 \begin{frame}{Continuity}
