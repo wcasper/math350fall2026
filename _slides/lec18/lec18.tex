@@ -120,7 +120,247 @@
 % - Talk about 30s to 2min per frame. So there should be between about
 %   15 and 30 frames, all told.
 
-\section{Real Analysis Lecture 18}
+\section{Real Analysis Lecture 17}
+
+\subsection{Extreme Value Theorem}
+
+\begin{frame}{Extreme value theorem}
+\begin{thm}
+Suppose $(S,d_S)$ is a metric space and $f: S\rightarrow \mathbb{R}$ is a function (to Euclidean space).\\
+If $f$ is continuous on a compact subset $A\subseteq S$, then there exists $a,b\in A$ such that
+$$f(a) = \inf f(A),\quad\text{and}\quad f(b) = \sup f(A).$$
+\end{thm}
+\end{frame}
+
+\begin{frame}{Extreme value theorem}
+\pause
+\begin{proof}
+\pause
+The set $f(A)$ is compact in $\mathbb{R}$, so it is closed and bounded.\\
+\pause
+The Completeness Axiom therefore tells us that it has an infimum $y=\inf(f(A))$ and supremum $z=\sup(f(A))$.\\
+\pause
+The infimum and supremum of a set are adherent points of that set.\\
+\pause
+Therefore, since $f(A)$ is closed $y,z\in f(A)$.\\
+\pause
+This means that there exists $a,b\in A$ such that $y=f(a)$ and $z=f(b)$.
+\end{proof}
+\end{frame}
+
+\subsection{Continuity and Algebra}
+
+\begin{frame}{Warm-up}
+Prove that the function $f: \mathbb R^2\rightarrow\mathbb R$ defined by
+$$f(x,y) = x+y$$
+is continuous. (Everything Euclidean)
+\end{frame}
+
+\begin{frame}{Warm-up}
+Prove that the function $f: \mathbb R^2\rightarrow\mathbb R$ defined by
+$$f(x,y) = xy$$
+is continuous. (Everything Euclidean)
+\end{frame}
+
+\begin{frame}{Warm-up}
+Prove that the function $f: \mathbb R \times (\mathbb R\backslash\{0\})\rightarrow\mathbb R$ defined by
+$$f(x,y) = x/y$$
+is continuous. (Everything Euclidean)
+\end{frame}
+
+\begin{frame}{Algebra and continuity}
+\begin{thm}
+Let $(S,d)$ be a metric space and $f: S\rightarrow \mathbb{R}$ and $g: S\rightarrow\mathbb{R}$ be functions which are continuous at $a\in S$.
+\begin{itemize}
+\item $f+g$ is continuous at $a$
+\item $fg$ is continuous at $a$
+\item $f/g$ is continuous at $a$ as long as $g(a)\neq 0$
+\end{itemize}
+\end{thm}
+\end{frame}
+
+\begin{frame}{Polynomials and Rational Functions}
+\begin{itemize}
+\item constant functions are continuous
+\item $f(x) = x$ is continuous
+\item monomials $x^n$ are continuous
+\item polynomials $a_0 + a_1x + \dots + a_nx^n$ are continuous
+\item rational functions $p(x)/q(x)$ are continuous on their domains
+\end{itemize}
+\end{frame}
+
+\subsection{Connectedness}
+
+\begin{frame}{Characterization of intervals}
+\begin{thm}
+If $I\subseteq \mathbb{R}$ is an interval, then there does not exist two nonempty, disjoint open sets $U,V\subseteq\mathbb{R}$ (Euclidean space), with
+$$I\subseteq U\cup V.$$
+\end{thm}
+\end{frame}
+
+\begin{frame}{Connected spaces}
+\begin{defn}
+A metric space $(S,d)$ is called \textbf{disconnected} if there exists two nonempty, disjoint open subsets $U,V\subseteq S$ with $S=U\cup V$.\\
+\pause
+We call $S$ \textbf{connected} if it is not disconnected.\\
+\pause
+A subset $A\subseteq S$ is connected if the corresponding subspace $(A,d)$ is connected.
+\end{defn}
+\pause
+Examples:
+\begin{itemize}
+\pause
+\item the real line with the Euclidean metric $(\mathbb{R},d_{eucl})$ is connected
+\pause
+\item the real line with the discrete metric $(\mathbb{R},d_{disc})$ is disconnected
+\pause
+\item euclidean space $\mathbb{R}^n$ is connected
+\pause
+\item an interval $I\subseteq \mathbb{R}$ with the Euclidean metric is connected
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove that the set $\mathbb Q\subseteq \mathbb{R}$ is disconnected.
+\end{prob}
+\end{frame}
+
+\begin{frame}{Real line is connected}
+\begin{thm}
+The real line $\mathbb{R}$ is connected.
+\end{thm}
+\pause
+\begin{proof}
+\pause
+Suppose that $\mathbb{R}$ is disconnected.\\
+\pause
+Then $\mathbb{R} = U\cup V$ where:
+\begin{itemize}
+\pause
+\item $U\neq\varnothing$, $V\neq\varnothing$
+\pause
+\item $U\cap V = \varnothing$
+\pause
+\item $U$, $V$ are open
+\pause
+\item $U\cup V = \mathbb{R}$
+\end{itemize}
+\pause
+In particular, $U$ is a nonempty, proper subset of $\mathbb{R}$ which is both open and closed.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Real line is connected}
+\begin{thm}
+The real line $\mathbb{R}$ is connected.
+\end{thm}
+\pause
+\begin{proof}
+\pause
+By the Representation Theorem for Open Sets:
+\pause
+$$U = (a_1,b_1)\cup (a_2,b_2)\cup\dots $$
+\pause
+is a union of disjoint open intervals.\\
+\pause
+In particular, $b_1$ is an accumulation point of $U$ but not an element of $U$.\\
+\pause
+This contradicts the fact that $U$ is closed.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Images of connected sets}
+\begin{thm}
+Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $f: S\rightarrow T$ be a function.\\
+If $f$ is continuous and $S$ is connected, then $f(S)$ is connected.
+\end{thm}
+\pause
+\begin{proof}
+\pause
+Suppose $f(S)$ is disconnected.\\
+\pause
+Then $f(S) = U\cup V$ for nonempty, disjoint, open sets $U,V\subseteq f(S)$.\\
+\pause
+Then $f^{-1}(U)$ and $f^{-1}(V)$ are non-empty, disjoint, open sets and
+$$f^{-1}(U)\cup f^{-1}(V) = f^{-1}(U\cup V) = f^{-1}(f(S)) = S.$$
+\pause
+This is a contadiction.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Any interval is connected}
+\begin{thm}
+Any open interval is connected
+\end{thm}
+\pause
+\begin{proof}
+\pause
+We can make any interval as a continuous image:
+$$f:\mathbb{R}\rightarrow\mathbb{R}$$
+$$f(x) = \frac{b+a}{2} + \frac{(b-a)x}{1+x^2}$$
+\pause
+$$f(\mathbb{R}) = (a,b),\quad a < b$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Any interval is connected}
+\begin{thm}
+Any closed interval is connected
+\end{thm}
+\pause
+\begin{proof}
+We can make any interval as a continuous image:
+$$f:\mathbb{R}\rightarrow\mathbb{R}$$
+$$f(x) = a + \frac{2(b-a)x^2}{1+x^4}$$
+\pause
+$$f(\mathbb{R}) = [a,b],\quad a < b$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Any interval is connected}
+\begin{thm}
+Any half-open interval is connected
+\end{thm}
+\pause
+\begin{proof}
+\pause
+We can make any interval as a continuous image:
+$$f:\mathbb{R}\rightarrow\mathbb{R}$$
+$$f(x) = a + \frac{(b-a)x^2}{1+x^2}$$
+\pause
+$$f(\mathbb{R}) = [a,b),\quad a < b$$
+\pause
+$$f(\mathbb{R}) = (b,a],\quad a > b$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Intermediate value theorem}
+\begin{thm}[Intermediate Value Theorem]
+Suppose $f: [a,b]\rightarrow\mathbb{R}$ is a continuous function.\\
+Then for any value $y$ between $f(a)$ and $f(b)$, there exists $c\in [a,b]$ with $f(c) =y$.
+\end{thm}
+\end{frame}
+
+\begin{frame}{Intermediate value theorem}
+\begin{proof}
+\pause
+Let $J = f([a,b])$.\\
+\pause
+Then $J$ is connected!\\
+\pause
+Let $y$ be between $f(a)$ and $f(b)$, and suppose that $y\notin J$.\\
+\pause
+Without loss of generality, assume $f(a) < f(b)$.\\
+\pause
+Then $J = U\cup V$ for
+$$U = (-\infty,y)\cap J\quad\text{and}\quad V = (y,\infty)\cap J$$
+\pause
+These are nonempty, disjoint, and open in the subspace $J$ of $\mathbb{R}$.\\
+\pause
+This is a contradiction!
+\end{proof}
+\end{frame}
 
 \subsection{Uniform continuity}
 
@@ -152,194 +392,6 @@ for all $x,y\in A$.
 \begin{thm}[Heine]
 Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$ be compact.
 Suppose that $f: A\rightarrow T$ is continuous on $A$, then $f$ is uniformly continuous on $A$.
-\end{thm}
-\end{frame}
-
-
-\subsection{Infinite series}
-
-\begin{frame}{Basic definition}
-\begin{defn}
-An \textbf{infinite series} is an ordererd pair of sequences $(\{a_n\},\{s_n\})$ where 
-$$s_n = a_1+a_2+\dots+a_n.$$
-The sequence $\{s_n\}$ is called the \textbf{sequence of partial sums} and $s_n$ is called the $n$'th partial sum.
-We say the series converges or diverges if $\{s_n\}$ converges or diverges.
-\end{defn}
-\textbf{Notation:}
-$$a_1+a_2+a_3+\dots\quad\text{or}\quad \sum_{n=1}^\infty a_n.$$
-We write
-$$\sum_{n=1}^\infty a_n = L$$
-to mean that the limit of the sequence $s_n$ is $L$.
-We call $L$ the \textbf{sum} of the series.
-\end{frame}
-
-\begin{frame}{Examples}
-$$\sum_{n=1}^\infty \frac{1}{n^2+n} = 1.$$
-\pause
-Telescoping:
-\pause
-\begin{align*}
-s_n &= \frac{1}{1^2+1} + \frac{1}{2^2+2} +  \frac{1}{3^2+3} + \dots + \frac{1}{n^2+n}\\
-    &= \left(\frac{1}{1}-\frac{1}{2}\right) + \left(\frac{1}{2}-\frac{1}{3}\right) +\dots+ \left(\frac{1}{n}-\frac{1}{n+1}\right)\\
-    &= 1-\frac{1}{n+1}.
-\end{align*}
-\end{frame}
-
-\begin{frame}{Examples}
-$$\sum_{n=1}^\infty r^n = \frac{r}{1-r},\quad |r| < 1.$$
-\pause
-Geometric:
-\pause
-$$s_n = r + r^2 + r^3 + \dots + r^n= r(1+r+r^2+\dots+r^{n-1}) = r(1+s_{n-1})$$
-\pause
-$$s_n = r + r^2 + r^3 + \dots + r^n= (r+r^2+\dots+r^{n-1}) + r^n = s_{n-1} + r^n$$
-\pause
-$$s_n = \frac{r-r^{n+1}}{1-r}$$
-\end{frame}
-
-\begin{frame}{Examples}
-$$\sum_{n=1}^\infty (-1)^{n+1}\frac{1}{n} = \ln(2)$$
-\pause
-Taylor series:
-\pause
-$$\ln(1-x) = -x - \frac{1}{2}x^2 - \frac{1}{3}x^3 - \frac{1}{4}x^4 - \dots$$
-\pause
-Converges for $-1\leq x < 1$.
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{thm}[Cauchy condition]
-The series $\sum a_n$ converges if and only if for all $\epsilon > 0$ there exists $N\in\mathbb Z_+$ such that $n\geq N$ implies
-$$\left\lvert a_{n} + a_{n+1} + \dots + a_{n+p}\right\rvert < \epsilon$$
-for all $p\in\mathbb Z_+$.
-\end{thm}
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{defn}
-An \textbf{alternating series} is a series of the form $\sum (-1)^{n+1}a_n$ with $a_n\geq 0$ for all $n$.
-\end{defn}
-\begin{thm}[Alternating Series Test]
-If $a_n$ is a decreasing sequence converging to $0$, then $\sum (-1)^{n+1}a_n$ converges to a real number $s$ and
-$$|s-s_n| < a_{n+1}\quad\forall\ n\in\mathbb Z_+.$$
-\end{thm}
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{defn}
-We say $\sum a_n$ is \textbf{absolutely convergent} if $\sum |a_n|$ converges.\\
-We say $\sum a_n$ is \textbf{conditionally convergent} if it is convergent but not absolutely convergent.
-\end{defn}
-\begin{thm}[Absolute Convergence Test]
-If a series is absolutely convergent, then it is convergent.
-\end{thm}
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{thm}[Comparison Test]
-If $a_n>0$ and $b_n > 0$ and there exists $c>0$ and $N\in\mathbb Z_+$ with $a_n < cb_n$ for all $n\geq N$ then
-$$\sum b_n\ \ \text{converges}\quad \Rightarrow\quad\sum a_n\ \ \text{converges}$$
-\end{thm}
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{thm}[Limit Comparison Test]
-If $a_n>0$ and $b_n > 0$ and suppose that $\lim a_n/b_n = c > 0$.  Then
-$$\sum b_n\ \ \text{converges}\quad \Leftrightarrow\quad\sum a_n\ \ \text{converges}$$
-\end{thm}
-\end{frame}
-
-\begin{frame}{Limit infimum/limit supremum}
-\begin{defn}
-Let $a_n$ be a sequence.  Then
-$$\liminf a_n = \lim_n \inf\{a_k: k\geq n\}$$
-$$\limsup a_n = \lim_n \sup\{a_k: k\geq n\}$$
-\end{defn}
-\begin{thm}
-If $a_n$ is bounded, then $\limsup a_n$ and $\liminf a_n$ exist.
-\end{thm}
-More generally, we write $\liminf a_n = \pm\infty$ and $\limsup a_n = \pm \infty$.
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{thm}[Ratio Test]
-Let $r = \liminf |a_{n+1}/a_n|$ and $R = \limsup |a_{n+1}/a_n|$.
-\begin{enumerate}[(a)]
-\item if $R < 1$ then the series is absolutely convergent
-\item if $r > 1$ then the series is divergent
-\item if $r \leq 1\leq R$ the test is inconclusive
-\end{enumerate}
-\end{thm}
-\end{frame}
-
-\begin{frame}{Tests for Convergence}
-\begin{thm}[Root Test]
-Let $\rho = \limsup \sqrt[n]{|a_n|}$.
-\begin{enumerate}[(a)]
-\item if $\rho < 1$ then the series is absolutely convergent
-\item if $\rho > 1$ then the series is divergent
-\item if $\rho = 1$ the test is inconclusive
-\end{enumerate}
-\end{thm}
-\end{frame}
-
-\subsection{Infinite products}
-
-\begin{frame}{Basic definition}
-\begin{defn}
-An \textbf{infinite product} is an ordererd pair of sequences $(\{a_n\},\{p_n\})$ where 
-$$p_n = a_1a_2\dots a_n.$$
-The sequence $\{p_n\}$ is called the \textbf{sequence of partial products} and $p_n$ is called the $n$'th partial product.
-We say the series converges or diverges if $\{p_n\}$ converges or diverges.
-\end{defn}
-\textbf{Notation:}
-$$a_1a_2a_3\dots\quad\text{or}\quad \prod_{n=1}^\infty a_n.$$
-We write
-$$\prod_{n=1}^\infty a_n = L$$
-to mean that the limit of the sequence $p_n$ is $L$.
-We call $L$ the \textbf{product} of the series.
-\end{frame}
-
-\begin{frame}{Examples}
-Weierstrass product of sine
-$$\sin(\pi x) = \pi z\prod_{n=1}^\infty \left(1-\frac{x^2}{n^2}\right)$$
-\begin{itemize}
-\item first thought of by Euler.
-\item can be used to prove 
-$$\sum \frac{1}{n^2} = \frac{\pi^2}{6}.$$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Examples}
-Let $p_1=2,p_2=3,p_3=5,\dots$ be the prime integers.\\
-The infinite product
-$$\zeta(s) = \prod_{n=1}^\infty \frac{1}{1-p_n^{-s}}$$
-converges for $s>1$.\\
-This product is called the \textbf{Riemann zeta function}.
-\end{frame}
-
-\begin{frame}{Examples}
-\begin{thm}
-For any real number $s>1$,
-$$\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}.$$
-\end{thm}
-Therefore
-$$\frac{1}{(1-1/2^2)(1-1/3^2)(1-1/5^2)(1-1/7^2)(1-1/11^2)\dots} = \frac{\pi^2}{6}.$$
-\end{frame}
-
-\begin{frame}{Relation to series}
-\begin{thm}
-Assume $a_n > 0$ for all $n$.
-Then $\prod (1+a_n)$ converges if and only if $\sum a_n$ converges.
-\end{thm}
-\end{frame}
-
-\begin{frame}{Relation to series}
-\begin{defn}
-We say that a product $\prod (1+a_n)$ \textbf{converges absolutely} if $\prod (1+|a_n|)$ converges.
-\end{defn}
-\begin{thm}
-If $\prod (1+a_n)$ converges absolutely (equiv. $\sum a_n$ converges absolutely), then $\prod (1+a_n)$ converges.
 \end{thm}
 \end{frame}
 
