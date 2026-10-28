@@ -361,38 +361,6 @@ This is a contradiction!
 \end{proof}
 \end{frame}
 
-\subsection{Uniform continuity}
-
-\begin{frame}{Uniform continuity}
-\begin{defn}
-Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$.
-We say that a function $f: A\rightarrow T$ is \textbf{uniformly continuous} on $A$ if for all $\epsilon > 0$ there exists $\delta > 0$ such that
-$$d_S(x,y)< \delta \Rightarrow d_T(f(x),f(y))< \epsilon$$
-for all $x,y\in A$.
-\end{defn}
-\begin{itemize}
-\item $f$ continuous on $A$ means $f$ is continuous at every $a\in A$
-\item $\delta$ can depend on $\epsilon$ and $a$ (not on $x$)
-\item with uniform continuity, $\delta$ can't depend on $a$ ...
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Examples}
-\begin{itemize}
-\item $x$ is uniformly continuous on $\mathbb R$
-\item $x^2$ is NOT uniformly continuous on $\mathbb R$
-\item $1/x$ is continuous on $(0,1)$
-\item $1/x$ is NOT uniformly continuous on $(0,1)$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Relationship with compactness}
-
-\begin{thm}[Heine]
-Let $(S,d_S)$ and $(T,d_T)$ be metric spaces and $A\subseteq S$ be compact.
-Suppose that $f: A\rightarrow T$ is continuous on $A$, then $f$ is uniformly continuous on $A$.
-\end{thm}
-\end{frame}
 
 \end{document}
 
