@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Real Analysis Lecture 19}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Uniform continuity}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Differentiation}{7}{0}{1}
