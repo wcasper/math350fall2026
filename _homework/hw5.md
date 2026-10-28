@@ -1,18 +1,25 @@
 ---
 layout: post
-title: "Homework 5: Continuity and Differentiation"
-date: 2026-10-28
+title: Homework 5
+permalink: /homework/hw5
 ---
 
-## Instructions
+### Directions
+Solve the following problems and write up your solutions.  Your solutions should be provided in one of the following formats (in order of preference)
+* typed up in $$\LaTeX$$ and submitted as a PDF on Canvas
+* written legibly on blank paper, scanned into a PDF and then uploaded on Canvas
+* written on ancient parchement with a quill and then flown to the instructor via owl post like in Harry Potter
 
-Write complete explanations and proofs in full sentences. Clearly state every theorem that you use. When a problem asks for a proof directly from a definition, do not replace that argument with a stronger theorem.
+If you go with the first strategy, you may wish to check out Overleaf which is a free and intuitive website for generating $$\LaTeX$$ documents online.
+If you wish to use the second method and don't own a scanner at home, you can check out the numerous scanning apps available for smartphones.
 
-This assignment is based on:
+You will be graded based on *completion* of all of the assigned problems, along with in-depth grading of *select* problems which will not be revealed until after the homework is graded.
 
-- [Lecture 16 slides](https://wcasper.github.io/math350fall2026/slides/lec16/lec16.pdf)
-- [Lecture 18 slides](https://wcasper.github.io/math350fall2026/slides/lec18/lec18.pdf)
-- [Lecture 19 slides](https://wcasper.github.io/math350fall2026/slides/lec19/lec19.pdf)
+**Remember:** Success in any math class is based on *practice*.  The assigned homework problems are the **bare minimum**.  You should strive to do as many problems as possible from the textbook.
+
+**Note:** All sets will be subsets of $$\mathbb R$$ unless otherwise stated. The metric on $\mathbb R^n$ will be Euclidean unless otherwise stated.
+
+
 
 ## Problems
 
