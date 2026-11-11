@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Real Analysis Lecture 21}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Series tests}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Infinite products}{9}{0}{1}
+\beamer@subsectionintoc {1}{2}{Infinite products}{10}{0}{1}

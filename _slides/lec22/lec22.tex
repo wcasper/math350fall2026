@@ -131,6 +131,12 @@ $$\sum b_n\ \ \text{converges}\quad \Rightarrow\quad\sum a_n\ \ \text{converges}
 \end{thm}
 \end{frame}
 
+\begin{frame}
+\begin{proof}
+Suppose 
+\end{proof}
+\end{frame}
+
 \begin{frame}{Tests for Convergence}
 \begin{thm}[Limit Comparison Test]
 If $a_n>0$ and $b_n > 0$ and suppose that $\lim a_n/b_n = c > 0$.  Then
@@ -193,8 +199,8 @@ We call $L$ the \textbf{product} of the series.
 \end{frame}
 
 \begin{frame}{Examples}
-$$\prod_{n=1}^\infty \left(1+\frac{1}{2^n}\right)$$
-$$p_n = \left(1+\frac{1}{2}\right)\left(1+\frac{1}{4}\right)\left(1+\frac{1}{8}\right)\dots\left(1+\frac{1}{2^n}\right)$$
+$$\prod_{n=1}^\infty \left(1+\frac{1}{2^{2^n}}\right)$$
+$$p_n = \left(1+\frac{1}{2}\right)\left(1+\frac{1}{4}\right)\left(1+\frac{1}{16}\right)\dots\left(1+\frac{1}{2^{2^n}}\right)$$
 Can we compute $p_n$?
 \end{frame}
 
@@ -202,13 +208,13 @@ Can we compute $p_n$?
 {\small
 \begin{align*}
 \left(1-\frac{1}{2}\right)p_n
-  & = \left(1-\frac{1}{2}\right)\left(1+\frac{1}{2}\right)\left(1+\frac{1}{4}\right)\left(1+\frac{1}{8}\right)\dots\left(1+\frac{1}{2^n}\right)\\
-  & = \left(1-\frac{1}{4}\right)\left(1+\frac{1}{4}\right)\left(1+\frac{1}{8}\right)\dots\left(1+\frac{1}{2^n}\right)\\
-  & = \left(1-\frac{1}{8}\right)\left(1+\frac{1}{8}\right)\dots\left(1+\frac{1}{2^n}\right)\\
-  & = 1-\frac{1}{2^n}\quad\Longrightarrow\quad p_n = 2-\frac{1}{2^{n-1}}
+  & = \left(1-\frac{1}{2}\right)\left(1+\frac{1}{2}\right)\left(1+\frac{1}{4}\right)\left(1+\frac{1}{16}\right)\dots\left(1+\frac{1}{2^n}\right)\\
+  & = \left(1-\frac{1}{4}\right)\left(1+\frac{1}{4}\right)\left(1+\frac{1}{16}\right)\dots\left(1+\frac{1}{2^n}\right)\\
+  & = \left(1-\frac{1}{16}\right)\left(1+\frac{1}{16}\right)\dots\left(1+\frac{1}{2^n}\right)\\
+  & = 1-\frac{1}{2^{2^n}}\quad\Longrightarrow\quad p_n = 2-\frac{1}{2^{2^{n-1}}}
 \end{align*}
 }
-$$\prod_{n=1}^\infty \left(1+\frac{1}{2^n}\right) = \lim_{n\rightarrow\infty} p_n = 2$$
+$$\prod_{n=1}^\infty \left(1+\frac{1}{2^{2^n}}\right) = \lim_{n\rightarrow\infty} p_n = 2$$
 \end{frame}
 
 \begin{frame}{Examples}
