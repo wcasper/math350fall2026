@@ -53,7 +53,7 @@ converges.
 
 ## Problem 2
 
-State and prove the product rule and quotient rule.
+Prove that if $$f(x)$$ is differentiable at $$x=c$$, then $$f(x)$ is also continuous at $$x=c$$.
 
 ## Problem 3
 
