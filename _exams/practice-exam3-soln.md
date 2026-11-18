@@ -349,15 +349,4 @@ $$
 
 which is a divergent $$p$$-series because $$p=1/2\leq1$$. The original series is therefore **conditionally convergent**, not absolutely convergent.
 
----
 
-### Summary of Problem 8
-
-| Part | Conclusion | Main test |
-|:---:|---|---|
-| a | Diverges | nth-term test |
-| b | Absolutely convergent | Comparison with $$\sum 1/n^2$$ |
-| c | Diverges | Comparison with $$\sum 1/(2n)$$ |
-| d | Absolutely convergent | Ratio test |
-| e | Absolutely convergent | Geometric-series comparison |
-| f | Conditionally convergent | Alternating series test and $$p$$-series test |
