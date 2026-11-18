@@ -148,6 +148,8 @@ $$
 g:\mathbb{R}\to\mathbb{Z}
 $$
 
+is continuous if and only if it is constant.
+
 ## Problem 8
 
 
@@ -189,4 +191,3 @@ f)
 $$
 \sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{\sqrt n}
 $$
-is continuous if and only if it is constant.
